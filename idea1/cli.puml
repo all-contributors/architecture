@@ -4,7 +4,6 @@
 !include DEV2/nodejs.puml
 !include DEV2/html5.puml
 !include DEV2/javascript.puml
-!include DEV2/github.puml
 
 LAYOUT_WITH_LEGEND()
 
@@ -61,5 +60,7 @@ Rel(init, inquirer, "depends on", "CJS import")
 
 Person(user, "User")
 Rel(user, interface, "uses", "Any terminal")
+Rel(user, app, "instructs", "GitHub comments via GitHub Events")
+Rel(user, website, "visits/reads", "Web")
 
 @enduml

@@ -11,7 +11,6 @@ LAYOUT_WITH_LEGEND()
 
 title [Container Diagram] All Contributors (Idea 1)
 
-
 System_Boundary(ac, "All Contributors") {
   Container(website, "Website", "Docusaurus", "Documentation", "html5")
   Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs")
@@ -28,7 +27,9 @@ System_Ext(logflare, "Logflare", "Log aggregation", "logflare")
 System_Ext(netlify, "Netlify", "", "netlify")
 System_Ext(vercel, "Vercel")
 System_Ext(gh, "GitHub", "", "github")
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution")
 Container_Ext(probot, "Probot", "GitHub Apps to automate and improve your workflow")
+Container_Ext(limdu, "Limdu.js", "Node.js", "ML framework for Node.js", "nodejs")
 
 Person(user, "User")
 Rel(user, app, "instructs", "GitHub comments via GitHub Events")
@@ -36,6 +37,7 @@ Rel(user, cli, "uses", "Any terminal")
 Rel(user, website, "visits/reads", "Web")
 
 Rel(website, netlify, "hosted on")
+Rel(website, crowdin, "gets translations from", "Java/Yarn")
 Rel_R(app, vercel, "serviced by")
 Rel(logflare, vercel, "listening to", "HTTPS")
 Rel(uptime, vercel, "monitors", "HTTPS")

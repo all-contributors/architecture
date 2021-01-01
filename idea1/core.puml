@@ -4,7 +4,6 @@
 !include DEV2/nodejs.puml
 !include DEV2/html5.puml
 !include DEV2/javascript.puml
-!include DEV2/github.puml
 
 LAYOUT_WITH_LEGEND()
 
