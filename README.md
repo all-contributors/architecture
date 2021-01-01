@@ -15,22 +15,53 @@ _**Notes**:_
 ## System context
 ![AC_System_Context_Diagram](out/sytem/AC_System_Context.png)
 
-### AC System
-![AC_Container_Diagram](./out/ac_container/AC_Container_Diagram.png)
+<h3>AC System</h3>
+<details>
+  <summary>
+    View container diagram
+  </summary>
+  <img src="./out/ac_container/AC_Container_Diagram.png" alt="AC_Container_Diagram">
 
-#### CLI
-TODO CLI_Component_Diagram
-
-#### Website
-TODO Website_Component_Diagram
-
-#### App
-TODO App_Component_Diagram
-#### Library
-TODO Lib_Component_Diagram
-
-#### AC-Learn
-TODO ACL_Component_Diagram
-
-#### Specification
-TODO Spec_Component_Diagram
+  <h4>CLI</h4>
+  <details>
+    <summary>
+      View component diagram
+      </summary>
+    <img src="" alt="Cli_Component_Diagram">
+  </details>
+  <h4>Website</h4>
+  <details>
+    <summary>
+      View component diagram
+    </summary>
+    <img src="" alt="Website_Component_Diagram">
+  </details>
+  <h4>App</h4>
+  <details>
+    <summary>
+      View component diagram
+    </summary>
+    TODO App_Component_Diagram
+  </details>
+  <h4>Library</h4>
+  <details>
+    <summary>
+      View component diagram
+      </summary>
+    <img src="" alt="Lib_Component_Diagram">
+  </details>
+  <h4>AC-Learn</h4>
+  <details>
+    <summary>
+      View component diagram
+      </summary>
+    <img src="" alt="ACL_Component_Diagram">
+  </details>
+  <h4>Specification</h4>
+  <details>
+    <summary>
+      View component diagram
+      </summary>
+    <img src="" alt="Spec_Component_Diagram">
+  </details>
+</details>
