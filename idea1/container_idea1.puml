@@ -11,7 +11,6 @@ LAYOUT_WITH_LEGEND()
 
 title [Container Diagram] All Contributors (Idea 1)
 
-Person(user, "User")
 
 System_Boundary(ac, "All Contributors") {
   Container(website, "Website", "Docusaurus", "Documentation", "html5")
@@ -30,11 +29,12 @@ System_Ext(netlify, "Netlify", "", "netlify")
 System_Ext(vercel, "Vercel")
 System_Ext(gh, "GitHub", "", "github")
 Container_Ext(probot, "Probot", "GitHub Apps to automate and improve your workflow")
-Container_Ext(limdu, "Limdu.js", "ML framework for Node.js")
 
+Person(user, "User")
 Rel(user, app, "instructs", "GitHub comments via GitHub Events")
 Rel(user, cli, "uses", "Any terminal")
 Rel(user, website, "visits/reads", "Web")
+
 Rel(website, netlify, "hosted on")
 Rel_R(app, vercel, "serviced by")
 Rel(logflare, vercel, "listening to", "HTTPS")

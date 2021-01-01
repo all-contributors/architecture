@@ -7,7 +7,7 @@
 ![AC_Container_Diagram](../out/idea1/container_idea1/AC_Container_Diagram.png)
 
 #### CLI
-TODO CLI_Component_Diagram
+![Cli_Component_Diagram](../out/idea1/cli/Cli_Component_Diagram.png)
 
 #### Website
 TODO Website_Component_Diagram

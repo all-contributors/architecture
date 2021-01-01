@@ -23,11 +23,13 @@ Container_Boundary(core, "Core") {
   Rel(lib, acl, "uses", "CJS/ES import")
 }
 
-Container_Ext(limdu, "Limdu.js", "ML framework for Node.js")
+Container_Ext(limdu, "Limdu.js", "Node.js", "ML framework for Node.js", "nodejs")
+Container_Ext(nyc, "Name Your Contributors", "Node.js", "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.", "nodejs")
 
 Rel(cli, lib, "uses", "CJS/ES import")
 Rel(app, lib, "uses", "CJS/ES import")
 Rel(website, lib, "uses", "??")
-Rel(acl, limdu, "uses", "CJS import")z
+Rel(acl, limdu, "uses", "CJS import")
+Rel(lib, nyc, "uses", "CJS import")
 
 @enduml

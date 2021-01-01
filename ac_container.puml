@@ -25,7 +25,7 @@ System_Boundary(ac, "All Contributors") {
   Rel(lib, spec, "reads", "CJS/ES import")
   Rel(cli, lib, "uses", "CJS/ES import")
   Rel(app, lib, "uses", "CJS/ES import")
-  Rel(website, lib, "uses", "??")
+  Rel(website, spec, "reads", "??")
   Rel(lib, acl, "uses", "CJS/ES import")
 }
 
