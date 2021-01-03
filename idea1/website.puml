@@ -14,17 +14,21 @@ Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs") [[../cli/Cl
 Container(app, "App", "Node.js", "Github App-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
 
 Container_Boundary(website, "Website") {
-  Component(site, "Website", "Docusaurus", "Documentation", "html5")
   Component(docs, "Docs", "Markdown", "Specification/CLI/Bot documentation", "")
+  Component(site, "Website", "Docusaurus", "Documentation", "html5")
 
+  Rel_Back_Neighbor(docs, site, "integrates")
 }
 
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution")
+
 Rel(app, core, "uses", "CJS/ES import")
-Rel(website, core, "uses", "??")
+Rel(site, core, "uses", "??")
+Rel(site, crowdin, "gets translations from", "Java/Yarn")
 
 Person(user, "User")
 Rel(user, app, "instructs", "GitHub comments via GitHub Events")
 Rel(user, cli, "uses", "Any terminal")
-Rel(user, website, "visits/reads", "Web")
+Rel(user, site, "visits/reads", "Web")
 
 @enduml
