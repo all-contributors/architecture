@@ -2,7 +2,7 @@
 
 
 ## System context
-![AC_System_Context_Diagram](../out/idea1/sytem/AC_System_Context.png)
+![AC_System_Context_Diagram](../out/idea1/system/AC_System_Context.png)
 
 <h3>AC System</h3>
 <details>
@@ -30,7 +30,7 @@
     <summary>
       View component diagram
     </summary>
-    TODO App_Component_Diagram
+    <img src="../out/idea1/app/App_Component_Diagram.png" alt="App_Component_Diagram">
   </details>
   <h4>Core</h4>
   <details>

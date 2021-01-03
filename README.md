@@ -12,7 +12,7 @@ _**Notes**:_
 - For the other ideas, look at the ideas [1](./idea1).
 
 ## System context
-![AC_System_Context_Diagram](out/sytem/AC_System_Context.png)
+![AC_System_Context_Diagram](out/system/AC_System_Context.png)
 
 <h3>AC System</h3>
 <details>
