@@ -3,7 +3,6 @@
 This is a (potentially temporary) place where architectural diagrams of all the AC projects can be found.
 
 It's currently focused on the _new world_ (revamped) projects so it may not accurately illustrate the current systems.
-
 <!-- ref: https://github.com/all-contributors/app/issues/329 -->
 
 _**Notes**:_

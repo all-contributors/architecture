@@ -3,7 +3,7 @@
 <!-- TODO Improve this when the repo is structured more properly -->
 
 In order to contribute to this repo you'll *need* to be familiar with the following:
-- [PlantUML](https://plantuml.com/): tool used to generate the diagrams
+- [PlantUML](https://plantuml.com/): tool used to generate the diagrams (or the extension for your favourite editor/IDE).
 - The [C4 model](https://c4model.com): software architecture modelling technique
 - [GitHub Markdown](https://guides.github.com/features/mastering-markdown/) and HTML
 
