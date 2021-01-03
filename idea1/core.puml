@@ -9,9 +9,9 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] Core container (Idea 1)
 
-Container(website, "Website", "Docusaurus", "Documentation", "html5")
-Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs")
-Container(app, "App", "Node.js", "Github App-driven bot", "nodejs")
+Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../website/Website_Component_Diagram.svg]]
+Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs") [[../cli/Cli_Component_Diagram.svg]]
+Container(app, "App", "Node.js", "Github App-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
 
 Container_Boundary(core, "Core") {
   Component(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases", "json")

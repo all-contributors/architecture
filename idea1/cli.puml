@@ -11,9 +11,9 @@ title [Component Diagram] CLI container (Idea 1)
 
 ' TODO Rework this ball of mud
 
-Container(website, "Website", "Docusaurus", "Documentation", "html5")
-Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs")
-Container(app, "App", "Node.js", "Github App-driven bot", "nodejs")
+Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../website/Website_Component_Diagram.svg]]
+Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs") [[../core/Core_Component_Diagram.svg]]
+Container(app, "App", "Node.js", "Github App-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
 
 Container_Boundary(cli, "CLI") {
   ' Component(api, "API", "Node.js", "", "nodejs")

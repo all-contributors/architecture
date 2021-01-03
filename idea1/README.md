@@ -2,7 +2,7 @@
 
 
 ## System context
-![AC_System_Context_Diagram](../out/sytem/AC_System_Context.png)
+![AC_System_Context_Diagram](../out/idea1/sytem/AC_System_Context.png)
 
 <h3>AC System</h3>
 <details>

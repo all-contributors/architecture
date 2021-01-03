@@ -9,9 +9,9 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] Website container (Idea 1)
 
-Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs")
-Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs")
-Container(app, "App", "Node.js", "Github App-driven bot", "nodejs")
+Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs") [[../core/Core_Component_Diagram.svg]]
+Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs") [[../cli/Cli_Component_Diagram.svg]]
+Container(app, "App", "Node.js", "Github App-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
 
 Container_Boundary(website, "Website") {
   Component(site, "Website", "Docusaurus", "Documentation", "html5")

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="848px" preserveAspectRatio="none" style="width:1503px;height:848px;" version="1.1" viewBox="0 0 1503 848" width="1503px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="403" x="549" y="16.708">[Container Diagram] All Contributors (Idea 1)</text><!--MD5=[69da06a6e8584e6c7f392b42750a07eb]
+cluster ac--><rect fill="#FFFFFF" height="469" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="572" x="223.5" y="205.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="440" y="222.8047">All Contributors</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="478" y="237.7168">[System]</text><!--MD5=[e9053c6dbb891ad4199c45de881c9d13]
+entity website--><a href="../website/Website_Component_Diagram.svg" target="_top" title="../website/Website_Component_Diagram.svg" xlink:actuate="onRequest" xlink:href="../website/Website_Component_Diagram.svg" xlink:show="new" xlink:title="../website/Website_Component_Diagram.svg" xlink:type="simple"><rect fill="#438DD5" height="133.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="130" x="438.5" y="256.9531"/><image height="48" width="48" x="479.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACUUlEQVR42s1YO0oEQRCtu3kAL+ABvIAH8AAaGYmZgYHhZkZiJpgYiKwgLMjCwoKigiII+mBgaKtfd9f0Z9uhgt1hpuvN9Pv0tGwd3A21c/Kwd77oUmg9wpDx19n1+qfTgdYE0PHVqhcgtCaA9mdPvQChNQGEuewFCK0JoN3Tx16AOKm3j+57AUJrAgjVC5CL4Q+gt8/vzaNB0yCg5csX1eThxbJKUWdB0yCgm8V7nHGFhaH88dE0COhy/hrXZGFRZ0HTIKDZ7XPctQqLeq+bGxoQnWPX1wsLNEqOL8kb1BPAM7JJTTmK80FAdI4xj+411Q1dcVSSzZQKqhs6mgYB0Wbz1YeiQrvc0IBoM+Wk1Q1dDS6Wp1fXYBJhrxmVA4jeVkXzlA8qNwggMKZRetDc8AmqAdH0UELIKyphlRsEULv0oLmhTI4AoumhzLRdbhBA9DboPENTyoLpd5//qGJ5sVUsmJLBX9uIhXp4Q/CesagSk9qkyerLRfLEmWHBRkMRn30W+8oARAPH724C5N8ZyoGpz2ACZEkPSoi441lAc0DGycYZiNZ1dtwIKUGnakVhpyYHZJSD0mZGbqilXxBQi/Qw5gYHRC1VLfWn5jx9SDqmGENnnHWMYvx0xGW4OOKiNCLF+HopAxCNij34i5NJDUZoIEYCxrcvoDXU1LU2lYIYl3atN85igDa2lUaZJ/TsvwNkXGCUHNSmg4BoMlQ5qDZNgJTu4o6STH4Yo9G9ZOrHHswDoycVPngB3rEftDUBqTn1PXCw8pLvOKm1eVhrK/IX9OgnqyBAFvwAAAAASUVORK5CYII=" y="266.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="468" y="329.8047">Website</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="463" y="344.7168">[Docusaurus]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="505.5" y="360.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="448.5" y="376.8389">Documentation</text></a><!--MD5=[0d482ad21d5c7c11aa976e45da5ecfe6]
+entity core--><a href="../core/Core_Component_Diagram.svg" target="_top" title="../core/Core_Component_Diagram.svg" xlink:actuate="onRequest" xlink:href="../core/Core_Component_Diagram.svg" xlink:show="new" xlink:title="../core/Core_Component_Diagram.svg" xlink:type="simple"><rect fill="#438DD5" height="165.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="344.5" y="492.9531"/><image height="48" width="48" x="430.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACfElEQVR42s2ZP0pEMRDGczcP4AU8gBfwAB5AKyuxs7Cw3M5K7AQbC5EVhAVZWBAUFRRBWH8QGIZJXpLNe3lvQ5rNSyZfJt/8yazbOXrYqu76izicvczu3+gHl4uJAe2fP89X32vV+MngBIB2Tx6v5x/rjsYnJowH6OL21SBgJBw8vVk1BwRLPn/+upQRqm35/rspsdzgdGEQHHrm3eJr7+xpMECcGwvSG6Ck46tl1vSMLhEyACA2NswolOtPYohVchKXoEsfzUtnCQvLXYMrEVHBzZLjRV2DBVRBl/KOIzAECIW7BBoYUO3fyj0q9I8DYmpPutTFHPaKA2KSkG6EqM6BhaBxQPAuCwjQPrCHZuJjPmuhne/sxO3Akui9CyBm1gMSkmkyhq45bGFcawVI5GYbJjIGIO2xUAPb6FjLNK08bSitACU8isCSoKaV1BxQwpVLRNMW3hwQq7ow+buja9tsBcg4d+9XsHa0giNIBNFWgDi9SdzCxoTxzF7SpiwsNh7jygxX2JJP3Be3FkLUezcBhFDP1kRSgFgd3oX4TQDJT+OFwx66qyaAxMGYiJ0AJNlPE0CSsaSTf53qy+W2IrVJ//DFzAEBdu6prR9DGnRDKzMvgq5mMsO2Zg8zErD4ZBLnIkAlKWzaD3khHIztmVAYOjpT2JIkPwtoyCQ/+gwygkRKeAXDP4OitR/9UGSljNeVycIaUuah2PWU9siiIam8DpkoLFUWG7LZ6iB1SJc9mdYWEMvZU1dYcuUPzY3e+WFdIRuA64uegIMBXTWanoUl17OkojcbpLBUoyF4YEyG6wiz/THKwon64ZSF8+r64Uh/vsCSbfnzpUX/B0GC/mXF2NGaAAAAAElFTkSuQmCC" y="502.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="42" x="433.5" y="565.8047">Core</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="427.5" y="580.7168">[Node.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="456.5" y="596.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="355.5" y="612.8389">Reads/writes configuration,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="355.5" y="629.1357">updates markdown text and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="354.5" y="645.4326">contains spec and DL model</text></a><!--MD5=[c251b62818238b6f79269adc5bf7d1e2]
+entity cli--><a href="../cli/Cli_Component_Diagram.svg" target="_top" title="../cli/Cli_Component_Diagram.svg" xlink:actuate="onRequest" xlink:href="../cli/Cli_Component_Diagram.svg" xlink:show="new" xlink:title="../cli/Cli_Component_Diagram.svg" xlink:type="simple"><rect fill="#438DD5" height="133.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="163" x="240" y="256.9531"/><image height="48" width="48" x="297.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACfElEQVR42s2ZP0pEMRDGczcP4AU8gBfwAB5AKyuxs7Cw3M5K7AQbC5EVhAVZWBAUFRRBWH8QGIZJXpLNe3lvQ5rNSyZfJt/8yazbOXrYqu76izicvczu3+gHl4uJAe2fP89X32vV+MngBIB2Tx6v5x/rjsYnJowH6OL21SBgJBw8vVk1BwRLPn/+upQRqm35/rspsdzgdGEQHHrm3eJr7+xpMECcGwvSG6Ck46tl1vSMLhEyACA2NswolOtPYohVchKXoEsfzUtnCQvLXYMrEVHBzZLjRV2DBVRBl/KOIzAECIW7BBoYUO3fyj0q9I8DYmpPutTFHPaKA2KSkG6EqM6BhaBxQPAuCwjQPrCHZuJjPmuhne/sxO3Akui9CyBm1gMSkmkyhq45bGFcawVI5GYbJjIGIO2xUAPb6FjLNK08bSitACU8isCSoKaV1BxQwpVLRNMW3hwQq7ow+buja9tsBcg4d+9XsHa0giNIBNFWgDi9SdzCxoTxzF7SpiwsNh7jygxX2JJP3Be3FkLUezcBhFDP1kRSgFgd3oX4TQDJT+OFwx66qyaAxMGYiJ0AJNlPE0CSsaSTf53qy+W2IrVJ//DFzAEBdu6prR9DGnRDKzMvgq5mMsO2Zg8zErD4ZBLnIkAlKWzaD3khHIztmVAYOjpT2JIkPwtoyCQ/+gwygkRKeAXDP4OitR/9UGSljNeVycIaUuah2PWU9siiIam8DpkoLFUWG7LZ6iB1SJc9mdYWEMvZU1dYcuUPzY3e+WFdIRuA64uegIMBXTWanoUl17OkojcbpLBUoyF4YEyG6wiz/THKwon64ZSF8+r64Uh/vsCSbfnzpUX/B0GC/mXF2NGaAAAAAElFTkSuQmCC" y="266.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="307.5" y="329.8047">CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="294.5" y="344.7168">[Node.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="323.5" y="360.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="250" y="376.8389">`all-contributors-cli`</text></a><!--MD5=[4541fb81c80c07473fe4b07432ef0971]
+entity app--><a href="../app/App_Component_Diagram.svg" target="_top" title="../app/App_Component_Diagram.svg" xlink:actuate="onRequest" xlink:href="../app/App_Component_Diagram.svg" xlink:show="new" xlink:title="../app/App_Component_Diagram.svg" xlink:type="simple"><rect fill="#438DD5" height="133.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="176" x="603.5" y="256.9531"/><image height="48" width="48" x="667.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACfElEQVR42s2ZP0pEMRDGczcP4AU8gBfwAB5AKyuxs7Cw3M5K7AQbC5EVhAVZWBAUFRRBWH8QGIZJXpLNe3lvQ5rNSyZfJt/8yazbOXrYqu76izicvczu3+gHl4uJAe2fP89X32vV+MngBIB2Tx6v5x/rjsYnJowH6OL21SBgJBw8vVk1BwRLPn/+upQRqm35/rspsdzgdGEQHHrm3eJr7+xpMECcGwvSG6Ck46tl1vSMLhEyACA2NswolOtPYohVchKXoEsfzUtnCQvLXYMrEVHBzZLjRV2DBVRBl/KOIzAECIW7BBoYUO3fyj0q9I8DYmpPutTFHPaKA2KSkG6EqM6BhaBxQPAuCwjQPrCHZuJjPmuhne/sxO3Akui9CyBm1gMSkmkyhq45bGFcawVI5GYbJjIGIO2xUAPb6FjLNK08bSitACU8isCSoKaV1BxQwpVLRNMW3hwQq7ow+buja9tsBcg4d+9XsHa0giNIBNFWgDi9SdzCxoTxzF7SpiwsNh7jygxX2JJP3Be3FkLUezcBhFDP1kRSgFgd3oX4TQDJT+OFwx66qyaAxMGYiJ0AJNlPE0CSsaSTf53qy+W2IrVJ//DFzAEBdu6prR9DGnRDKzMvgq5mMsO2Zg8zErD4ZBLnIkAlKWzaD3khHIztmVAYOjpT2JIkPwtoyCQ/+gwygkRKeAXDP4OitR/9UGSljNeVycIaUuah2PWU9siiIam8DpkoLFUWG7LZ6iB1SJc9mdYWEMvZU1dYcuUPzY3e+WFdIRuA64uegIMBXTWanoUl17OkojcbpLBUoyF4YEyG6wiz/THKwon64ZSF8+r64Uh/vsCSbfnzpUX/B0GC/mXF2NGaAAAAAElFTkSuQmCC" y="266.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="674.5" y="329.8047">App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="664.5" y="344.7168">[Node.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="693.5" y="360.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="613.5" y="376.8389">Github App-driven bot</text></a><!--MD5=[8cfdc5432ea5c2cf1b137956ccf4cfc3]
+entity uptime--><rect fill="#999999" height="71.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="136" x="818.5" y="37.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="828.5" y="62.3047">UptimeRobot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="888.5" y="79.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="848.5" y="95.3701">Monitoring</text><!--MD5=[cead7c385d33d20483723e17ad24832a]
+entity logflare--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="137" x="990" y="28.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1060.5" y="51.9482"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1021.5" y="70.1016">Logflare</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1060.5" y="86.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1000" y="103.167">Log aggregation</text><!--MD5=[aed8a9f2b95b03078f2575fc7a63b3f2]
+entity netlify--><rect fill="#999999" height="54.9219" style="stroke: #8A8A8A; stroke-width: 1.5;" width="78" x="811.5" y="548.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="852.5" y="571.4482"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="821.5" y="589.6016">Netlify</text><!--MD5=[53fe0d083c3522096fc44bc57055a5ec]
+entity vercel--><rect fill="#999999" height="38.625" style="stroke: #8A8A8A; stroke-width: 1.5;" width="77" x="896" y="303.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="906" y="328.8047">Vercel</text><!--MD5=[b9eb45c6ffc44c4438afcca8037a1008]
+entity gh--><rect fill="#999999" height="86.625" style="stroke: #8A8A8A; stroke-width: 1.5;" width="80" x="1157.5" y="532.4531"/><image height="48" width="48" x="1173.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACZklEQVR42s1ZLbPCMBC8//8PnnoOh8OhcHU4HAqHw9X17XAzbSa520tD2scpps3HNtm9L+Tny0y6rPL7tn8DdDgcLpfL/X5/Pp9TYXiIVxiAYZsDwjYmCM8wGFM2AXS9XsdxnJoME4dh6AbofD43Q8lgnU6nTwHdbrepq4FejYCgmlV0WUUsIknx0Lxer2kzw+IeJhvQRmdTg8kA9Hg8pl0MG8WAoM9yJtShnrCZyJiORcpXpTuQzAWbHEy5ZepufFv5HN4rvReTCZlDl5A6WLQMHXjoBQcNLBhQvsXD8OIWQOaRmqfabCYflBIGIE9ZOwBKD0kIeyp9a70RWcz3K+R29wQ0M1X4fUE7vTIvFakXp2cti47zgK/NZmoyKm8v/XIh+oJtkTV7e6nWhKBOXWJH8+ihtyGE0R3pXENt5bWQLAzPtwDEtxMCeecT0u3YCZnpwefmpTfLCXkeHTnUFoC8XHThUOgbOhqJUYvKiB/a0zEufog4q+63RmqHqli2T/qRxzIe7WEoXj9Hg0XIFnm0J1zr4iT5Bxv5UOYe8LssM7RnsEp32AZTwtaAkTFmR6rV7vF4NM8ZxARWco/6MfW1r51TZ9TGZ+H7PExl+VLpbMKcgtVlqnl8bhlbwqhSX/6yuqxknzrG4W3p4YW6IwrnRZ/wBAp7z+mwlsNaVofUJh6ZJ4AS9mLS26nvtnKvs677oWRKtYrJaeGMHyEsDkgV07ODFnKIACLdqrjH6IklBORxKJRnYxc2TEtKQFikJpmp6lOXbaG1gDC9Ug0rOvlYcQ5M8OB8MAa0hb8+f7583b9BHe0PyCY/syQ86PoAAAAASUVORK5CYII=" y="542.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="1167.5" y="605.3047">GitHub</text><!--MD5=[7c44d20b3ca68c8f73b56bec32571880]
+entity crowdin--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="198" x="924.5" y="531.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="987.5" y="556.8047">Crowdin</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1025.5" y="573.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="934.5" y="589.8701">Cloud-based localization</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="945.5" y="606.167">management solution</text><!--MD5=[21ce0a00a250b3cc02eeb6590d22316c]
+entity probot--><rect fill="#B3B3B3" height="66.5625" style="stroke: #A6A6A6; stroke-width: 1.5;" width="210" x="1272.5" y="542.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1348" y="567.3047">Probot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="186" x="1282.5" y="582.2168">[GitHub Apps to automate and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="142" x="1306.5" y="596.1855">improve your workflow]</text><!--MD5=[f0b2619f379f47b38884e52279401097]
+entity limdu--><rect fill="#B3B3B3" height="133.1875" style="stroke: #A6A6A6; stroke-width: 1.5;" width="201" x="6" y="509.4531"/><image height="48" width="48" x="82.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACWklEQVR42s2Zq5bCQAyG+/6vswaDwWAwGEzNGgwGg6liv8OczcnJXJk2A3G00+SfzJ/LhOnny2Rar+J0Ov2+5Hg8fhjQ4XC43+9PJfzk4QcA7Xa76/X6zAivWDAO0DzPBsH8EvPwcrm4A4Ily7LknBG77fF4vEusaXO68BAceuXtdtvv95sBYt9EkDaAk87nczX0jC9RsgEgDBtmNOoNOzHEatnJVKDLGs+L8AkftqeGqUVFBzdbtpdMDRZQB13ahURgCBArnwpoYEB3fmvPqNA/DYilK+nSV3OwlQbEIiHdgKrOhoWgaUDwrgoI0KGwx2ESaj7fLv+CJU4HliTPXQCxsh+QkEyTMU7NscR1zQuQ6K0KITICkM5YuAEzutayTDtPB4oXoEJGEVhS1LST3AEVUrlUNB3h7oD4KocpnB2iY9MLkEnuIa8Q7XiFRFAool6A2L1p3GJhwbiwl7apCgvDI47McAWTvOK8OLUYorbtAgilga2FpgC1urwL8V0AyU+ThWOJ05ULIEkwpmIXAEn34wJIOpZy869bfTlcL1Kb9o9czBoQEOeB2voypEE7Rpm5EeTEdIa+YQ8zCrB4ZRrnJkAtLWw5DwUlbAzzLGgsHdkWtqXJrwLasslPXoOMItESH8H216Dk7EdfFPlSnveNyeIZUuWimLtKB2TJktQ+hywMljqHDdVudZM55FTdmfYWENvZ0zdYap2g6etE31yhWoD7h56AgwG5Gc3KwdLbgMzWtbFNBks9HoIHJmQ4jrjbHzEWLswPPzk4754fDvrzBZZ8y58vHvIHN/H+ZnGlb2UAAAAASUVORK5CYII=" y="519.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="69.5" y="582.3047">Limdu.js</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="79.5" y="597.2168">[Node.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="108.5" y="613.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="16" y="629.3389">ML framework for Node.js</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="86.625" style="stroke: #073B6F; stroke-width: 1.5;" width="68" x="469.5" y="29.4531"/><image height="48" width="48" x="479.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="39.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="483" y="102.3047">User</text><!--MD5=[6094599f4925bd0a694c71a2ab874d8b]
+link cli to core--><path d="M342.11,390.1531 C350.55,413.7131 361.23,440.0931 373.5,462.9531 C377.58,470.5631 382.12,478.2431 386.9,485.8331 " fill="none" id="cli-&gt;core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="391.35,492.7631,389.5448,484.412,384.4988,487.6582,391.35,492.7631" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="406" y="439.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="94" x="374.5" y="453.0605">[CJS/ES import]</text><!--MD5=[3ca5629ec7114117f93847c258b7b725]
+link app to core--><path d="M629.23,390.2731 C601.34,419.7431 568.05,454.9431 538.04,486.6631 " fill="none" id="app-&gt;core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="532.47,492.5431,540.1516,488.8024,535.7979,484.6739,532.47,492.5431" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="626" y="439.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="94" x="594.5" y="453.0605">[CJS/ES import]</text><!--MD5=[a8a71dbc368d4f09f1410f5ac0aaf0ff]
+link website to core--><path d="M490.63,390.2731 C484.98,419.1331 478.26,453.4831 472.16,484.6831 " fill="none" id="website-&gt;core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="470.62,492.5431,475.095,485.2648,469.2058,484.117,470.62,492.5431" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="483.5" y="439.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="22" x="488" y="453.0605">[??]</text><!--MD5=[0caf2e8fdb471e00a846ff3461e6a348]
+link user to app--><path d="M537.8,97.3531 C555.53,110.5431 576.69,128.1331 592.5,146.9531 C618.34,177.7031 640.91,216.1731 657.95,249.2531 " fill="none" id="user-&gt;app" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="661.72,256.6631,660.7645,248.1727,655.4174,250.8945,661.72,256.6631" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="661.5" y="159.0918">instructs</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="136" x="622.5" y="173.0605">[GitHub comments via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="646.5" y="187.0293">GitHub Events]</text><!--MD5=[4410cb965f17e92b9d7639144d0303d4]
+link user to cli--><path d="M469.25,93.9231 C449.03,107.0131 424.04,125.6331 406.5,146.9531 C381.61,177.2131 361.85,215.9931 347.67,249.3931 " fill="none" id="user-&gt;cli" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="344.55,256.8731,350.3919,250.6383,344.8518,248.3345,344.55,256.8731" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="435.5" y="166.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="407.5" y="180.0605">[Any terminal]</text><!--MD5=[bef054e03f5a4dc5e8e708776bad3208]
+link user to website--><path d="M503.5,116.6731 C503.5,152.7831 503.5,205.3431 503.5,248.3031 " fill="none" id="user-&gt;website" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="503.5,256.4831,506.5,248.4831,500.5,248.4831,503.5,256.4831" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="504.5" y="166.0918">visits/reads</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="525.5" y="180.0605">[Web]</text><!--MD5=[6f28c2ff40f5ff0a154d4743baa68e3a]
+link website to netlify--><path d="M568.96,379.8531 C574.71,383.5531 580.6,386.9831 586.5,389.9531 C632.15,412.9131 651.53,397.6331 697.5,419.9531 C746.35,443.6831 758.06,453.6131 795.5,492.9531 C809.23,507.3831 821.83,525.6031 831.49,541.2131 " fill="none" id="website-&gt;netlify" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="835.72,548.1731,834.1353,539.7774,829.0055,542.8896,835.72,548.1731" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="765.5" y="446.0918">hosted on</text><!--MD5=[745e97f37854c78fa31641a6695a999b]
+link website to crowdin--><path d="M568.51,380.8331 C574.36,384.3131 580.39,387.4231 586.5,389.9531 C692.77,433.9031 738.2,373.7431 843.5,419.9531 C897.94,443.8431 948.15,489.9831 981.62,525.7331 " fill="none" id="website-&gt;crowdin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="987.26,531.8231,984.0414,523.9086,979.6309,527.9765,987.26,531.8231" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="910.5" y="432.0918">gets translations</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="955.5" y="446.0605">from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="938.5" y="460.0293">[Java/Yarn]</text><!--MD5=[9ffd9fb989d0a0bf729dfaad6f045125]
+link app to vercel--><path d="M779.57,323.4531 C816.07,323.4531 856.94,323.4531 887.53,323.4531 " fill="none" id="app-&gt;vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="895.88,323.4531,887.88,320.4531,887.88,326.4531,895.88,323.4531" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="797.75" y="317.5918">serviced by</text><!--MD5=[c363a3f339c5899fcc3e989b01db47a0]
+link logflare to vercel--><path d="M1037.04,116.9531 C1011.21,168.7131 968.67,253.9831 947.42,296.5631 " fill="none" id="logflare-&gt;vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="943.83,303.7631,950.0863,297.9443,944.7176,295.2654,943.83,303.7631" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="1022.5" y="166.0918">listening to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="1038" y="180.0605">[HTTPS]</text><!--MD5=[4fad267bf4d9bcf61b599e003f8738bb]
+link uptime to vercel--><path d="M893.17,108.5031 C902.87,158.7231 920.66,250.8031 929.39,296.0031 " fill="none" id="uptime-&gt;vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="930.91,303.8731,932.339,295.4495,926.4478,296.5869,930.91,303.8731" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="908.5" y="166.0918">monitors</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="915" y="180.0605">[HTTPS]</text><!--MD5=[f684ac27ccf5fcb4b4e4926f3165e5ae]
+link app to probot--><path d="M779.57,360.5731 C810.37,371.7931 845.51,383.0131 878.5,389.9531 C962.48,407.6231 1188.49,378.2731 1263.5,419.9531 C1309.3,445.4031 1341.77,497.8531 1360.05,534.6631 " fill="none" id="app-&gt;probot" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1363.74,542.2631,1362.9542,533.7553,1357.5538,536.3698,1363.74,542.2631" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="1311.5" y="446.0918">depends on</text><!--MD5=[ca3ee7a05a185a8ed62244a295f7c88d]
+link app to gh--><path d="M779.69,360.0131 C810.51,371.1731 845.62,382.5131 878.5,389.9531 C938.89,403.6131 1108.43,379.7331 1155.5,419.9531 C1185.23,445.3531 1194.99,489.4431 1197.74,524.1231 " fill="none" id="app-&gt;gh" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1198.27,532.2731,1200.7341,524.0922,1194.7473,524.4891,1198.27,532.2731" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="1187.5" y="439.0918">listens to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="1184.5" y="453.0605">[webhooks]</text><!--MD5=[7b07200819d08b326fa672f4035e944e]
+reverse link limdu to core--><path d="M215.29,575.9531 C256.37,575.9531 303.12,575.9531 344.32,575.9531 " fill="none" id="limdu&lt;-core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="207.16,575.9531,215.16,578.9531,215.16,572.9531,207.16,575.9531" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="260.25" y="556.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="238.75" y="570.0605">[CJS import]</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="151" x="1341" y="708.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1347" y="728.9482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1410" y="728.9482"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="732.25"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1351" y="745.2451">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="748.5469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1351" y="761.542">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="764.8438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="1351" y="777.8389">container</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="781.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="1351" y="794.1357">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="797.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="1351" y="810.4326">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="139" x="1347" y="813.7344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="1351" y="826.7295">external container</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="715.9531" y2="715.9531"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="732.25" y2="732.25"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="748.5469" y2="748.5469"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="764.8438" y2="764.8438"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="781.1406" y2="781.1406"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="797.4375" y2="797.4375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="813.7344" y2="813.7344"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1486" y1="830.0313" y2="830.0313"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1347" x2="1347" y1="715.9531" y2="830.0313"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1486" x2="1486" y1="715.9531" y2="830.0313"/><!--MD5=[946664208532e4ffeb4517916a2f9d20]
+@startuml AC_Container_Diagram
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!define MAT https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+!include DEV2/nodejs.puml
+!include DEV2/html5.puml
+!include DEV2/javascript.puml
+!include DEV2/github.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Container Diagram] All Contributors (Idea 1)
+
+System_Boundary(ac, "All Contributors") {
+  Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../website/Website_Component_Diagram.svg]]
+  Container(core, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model", "nodejs") [[../core/Core_Component_Diagram.svg]]
+  Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs") [[../cli/Cli_Component_Diagram.svg]]
+  Container(app, "App", "Node.js", "Github App-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
+
+  Rel(cli, core, "uses", "CJS/ES import")
+  Rel(app, core, "uses", "CJS/ES import")
+  Rel(website, core, "uses", "??")
+}
+
+System_Ext(uptime, "UptimeRobot", "Monitoring")
+System_Ext(logflare, "Logflare", "Log aggregation", "logflare")
+System_Ext(netlify, "Netlify", "", "netlify")
+System_Ext(vercel, "Vercel")
+System_Ext(gh, "GitHub", "", "github")
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution")
+Container_Ext(probot, "Probot", "GitHub Apps to automate and improve your workflow")
+Container_Ext(limdu, "Limdu.js", "Node.js", "ML framework for Node.js", "nodejs")
+
+Person(user, "User")
+Rel(user, app, "instructs", "GitHub comments via GitHub Events")
+Rel(user, cli, "uses", "Any terminal")
+Rel(user, website, "visits/reads", "Web")
+
+Rel(website, netlify, "hosted on")
+Rel(website, crowdin, "gets translations from", "Java/Yarn")
+Rel_R(app, vercel, "serviced by")
+Rel(logflare, vercel, "listening to", "HTTPS")
+Rel(uptime, vercel, "monitors", "HTTPS")
+Rel(app, probot, "depends on")
+Rel(app, gh, "listens to", "webhooks")
+Rel_L(core, limdu, "uses", "CJS import")
+
+@enduml
+
+@startuml AC_Container_Diagram
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $nodejs [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000059940000000000000000000000
+000000000000000000003CFFFFC300000000000000000000
+0000000000000000001AFFFFFFFFA1000000000000000000
+000000000000000008FFFFF88FFFFF700000000000000000
+0000000000000004EFFFFA1001AFFFFD4000000000000000
+00000000000003CFFFFC30000003DFFFFB20000000000000
+0000000000019FFFFE600000000005EFFFF9000000000000
+00000000006FFFFF9000000000000018FFFFE60000000000
+000000004DFFFFB200000000000000002BFFFFC300000000
+0000002BFFFFD4000000000000000000004DFFFFB1000000
+000009FFFFE60000000000000000000000007FFFFF600000
+00009FFFF81000000000000000000000000001AFFFF50000
+0001FFFB20000000000000000000000000000003CFFB0000
+0003FFC0000000000000000000000000000000002FFD0000
+0004FFC0000000039930000059CEEEDA610000002FFE0000
+0004FFC000000009FF60003DFFFFFFFFFF7000002FFE0000
+0004FFC000000009FF6002FFFFFFFFFFFFF800002FFE0000
+0004FFC000000009FF600BFFF7210016DFFF20002FFE0000
+0004FFC000000009FF600FFF600000001EFF80002FFE0000
+0004FFC000000009FF600FFF4000000008FFB0002FFE0000
+0004FFC000000009FF600FFFC4000000016630002FFE0000
+0004FFC000000009FF6009FFFFFDA853000000002FFE0000
+0004FFC000000009FF6001CFFFFFFFFFFC7000002FFE0000
+0004FFC000000009FF600006CFFFFFFFFFFE30002FFE0000
+0004FFC000000009FF60000001368ACFFFFFE0002FFE0000
+0004FFC000000009FF602661000000004AFFF4002FFE0000
+0004FFC000000009FF609FF80000000000FFF6002FFE0000
+0004FFC000000009FF608FFD0000000000FFF5002FFE0000
+0004FFC000000009FF603FFF9000000008FFF1002FFE0000
+0004FFC000000009FF600AFFFFB9878AEFFF90002FFE0000
+0004FFC000000009FF6000BFFFFFFFFFFFFB00002FFE0000
+0004FFC000000009FF600005BFFFFFFFFB5000002FFE0000
+0003FFC000000009FF60000000345653000000002FFD0000
+0001FFFB20000009FF6000000000000000000003CFFB0000
+00009FFFF800000CFF50000000000000000001AFFFF50000
+000008FFFFE6005FFF3000000000000000008FFFFF600000
+0000002BFFFFFEFFFE00000000000000005EFFFFA1000000
+000000004DFFFFFFF6000000000000003CFFFFC300000000
+00000000005BFFFD5000000000000019FFFFE60000000000
+000000000000021000000000000007FFFFF8000000000000
+000000000000000002AD40000004DFFFFB20000000000000
+00000000000000007FFFFB2002BFFFFD4000000000000000
+000000000000000006EFFFF89FFFFF700000000000000000
+00000000000000000018FFFFFFFFA1000000000000000000
+000000000000000000002BFFFFC300000000000000000000
+000000000000000000000049940000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 NODEJS>> White
+sprite $html5 [48x48/16] {
+000244444444444444444444444444444444444444442000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000
+0005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000
+0004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+0001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0000
+0000DFFFFFF76666666666666666666666667FFFFFFD0000
+0000BFFFFFF20000000000000000000000002FFFFFFB0000
+0000AFFFFFF40000000000000000000000004FFFFFFA0000
+00009FFFFFF50000000000000000000000005FFFFFF80000
+00007FFFFFF70000000000000000000000006FFFFFF70000
+00006FFFFFF8000016666666666666666666BFFFFFF60000
+00004FFFFFF900003FFFFFFFFFFFFFFFFFFFFFFFFFF40000
+00003FFFFFFB00001FFFFFFFFFFFFFFFFFFFFFFFFFF30000
+00001FFFFFFC00000FFFFFFFFFFFFFFFFFFFFFFFFFF10000
+00000FFFFFFE00000EFFFFFFFFFFFFFFFFFFFFFFFFF00000
+00000FFFFFFF00000BDDDDDDDDDDDDDDDDDDFFFFFFF00000
+00000DFFFFFF000000000000000000000001FFFFFFD00000
+00000CFFFFFF200000000000000000000002FFFFFFC00000
+00000AFFFFFF300000000000000000000003FFFFFFA00000
+000009FFFFFF500000000000000000000005FFFFFF900000
+000007FFFFFF600000000000000000000006FFFFFF700000
+000006FFFFFFEDDDDDDDDDDDDDDDDD400008FFFFFF600000
+000005FFFFFFFFFFFFFFFFFFFFFFFF300009FFFFFF400000
+000003FFFFFFEBBBBCFFFFFFFFFFFF20000BFFFFFF300000
+000002FFFFFFC00000FFFFFFFFFFFF00000CFFFFFF200000
+000000FFFFFFD00000FFFFFFFFFFFF00000EFFFFFF000000
+000000FFFFFFF00000DFFFFFFFFFFD00000FFFFFFF000000
+000000DFFFFFF00000BFFFFFFFFFFA00000FFFFFFD000000
+000000CFFFFFF20000026AFFFC951000002FFFFFFC000000
+000000BFFFFFF3000000000300000000003FFFFFFB000000
+0000009FFFFFF5000000000000000000005FFFFFF9000000
+0000008FFFFFF8000000000000000000029FFFFFF8000000
+0000006FFFFFFFFC8400000000000048CFFFFFFFF6000000
+0000005FFFFFFFFFFFFB73000037BFFFFFFFFFFFF5000000
+0000003FFFFFFFFFFFFFFFEAAEFFFFFFFFFFFFFFF3000000
+0000002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000000
+0000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000000
+0000000026AFFFFFFFFFFFFFFFFFFFFFFFFFFB7300000000
+00000000000038CFFFFFFFFFFFFFFFFFFD94000000000000
+000000000000000159EFFFFFFFFFFEA61000000000000000
+000000000000000000027BFFFFC830000000000000000000
+000000000000000000000004400000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 HTML5>> White
+sprite $javascript [48x48/16] {
+299999999999999999999999999999999999999999999996
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFBBBBEFFFFFFFA767AEFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFF810000008FFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFF70000000005FFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFB000000000009FFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF400008B81004DFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF10007FFFD1AFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF00009FFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF20002EFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF6000018FFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFD00000007EFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFF9000000007FFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFB200000003EFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFFF810000003FFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFFFFFA2000008FFF9
+4FFFFFFFFFFFFFFFFFFFFE0000BFFFFFFFFFFF900003FFF9
+4FFFFFFFFFFFFFFFFFFFFE0000BFFFFFFFFFFFF70000FFF9
+4FFFFFFFFFFFFFFE6FFFFD0000BFFFC33FFFFFF90000FFF9
+4FFFFFFFFFFFFF8005FFF70000DFF60004EFFFE20001FFF9
+4FFFFFFFFFFFF6000026400002FFF200000565000006FFF9
+4FFFFFFFFFFFFD000000000009FFFD0000000000000EFFF9
+4FFFFFFFFFFFFFA0000000005FFFFFD20000000001CFFFF9
+4FFFFFFFFFFFFFFD50000019FFFFFFFF920000017EFFFFF9
+4FFFFFFFFFFFFFFFFFCABDFFFFFFFFFFFFECBBDFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+144444444444444444444444444444444444444444444442
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 JAVASCRIPT>> White
+sprite $github [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000001100000000000000000000000
+0000000000000000026ACFFFFFFCA6200000000000000000
+0000000000000006CFFFFFFFFFFFFFFC6000000000000000
+00000000000008EFFFFFFFFFFFFFFFFFFE70000000000000
+000000000005EFFFFFFFFFFFFFFFFFFFFFFE400000000000
+00000000009FFFFFFFFFFFFFFFFFFFFFFFFFFA0000000000
+000000001CFFFFFFFFFFFFFFFFFFFFFFFFFFFFC100000000
+00000001DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD10000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD1000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000000
+000007FFFFFF46AFFFFFFFFFFFFFFFFFFA64FFFFFF700000
+00002FFFFFFC00019FFFFFFEEFFFFFF81000CFFFFFF20000
+0000CFFFFFF80000028620000002682000008FFFFFFB0000
+0004FFFFFFF70000000000000000000000007FFFFFFF4000
+000CFFFFFFF70000000000000000000000007FFFFFFFB000
+002FFFFFFFFA000000000000000000000000AFFFFFFFF200
+008FFFFFFFFA000000000000000000000000AFFFFFFFF800
+00CFFFFFFFE10000000000000000000000001EFFFFFFFC00
+01FFFFFFFF6000000000000000000000000006FFFFFFFF10
+04FFFFFFFF0000000000000000000000000000FFFFFFFF40
+06FFFFFFFC0000000000000000000000000000CFFFFFFF60
+08FFFFFFFA0000000000000000000000000000AFFFFFFF80
+09FFFFFFF900000000000000000000000000009FFFFFFF90
+0AFFFFFFFA0000000000000000000000000000AFFFFFFFA0
+09FFFFFFFB0000000000000000000000000000BFFFFFFF90
+07FFFFFFFD0000000000000000000000000000DFFFFFFF80
+06FFFFFFFF1000000000000000000000000002FFFFFFFF60
+04FFFFFFFF6000000000000000000000000006FFFFFFFF40
+00FFFFFFFFD00000000000000000000000000DFFFFFFFF00
+00CFFFFFFFF70000000000000000000000007FFFFFFFFC00
+008FFFFFFFFF500000000000000000000005FFFFFFFFF800
+002FFFFFFFFFF9000000000000000000008FFFFFFFFFF200
+000BFFFB6AFFFFE710000000000000027EFFFFFFFFFFB000
+0005FFFC135FFFFFFDA5000000006ADFFFFFFFFFFFFF4000
+0000CFFFE235FFFFFFF2000000002FFFFFFFFFFFFFFC0000
+00002FFFFD069FFFFFB0000000000BFFFFFFFFFFFFF20000
+000008FFFF6077FFFE500000000007FFFFFFFFFFFF800000
+000000CFFFE0016446100000000006FFFFFFFFFFFC000000
+0000001DFFFB000110000000000005FFFFFFFFFFD1000000
+00000002EFFFD62002100000000005FFFFFFFFFE20000000
+000000001CFFFFFFFF500000000005FFFFFFFFD100000000
+0000000000BFFFFFFF500000000006FFFFFFFB0000000000
+000000000005EFFFFF600000000006FFFFFE600000000000
+00000000000019FFFF600000000006FFFF91000000000000
+0000000000000017EF300000000003FE7100000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 GITHUB>> White
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+title [Container Diagram] All Contributors (Idea 1)
+
+rectangle "==All Contributors\n<size:12>[System]</size>" <<boundary>> as ac {
+  rectangle "<$html5>\n==Website\n//<size:12>[Docusaurus]</size>//\n\n Documentation" <<container>> as website [[../website/Website_Component_Diagram.svg]]
+  rectangle "<$nodejs>\n==Core\n//<size:12>[Node.js]</size>//\n\n Reads/writes configuration, updates markdown text and contains spec and DL model" <<container>> as core [[../core/Core_Component_Diagram.svg]]
+  rectangle "<$nodejs>\n==CLI\n//<size:12>[Node.js]</size>//\n\n `all-contributors-cli`" <<container>> as cli [[../cli/Cli_Component_Diagram.svg]]
+  rectangle "<$nodejs>\n==App\n//<size:12>[Node.js]</size>//\n\n Github App-driven bot" <<container>> as app [[../app/App_Component_Diagram.svg]]
+
+cli - ->> core : **uses**\n//<size:12>[CJS/ES import]</size>//
+app - ->> core : **uses**\n//<size:12>[CJS/ES import]</size>//
+website - ->> core : **uses**\n//<size:12>[??]</size>//
+}
+
+rectangle "==UptimeRobot\n\n Monitoring" <<external_system>> as uptime
+rectangle "<$logflare>\n==Logflare\n\n Log aggregation" <<external_system>> as logflare
+rectangle "<$netlify>\n==Netlify" <<external_system>> as netlify
+rectangle "==Vercel" <<external_system>> as vercel
+rectangle "<$github>\n==GitHub" <<external_system>> as gh
+rectangle "==Crowdin\n\n Cloud-based localization management solution" <<external_system>> as crowdin
+rectangle "==Probot\n//<size:12>[GitHub Apps to automate and improve your workflow]</size>//" <<external_container>> as probot
+rectangle "<$nodejs>\n==Limdu.js\n//<size:12>[Node.js]</size>//\n\n ML framework for Node.js" <<external_container>> as limdu
+
+rectangle "<$person>\n==User" <<person>> as user
+user - ->> app : **instructs**\n//<size:12>[GitHub comments via GitHub Events]</size>//
+user - ->> cli : **uses**\n//<size:12>[Any terminal]</size>//
+user - ->> website : **visits/reads**\n//<size:12>[Web]</size>//
+
+website - ->> netlify : **hosted on**
+website - ->> crowdin : **gets translations from**\n//<size:12>[Java/Yarn]</size>//
+app -RIGHT->> vercel : **serviced by**
+logflare - ->> vercel : **listening to**\n//<size:12>[HTTPS]</size>//
+uptime - ->> vercel : **monitors**\n//<size:12>[HTTPS]</size>//
+app - ->> probot : **depends on**
+app - ->> gh : **listens to**\n//<size:12>[webhooks]</size>//
+core -LEFT->> limdu : **uses**\n//<size:12>[CJS import]</size>//
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 10:35:57 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_152-release-1056-b12
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
