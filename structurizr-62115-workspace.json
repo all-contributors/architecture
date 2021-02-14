@@ -1,0 +1,352 @@
+{
+  "id" : 62115,
+  "name" : "All Contributors",
+  "description" : "All Contributors Software Architecture",
+  "revision" : 2,
+  "lastModifiedDate" : "2021-01-03T22:51:41Z",
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "User",
+      "description" : "uses the system",
+      "relationships" : [ {
+        "id" : "37",
+        "tags" : "Relationship,Synchronous",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "interacts with"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "All Contributors team",
+      "description" : "Maintain the system",
+      "relationships" : [ {
+        "id" : "39",
+        "tags" : "Relationship,Synchronous",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "monitor"
+      }, {
+        "id" : "38",
+        "tags" : "Relationship,Synchronous",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "maintain"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "8",
+      "tags" : "Element,Software System",
+      "name" : "Logflare",
+      "description" : "Log aggregation",
+      "relationships" : [ {
+        "id" : "41",
+        "tags" : "Relationship,Synchronous",
+        "sourceId" : "8",
+        "destinationId" : "4",
+        "description" : "listens to",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "External"
+    }, {
+      "id" : "12",
+      "tags" : "Element,Software System",
+      "name" : "Chalk",
+      "description" : "Terminal string styler",
+      "location" : "External"
+    }, {
+      "id" : "13",
+      "tags" : "Element,Software System",
+      "name" : "Yargs",
+      "description" : "CLI argument parser and help section generator",
+      "location" : "External"
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System",
+      "name" : "Compromise",
+      "description" : "NLP package",
+      "location" : "External"
+    }, {
+      "id" : "15",
+      "tags" : "Element,Software System",
+      "name" : "CLUI",
+      "description" : "CL UI toolkit for Node.js",
+      "location" : "External"
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "Netlify",
+      "description" : "Cloud-based hosting platform for static sites, web apps and serverless functions",
+      "location" : "External"
+    }, {
+      "id" : "14",
+      "tags" : "Element,Software System",
+      "name" : "Inquirer",
+      "description" : "Collection of common interactive CLIs",
+      "location" : "External"
+    }, {
+      "id" : "16",
+      "tags" : "Element,Software System",
+      "name" : "Limdu.js",
+      "description" : "ML framework for Node.js",
+      "location" : "External"
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System",
+      "name" : "GitHub",
+      "location" : "External"
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "name" : "Verser",
+      "description" : "Cloud platform for static sites and serverless functions",
+      "location" : "External"
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "name" : "Crowdin",
+      "description" : "Cloud-based localization management solution",
+      "location" : "External"
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "name" : "UptimeRobot",
+      "description" : "Monitoring",
+      "relationships" : [ {
+        "id" : "40",
+        "tags" : "Relationship,Synchronous",
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "monitors",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "External"
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System",
+      "name" : "Probot",
+      "description" : "GitHub App framework",
+      "location" : "External"
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System",
+      "name" : "Name Your Contributors",
+      "description" : "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.",
+      "location" : "External"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "All Contributors",
+      "description" : "System for recognizing contributors to an open source project in a way that rewards each and every contribution",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "21",
+        "tags" : "Element,Container",
+        "name" : "Core",
+        "description" : "Reads/writes configuration, updates markdown text and contains spec and DL model",
+        "relationships" : [ {
+          "id" : "36",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "21",
+          "destinationId" : "17",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "35",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "21",
+          "destinationId" : "16",
+          "description" : "uses",
+          "technology" : "CJS import"
+        } ],
+        "technology" : "Node.js"
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "name" : "Website",
+        "description" : "Documentation",
+        "relationships" : [ {
+          "id" : "27",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "19",
+          "destinationId" : "21",
+          "description" : "gets specification from",
+          "technology" : "CJS import"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "19",
+          "destinationId" : "5",
+          "description" : "hosted on"
+        }, {
+          "id" : "29",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "19",
+          "destinationId" : "9",
+          "description" : "gets translations from",
+          "technology" : "Java/Yarn"
+        } ],
+        "technology" : "Docusaurus"
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container",
+        "name" : "App",
+        "description" : "GitHub app-driven bot",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "20",
+          "destinationId" : "10",
+          "description" : "implements",
+          "technology" : "CJS import"
+        }, {
+          "id" : "24",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "20",
+          "destinationId" : "6",
+          "description" : "listens to",
+          "technology" : "webhooks"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "20",
+          "destinationId" : "11",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "20",
+          "destinationId" : "21",
+          "description" : "imports methods from",
+          "technology" : "CJS import"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "20",
+          "destinationId" : "4",
+          "description" : "serviced by"
+        } ],
+        "technology" : "Node.js"
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "name" : "CLI",
+        "description" : "`all-contributors`",
+        "relationships" : [ {
+          "id" : "33",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "18",
+          "destinationId" : "14",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "18",
+          "destinationId" : "21",
+          "description" : "imports methods from",
+          "technology" : "CJS import"
+        }, {
+          "id" : "34",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "18",
+          "destinationId" : "15",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "31",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "18",
+          "destinationId" : "12",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "32",
+          "tags" : "Relationship,Synchronous",
+          "sourceId" : "18",
+          "destinationId" : "13",
+          "description" : "uses",
+          "technology" : "CJS import"
+        } ],
+        "technology" : "Node.js"
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "3",
+      "description" : "The system context view for AC",
+      "key" : "ac-context",
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "37"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "3",
+      "description" : "Container view for AC",
+      "key" : "ac-containers",
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "20",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "terminology" : { },
+      "viewSortOrder" : "Default"
+    }
+  }
+}
