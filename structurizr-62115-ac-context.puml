@@ -1,0 +1,36 @@
+@startuml(id=ac-context)
+title All Contributors - System Context
+caption The system context view for AC
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+skinparam rectangle<<1>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052E56
+}
+skinparam rectangle<<2>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052E56
+}
+skinparam rectangle<<3>> {
+  BackgroundColor #1168bd
+  FontColor #ffffff
+  BorderColor #0B4884
+  roundCorner 20
+}
+rectangle "==All Contributors team\n<size:10>[Person]</size>\n\nMaintain the system" <<2>> as 2
+rectangle "==User\n<size:10>[Person]</size>\n\nuses the system" <<1>> as 1
+package "Enterprise" {
+  rectangle "==All Contributors\n<size:10>[Software System]</size>\n\nSystem for recognizing contributors to an open source project in a way that rewards each and every contribution" <<3>> as 3
+}
+2 .[#707070].> 3 : "maintain"
+1 .[#707070].> 3 : "interacts with"
+@enduml

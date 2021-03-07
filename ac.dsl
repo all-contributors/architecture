@@ -106,31 +106,31 @@ workspace "All Contributors" "All Contributors Software Architecture." {
 
         systemContext ac "SystemContext" {
             include *
-            #animation {
-            #  ac
-            #  user
-            #  devs
-            #  vercel
-            #  netlify
-            #  gh
-            #  uptimer
-            #  logflare
-            #  crowdin
-            #}
+            animation {
+              ac
+              user
+              devs
+              vercel
+              netlify
+              gh
+              uptimer
+              logflare
+              crowdin
+            }
             autoLayout
         }
 
         container ac "AC_Containers" {
             include *
-            #animation {
-            #    vercel netlify gh uptimer logflare crowdin
-            #    cli
-            #    website
-            #    app
-            #    spec
-            #    lib
-            #    acl
-            #}
+            animation {
+                vercel netlify gh uptimer logflare crowdin
+                cli
+                website
+                app
+                spec
+                lib
+                acl
+            }
             autoLayout
         }
 
