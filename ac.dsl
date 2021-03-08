@@ -6,7 +6,7 @@ workspace "All Contributors" "All Contributors Software Architecture." {
 
         ac = softwareSystem "All Contributors" "System for recognizing contributors to an open source project in a way that rewards each and every contribution." {
             cli = container "CLI" "all-contributors-cli" "Node.js" {
-                clinterface = component "CL Interface" "" "Node.js"
+                clinterface = component "CL Interface" "Command Line Interface executable" "Node.js"
                 init = component "Init" "Initialise the config" "Node.js"
                 contributors = component "Contributors" "Add/update contributors" "Node.js"
                 generator = component "Generator" "Table generation" "Node.js"
