@@ -3,6 +3,7 @@ workspace "All Contributors" "All Contributors Software Architecture." {
     model {
         user = person "User" "A user of our software system."
         devs = person "All Contributors team" "A core member of All Contributors."
+
         ac = softwareSystem "All Contributors" "System for recognizing contributors to an open source project in a way that rewards each and every contribution." {
             cli = container "CLI" "all-contributors-cli" "Node.js" {
                 clinterface = component "CL Interface" "" "Node.js"
@@ -11,26 +12,15 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 generator = component "Generator" "Table generation" "Node.js"
                 discover = component "Discover" "Contributor discovery" "Node.js"
                 repo = component "Repo" "GitHub/GitLab adapters" "Node.js"
-                util = component "Utils" "" "Node.js"
-
-                clinterface -> init "calls" "`init` command"
-                clinterface -> contributors "calls" "`add` command"
-                clinterface -> generator "calls" "`generate` command"
-                clinterface -> discover "calls" "`fetch` command"
-                clinterface -> repo "depends on" "CJS import"
-                clinterface -> util "depends on" "CJS import"
+                util = component "Utils" "Utilities" "Node.js"
             }
             website = container "Website" "Documentation" "Docusaurus" "Web Browser" {
                 docs = component "Docs" "Specification/CLI/Bot documentation" "Markdown"
                 ws = component "Website" "Documentation" "Docusaurus"
-
-                ws -> docs "integrates"
             }
-            app = container "App" "GitHub app-driven bot" "Node.js{
+            app = container "App" "GitHub app-driven bot" "Node.js" {
                 api = component "API" "Source code and GH Webhooks" "Node.js"
                 bot = component "Lib" "Library code for the bot" "Node.js"
-
-                api -> bot "uses" "CJS import"
             }
             lib = container "Library" "Reads/writes configuration and updates markdown text" "Node.js"
             spec = container "Specification" "Contains the emoji key, synonyms and aliases" "JSON"
@@ -39,17 +29,13 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 learner = component "Learner" "DL model wrapper" "Node.js"
                 labels = component "Labels" "Label dataset aggregation" "Node.js/JSON"
                 cm = component "Confusion Matrix" "Multi-class focused confusion matrix builder" "Node.js"
-
-                learner -> classifier "uses" "CJS import"
-                learner -> labels "uses" "CJS import"
-                learner -> cm "uses" "CJS import"
             }
         }
 
         # External
         vercel = softwareSystem "Vercel" "Cloud platform for static sites and serverless functions." "External System"
         netlify = softwareSystem "Netlify" "Cloud-based hosting platform for static sites, web apps and serverless functions." "External System"
-        gh = softwareSystem "GitHub" "" "External System"
+        gh = softwareSystem "GitHub" "Code Hosting and VCS" "External System"
         uptimer = softwareSystem "UptimeRobot" "Monitoring." "External System"
         logflare = softwareSystem "Logflare" "Log aggregation." "External System"
         crowdin = softwareSystem "Crowdin" "Cloud-based localization management solution." "External System"
@@ -65,6 +51,21 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         tvtsplit = softwareSystem "TVT Split" "Dataset splitter into train/validation/test sets" "External Container"
         nclr = softwareSystem "NClr" "Coloured logs (with symbols)" "External Container"
         nyc = softwareSystem "Name Your Contributors" "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo." "External Container"
+
+        clinterface -> init "calls" "`init` command"
+        clinterface -> contributors "calls" "`add` command"
+        clinterface -> generator "calls" "`generate` command"
+        clinterface -> discover "calls" "`fetch` command"
+        clinterface -> repo "depends on" "CJS import"
+        clinterface -> util "depends on" "CJS import"
+
+        ws -> docs "integrates"
+
+        api -> bot "uses" "CJS import"
+
+        learner -> classifier "uses" "CJS import"
+        learner -> labels "uses" "CJS import"
+        learner -> cm "uses" "CJS import"
 
         user -> ac "interacts with"
         devs -> ac "maintain"
@@ -106,7 +107,7 @@ workspace "All Contributors" "All Contributors Software Architecture." {
 
         systemContext ac "SystemContext" {
             include *
-            animation {
+            /* animation {
               ac
               user
               devs
@@ -116,13 +117,13 @@ workspace "All Contributors" "All Contributors Software Architecture." {
               uptimer
               logflare
               crowdin
-            }
+            } */
             autoLayout
         }
 
         container ac "AC_Containers" {
             include *
-            animation {
+            /* animation {
                 vercel netlify gh uptimer logflare crowdin
                 cli
                 website
@@ -130,7 +131,7 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 spec
                 lib
                 acl
-            }
+            } */
             autoLayout
         }
 

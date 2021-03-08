@@ -1,0 +1,22 @@
+@startuml(id=ac-containers)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - Containers
+caption Container view for AC
+
+Person(2, "All Contributors team", "Maintain the system")
+Person(1, "User", "uses the system")
+System_Boundary(3_boundary, All Contributors) {
+  Container(20, "App", "Node.js", "GitHub app-driven bot")
+  Container(18, "CLI", "Node.js", "`all-contributors`")
+  Container(21, "Core", "Node.js", "Reads/writes configuration, updates markdown text and contains spec and DL model")
+  Container(19, "Website", "Docusaurus", "Documentation")
+}
+Rel_D(20, 21, "imports methods from", "CJS import")
+Rel_D(18, 21, "imports methods from", "CJS import")
+Rel_D(19, 21, "gets specification from", "CJS import")
+@enduml
