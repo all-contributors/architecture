@@ -73,11 +73,12 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         user -> cli "uses" "Any terminal"
         user -> website "visits/reads" "Web"
         user -> app "instructs" "GitHub comments via GitHub Events"
-        devs -> cli "maintains"
-        devs -> website "maintains"
-        devs -> app "maintains"
-        devs -> lib "maintains"
-        devs -> lib "maintains"
+        devs -> cli "maintain"
+        devs -> website "maintain"
+        devs -> app "maintain"
+        devs -> lib "maintain"
+        devs -> spec "maintain"
+        devs -> acl "maintain"
 
 
         bot -> lib "uses" "CJS import"

@@ -1,0 +1,44 @@
+@startuml(id=SystemContext)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - System Context
+
+Person(2, "All Contributors team", "A core member of All Contributors.")
+Person(1, "User", "A user of our software system.")
+System(3, "All Contributors", "System for recognizing contributors to an open source project in a way that rewards each and every contribution.")
+System(36, "CLUI", "CL UI toolkit for Node.js.")
+System(33, "Chalk", "Terminal string styler.")
+System(32, "Compromise", "NLP package.")
+System(30, "Crowdin", "Cloud-based localization management solution.")
+System(27, "GitHub", "Code Hosting and VCS")
+System(35, "Inquirer", "Collection of common interactive CLIs.")
+System(37, "Limdu.js", "ML framework for Node.js")
+System(39, "NClr", "Coloured logs (with symbols)")
+System(40, "Name Your Contributors", "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.")
+System(26, "Netlify", "Cloud-based hosting platform for static sites, web apps and serverless functions.")
+System(31, "Probot", "GitHub App framework.")
+System(38, "TVT Split", "Dataset splitter into train/validation/test sets")
+System(25, "Vercel", "Cloud platform for static sites and serverless functions.")
+System(34, "Yargs", "CLI argument parser and help section generator")
+Rel_D(2, 3, "maintain")
+Rel_D(2, 25, "monitor")
+Rel_D(3, 36, "uses", "CJS import")
+Rel_D(3, 33, "depends on", "CJS import")
+Rel_D(3, 32, "uses", "CJS import")
+Rel_D(3, 30, "gets translations from", "Java/Yarn")
+Rel_D(3, 27, "listens to", "webhooks")
+Rel_D(3, 35, "uses", "CJS import")
+Rel_D(3, 37, "uses", "CJS import")
+Rel_D(3, 39, "uses", "CJS import")
+Rel_D(3, 40, "uses", "CJS import")
+Rel_D(3, 26, "hosted on", "??")
+Rel_D(3, 31, "implements", "CJS import")
+Rel_D(3, 38, "uses", "CJS import")
+Rel_D(3, 25, "serviced by", "??")
+Rel_D(3, 34, "depends on", "CJS import")
+Rel_D(1, 3, "interacts with")
+@enduml

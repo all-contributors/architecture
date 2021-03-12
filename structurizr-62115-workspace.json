@@ -1,291 +1,932 @@
 {
   "id" : 62115,
   "name" : "All Contributors",
-  "description" : "All Contributors Software Architecture",
-  "revision" : 2,
-  "lastModifiedDate" : "2021-01-03T22:51:41Z",
+  "description" : "All Contributors Software Architecture.",
+  "revision" : 12,
+  "lastModifiedDate" : "2021-03-12T20:25:04Z",
+  "lastModifiedUser" : "maxie@tuxer",
+  "lastModifiedAgent" : "structurizr-cli/1.8.1",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJBbGwgQ29udHJpYnV0b3JzIiAiQWxsIENvbnRyaWJ1dG9ycyBTb2Z0d2FyZSBBcmNoaXRlY3R1cmUuIiB7CgogICAgbW9kZWwgewogICAgICAgIHVzZXIgPSBwZXJzb24gIlVzZXIiICJBIHVzZXIgb2Ygb3VyIHNvZnR3YXJlIHN5c3RlbS4iCiAgICAgICAgZGV2cyA9IHBlcnNvbiAiQWxsIENvbnRyaWJ1dG9ycyB0ZWFtIiAiQSBjb3JlIG1lbWJlciBvZiBBbGwgQ29udHJpYnV0b3JzLiIKCiAgICAgICAgYWMgPSBzb2Z0d2FyZVN5c3RlbSAiQWxsIENvbnRyaWJ1dG9ycyIgIlN5c3RlbSBmb3IgcmVjb2duaXppbmcgY29udHJpYnV0b3JzIHRvIGFuIG9wZW4gc291cmNlIHByb2plY3QgaW4gYSB3YXkgdGhhdCByZXdhcmRzIGVhY2ggYW5kIGV2ZXJ5IGNvbnRyaWJ1dGlvbi4iIHsKICAgICAgICAgICAgY2xpID0gY29udGFpbmVyICJDTEkiICJhbGwtY29udHJpYnV0b3JzLWNsaSIgIk5vZGUuanMiIHsKICAgICAgICAgICAgICAgIGNsaW50ZXJmYWNlID0gY29tcG9uZW50ICJDTCBJbnRlcmZhY2UiICJDb21tYW5kIExpbmUgSW50ZXJmYWNlIGV4ZWN1dGFibGUiICJOb2RlLmpzIgogICAgICAgICAgICAgICAgaW5pdCA9IGNvbXBvbmVudCAiSW5pdCIgIkluaXRpYWxpc2UgdGhlIGNvbmZpZyIgIk5vZGUuanMiCiAgICAgICAgICAgICAgICBjb250cmlidXRvcnMgPSBjb21wb25lbnQgIkNvbnRyaWJ1dG9ycyIgIkFkZC91cGRhdGUgY29udHJpYnV0b3JzIiAiTm9kZS5qcyIKICAgICAgICAgICAgICAgIGdlbmVyYXRvciA9IGNvbXBvbmVudCAiR2VuZXJhdG9yIiAiVGFibGUgZ2VuZXJhdGlvbiIgIk5vZGUuanMiCiAgICAgICAgICAgICAgICBkaXNjb3ZlciA9IGNvbXBvbmVudCAiRGlzY292ZXIiICJDb250cmlidXRvciBkaXNjb3ZlcnkiICJOb2RlLmpzIgogICAgICAgICAgICAgICAgcmVwbyA9IGNvbXBvbmVudCAiUmVwbyIgIkdpdEh1Yi9HaXRMYWIgYWRhcHRlcnMiICJOb2RlLmpzIgogICAgICAgICAgICAgICAgdXRpbCA9IGNvbXBvbmVudCAiVXRpbHMiICJVdGlsaXRpZXMiICJOb2RlLmpzIgogICAgICAgICAgICB9CiAgICAgICAgICAgIHdlYnNpdGUgPSBjb250YWluZXIgIldlYnNpdGUiICJEb2N1bWVudGF0aW9uIiAiRG9jdXNhdXJ1cyIgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBkb2NzID0gY29tcG9uZW50ICJEb2NzIiAiU3BlY2lmaWNhdGlvbi9DTEkvQm90IGRvY3VtZW50YXRpb24iICJNYXJrZG93biIKICAgICAgICAgICAgICAgIHdzID0gY29tcG9uZW50ICJXZWJzaXRlIiAiRG9jdW1lbnRhdGlvbiIgIkRvY3VzYXVydXMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXBwID0gY29udGFpbmVyICJBcHAiICJHaXRIdWIgYXBwLWRyaXZlbiBib3QiICJOb2RlLmpzIiB7CiAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIkFQSSIgIlNvdXJjZSBjb2RlIGFuZCBHSCBXZWJob29rcyIgIk5vZGUuanMiCiAgICAgICAgICAgICAgICBib3QgPSBjb21wb25lbnQgIkxpYiIgIkxpYnJhcnkgY29kZSBmb3IgdGhlIGJvdCIgIk5vZGUuanMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGliID0gY29udGFpbmVyICJMaWJyYXJ5IiAiUmVhZHMvd3JpdGVzIGNvbmZpZ3VyYXRpb24gYW5kIHVwZGF0ZXMgbWFya2Rvd24gdGV4dCIgIk5vZGUuanMiCiAgICAgICAgICAgIHNwZWMgPSBjb250YWluZXIgIlNwZWNpZmljYXRpb24iICJDb250YWlucyB0aGUgZW1vamkga2V5LCBzeW5vbnltcyBhbmQgYWxpYXNlcyIgIkpTT04iCiAgICAgICAgICAgIGFjbCA9IGNvbnRhaW5lciAiQUMtTGVhcm4iICJNdWx0aS1jbGFzcyBsYWJlbCBjbGFzc2lmaWVyIiAiTm9kZS5qcyIgewogICAgICAgICAgICAgICAgY2xhc3NpZmllciA9IGNvbXBvbmVudCAiQ2xhc3NpZmllciIgIkNsYXNzaWZpY2F0aW9uIGJ1aWxkZXIiICJOb2RlLmpzIgogICAgICAgICAgICAgICAgbGVhcm5lciA9IGNvbXBvbmVudCAiTGVhcm5lciIgIkRMIG1vZGVsIHdyYXBwZXIiICJOb2RlLmpzIgogICAgICAgICAgICAgICAgbGFiZWxzID0gY29tcG9uZW50ICJMYWJlbHMiICJMYWJlbCBkYXRhc2V0IGFnZ3JlZ2F0aW9uIiAiTm9kZS5qcy9KU09OIgogICAgICAgICAgICAgICAgY20gPSBjb21wb25lbnQgIkNvbmZ1c2lvbiBNYXRyaXgiICJNdWx0aS1jbGFzcyBmb2N1c2VkIGNvbmZ1c2lvbiBtYXRyaXggYnVpbGRlciIgIk5vZGUuanMiCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgICMgRXh0ZXJuYWwKICAgICAgICB2ZXJjZWwgPSBzb2Z0d2FyZVN5c3RlbSAiVmVyY2VsIiAiQ2xvdWQgcGxhdGZvcm0gZm9yIHN0YXRpYyBzaXRlcyBhbmQgc2VydmVybGVzcyBmdW5jdGlvbnMuIiAiRXh0ZXJuYWwgU3lzdGVtIgogICAgICAgIG5ldGxpZnkgPSBzb2Z0d2FyZVN5c3RlbSAiTmV0bGlmeSIgIkNsb3VkLWJhc2VkIGhvc3RpbmcgcGxhdGZvcm0gZm9yIHN0YXRpYyBzaXRlcywgd2ViIGFwcHMgYW5kIHNlcnZlcmxlc3MgZnVuY3Rpb25zLiIgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICBnaCA9IHNvZnR3YXJlU3lzdGVtICJHaXRIdWIiICJDb2RlIEhvc3RpbmcgYW5kIFZDUyIgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICB1cHRpbWVyID0gc29mdHdhcmVTeXN0ZW0gIlVwdGltZVJvYm90IiAiTW9uaXRvcmluZy4iICJFeHRlcm5hbCBTeXN0ZW0iCiAgICAgICAgbG9nZmxhcmUgPSBzb2Z0d2FyZVN5c3RlbSAiTG9nZmxhcmUiICJMb2cgYWdncmVnYXRpb24uIiAiRXh0ZXJuYWwgU3lzdGVtIgogICAgICAgIGNyb3dkaW4gPSBzb2Z0d2FyZVN5c3RlbSAiQ3Jvd2RpbiIgIkNsb3VkLWJhc2VkIGxvY2FsaXphdGlvbiBtYW5hZ2VtZW50IHNvbHV0aW9uLiIgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICAjIEV4dGVybmFsIGNvbnRhaW5lcnMKICAgICAgICAjIHByb2JvdCA9IGNvbnRhaW5lciAiUHJvYm90IiAiR2l0SHViIEFwcCBmcmFtZXdvcmsuIgogICAgICAgIHByb2JvdCA9IHNvZnR3YXJlU3lzdGVtICJQcm9ib3QiICJHaXRIdWIgQXBwIGZyYW1ld29yay4iICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgY29tcHJvbWlzZSA9IHNvZnR3YXJlU3lzdGVtICJDb21wcm9taXNlIiAiTkxQIHBhY2thZ2UuIiAiRXh0ZXJuYWwgQ29udGFpbmVyIgogICAgICAgIGNoYWxrID0gc29mdHdhcmVTeXN0ZW0gIkNoYWxrIiAiVGVybWluYWwgc3RyaW5nIHN0eWxlci4iICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgeWFyZ3MgPSBzb2Z0d2FyZVN5c3RlbSAiWWFyZ3MiICJDTEkgYXJndW1lbnQgcGFyc2VyIGFuZCBoZWxwIHNlY3Rpb24gZ2VuZXJhdG9yIiAiRXh0ZXJuYWwgQ29udGFpbmVyIgogICAgICAgIGlucXVpcmVyID0gc29mdHdhcmVTeXN0ZW0gIklucXVpcmVyIiAiQ29sbGVjdGlvbiBvZiBjb21tb24gaW50ZXJhY3RpdmUgQ0xJcy4iICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgY2x1aSA9IHNvZnR3YXJlU3lzdGVtICJDTFVJIiAiQ0wgVUkgdG9vbGtpdCBmb3IgTm9kZS5qcy4iICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgbGltZHUgPSBzb2Z0d2FyZVN5c3RlbSAiTGltZHUuanMiICJNTCBmcmFtZXdvcmsgZm9yIE5vZGUuanMiICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgdHZ0c3BsaXQgPSBzb2Z0d2FyZVN5c3RlbSAiVFZUIFNwbGl0IiAiRGF0YXNldCBzcGxpdHRlciBpbnRvIHRyYWluL3ZhbGlkYXRpb24vdGVzdCBzZXRzIiAiRXh0ZXJuYWwgQ29udGFpbmVyIgogICAgICAgIG5jbHIgPSBzb2Z0d2FyZVN5c3RlbSAiTkNsciIgIkNvbG91cmVkIGxvZ3MgKHdpdGggc3ltYm9scykiICJFeHRlcm5hbCBDb250YWluZXIiCiAgICAgICAgbnljID0gc29mdHdhcmVTeXN0ZW0gIk5hbWUgWW91ciBDb250cmlidXRvcnMiICJQYWNrYWdlIHRoYXQgZ2V0cyBhbGwgb2YgdGhlIGNvZGUgcmV2aWV3ZXJzLCBjb21tZW50ZXJzLCBpc3N1ZSBhbmQgUFIgY3JlYXRvcnMgZnJvbSB5b3VyIG9yZ2FuaXphdGlvbiBvciByZXBvLiIgIkV4dGVybmFsIENvbnRhaW5lciIKCiAgICAgICAgY2xpbnRlcmZhY2UgLT4gaW5pdCAiY2FsbHMiICJgaW5pdGAgY29tbWFuZCIKICAgICAgICBjbGludGVyZmFjZSAtPiBjb250cmlidXRvcnMgImNhbGxzIiAiYGFkZGAgY29tbWFuZCIKICAgICAgICBjbGludGVyZmFjZSAtPiBnZW5lcmF0b3IgImNhbGxzIiAiYGdlbmVyYXRlYCBjb21tYW5kIgogICAgICAgIGNsaW50ZXJmYWNlIC0+IGRpc2NvdmVyICJjYWxscyIgImBmZXRjaGAgY29tbWFuZCIKICAgICAgICBjbGludGVyZmFjZSAtPiByZXBvICJkZXBlbmRzIG9uIiAiQ0pTIGltcG9ydCIKICAgICAgICBjbGludGVyZmFjZSAtPiB1dGlsICJkZXBlbmRzIG9uIiAiQ0pTIGltcG9ydCIKCiAgICAgICAgd3MgLT4gZG9jcyAiaW50ZWdyYXRlcyIKCiAgICAgICAgYXBpIC0+IGJvdCAidXNlcyIgIkNKUyBpbXBvcnQiCgogICAgICAgIGxlYXJuZXIgLT4gY2xhc3NpZmllciAidXNlcyIgIkNKUyBpbXBvcnQiCiAgICAgICAgbGVhcm5lciAtPiBsYWJlbHMgInVzZXMiICJDSlMgaW1wb3J0IgogICAgICAgIGxlYXJuZXIgLT4gY20gInVzZXMiICJDSlMgaW1wb3J0IgoKICAgICAgICB1c2VyIC0+IGFjICJpbnRlcmFjdHMgd2l0aCIKICAgICAgICBkZXZzIC0+IGFjICJtYWludGFpbiIKICAgICAgICBkZXZzIC0+IHZlcmNlbCAibW9uaXRvciIKICAgICAgICB1c2VyIC0+IGNsaSAidXNlcyIgIkFueSB0ZXJtaW5hbCIKICAgICAgICB1c2VyIC0+IHdlYnNpdGUgInZpc2l0cy9yZWFkcyIgIldlYiIKICAgICAgICB1c2VyIC0+IGFwcCAiaW5zdHJ1Y3RzIiAiR2l0SHViIGNvbW1lbnRzIHZpYSBHaXRIdWIgRXZlbnRzIgogICAgICAgIGRldnMgLT4gY2xpICJtYWludGFpbiIKICAgICAgICBkZXZzIC0+IHdlYnNpdGUgIm1haW50YWluIgogICAgICAgIGRldnMgLT4gYXBwICJtYWludGFpbiIKICAgICAgICBkZXZzIC0+IGxpYiAibWFpbnRhaW4iCiAgICAgICAgZGV2cyAtPiBzcGVjICJtYWludGFpbiIKICAgICAgICBkZXZzIC0+IGFjbCAibWFpbnRhaW4iCgoKICAgICAgICBib3QgLT4gbGliICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBhcHAgLT4gdmVyY2VsICJzZXJ2aWNlZCBieSIgIj8/IgogICAgICAgIGFwaSAtPiBnaCAibGlzdGVucyB0byIgIndlYmhvb2tzIgogICAgICAgIGJvdCAtPiBwcm9ib3QgImltcGxlbWVudHMiICJDSlMgaW1wb3J0IgogICAgICAgIGJvdCAtPiBjb21wcm9taXNlICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICB3cyAtPiBzcGVjICJyZWFkcyIgIj8/IgogICAgICAgIHdzIC0+IG5ldGxpZnkgImhvc3RlZCBvbiIgIj8/IgogICAgICAgIHdzIC0+IGNyb3dkaW4gImdldHMgdHJhbnNsYXRpb25zIGZyb20iICJKYXZhL1lhcm4iCiAgICAgICAgdXRpbCAtPiBsaWIgInVzZXMiICJDSlMgaW1wb3J0IgogICAgICAgIGluaXQgLT4gbGliICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBnZW5lcmF0b3IgLT4gbGliICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBkaXNjb3ZlciAtPiBsaWIgInVzZXMiICJDSlMgaW1wb3J0IgogICAgICAgIGNsaW50ZXJmYWNlIC0+IGNoYWxrICJkZXBlbmRzIG9uIiAiQ0pTIGltcG9ydCIKICAgICAgICBjbGludGVyZmFjZSAtPiB5YXJncyAiZGVwZW5kcyBvbiIgIkNKUyBpbXBvcnQiCiAgICAgICAgaW5pdCAtPiBpbnF1aXJlciAidXNlcyIgIkNKUyBpbXBvcnQiCiAgICAgICAgY29udHJpYnV0b3JzIC0+IGlucXVpcmVyICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBkaXNjb3ZlciAtPiBjbHVpICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBjbGkgLT4gbnljICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBsZWFybmVyIC0+IGxpbWR1ICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBsZWFybmVyIC0+IHR2dHNwbGl0ICJ1c2VzIiAiQ0pTIGltcG9ydCIKICAgICAgICBsZWFybmVyIC0+IG5jbHIgInVzZXMiICJDSlMgaW1wb3J0IgogICAgICAgIGxlYXJuZXIgLT4gY2x1aSAidXNlcyIgIkNKUyBpbXBvcnQiCiAgICAgICAgbGVhcm5lciAtPiBzcGVjICJyZWFkcyIgIkNKUyBpbXBvcnQiCiAgICAgICAgbGliIC0+IGxlYXJuZXIgInVzZXMiICJDSlMgaW1wb3J0IgogICAgICAgIGxpYiAtPiBzcGVjICJyZWFkcyIgIkNKUyBpbXBvcnQiCiAgICAgICAgdXB0aW1lciAtPiB2ZXJjZWwgIm1vbml0b3JzIiAiSFRUUFMiCiAgICAgICAgbG9nZmxhcmUgLT4gdmVyY2VsICJsaXN0ZW5zIHRvIiAiSFRUUFMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IGFjICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAvKiBhbmltYXRpb24gewogICAgICAgICAgICAgIGFjCiAgICAgICAgICAgICAgdXNlcgogICAgICAgICAgICAgIGRldnMKICAgICAgICAgICAgICB2ZXJjZWwKICAgICAgICAgICAgICBuZXRsaWZ5CiAgICAgICAgICAgICAgZ2gKICAgICAgICAgICAgICB1cHRpbWVyCiAgICAgICAgICAgICAgbG9nZmxhcmUKICAgICAgICAgICAgICBjcm93ZGluCiAgICAgICAgICAgIH0gKi8KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGFjICJBQ19Db250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAvKiBhbmltYXRpb24gewogICAgICAgICAgICAgICAgdmVyY2VsIG5ldGxpZnkgZ2ggdXB0aW1lciBsb2dmbGFyZSBjcm93ZGluCiAgICAgICAgICAgICAgICBjbGkKICAgICAgICAgICAgICAgIHdlYnNpdGUKICAgICAgICAgICAgICAgIGFwcAogICAgICAgICAgICAgICAgc3BlYwogICAgICAgICAgICAgICAgbGliCiAgICAgICAgICAgICAgICBhY2wKICAgICAgICAgICAgfSAqLwogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgY2xpICJDTElfY29tcG9uZW50cyIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB3ZWJzaXRlICJXZWJzaXRlX2NvbXBvbmVudHMiIHsKICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgCiAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYXBwICJBcHBfY29tcG9uZW50cyIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBsaWIgIkxpYl9jb21wb25lbnRzIiB7CiAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgIAogICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGFjbCAiQUMtTGVhcm5fY29tcG9uZW50cyIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJFeHRlcm5hbCBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4dGVybmFsIENvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjYjNiM2IzCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRXh0ZXJuYWwgQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNiM2IzYjMKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiV2ViIEJyb3dzZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgYnJhbmRpbmcgewogICAgICAgICAgICBsb2dvIGxvZ28tc3F1YXJlLXRyYW5zcGFyZW50LnBuZwogICAgICAgIH0KICAgIH0KfQo="
+  },
   "configuration" : { },
   "model" : {
     "people" : [ {
       "id" : "1",
       "tags" : "Element,Person",
       "name" : "User",
-      "description" : "uses the system",
+      "description" : "A user of our software system.",
       "relationships" : [ {
-        "id" : "37",
-        "tags" : "Relationship,Synchronous",
+        "id" : "52",
+        "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "3",
         "description" : "interacts with"
+      }, {
+        "id" : "56",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "12",
+        "description" : "visits/reads",
+        "technology" : "Web"
+      }, {
+        "id" : "57",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "15",
+        "description" : "instructs",
+        "technology" : "GitHub comments via GitHub Events"
+      }, {
+        "id" : "55",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "uses",
+        "technology" : "Any terminal"
       } ],
       "location" : "Unspecified"
     }, {
       "id" : "2",
       "tags" : "Element,Person",
       "name" : "All Contributors team",
-      "description" : "Maintain the system",
+      "description" : "A core member of All Contributors.",
       "relationships" : [ {
-        "id" : "39",
-        "tags" : "Relationship,Synchronous",
+        "id" : "58",
+        "tags" : "Relationship",
         "sourceId" : "2",
         "destinationId" : "4",
+        "description" : "maintain"
+      }, {
+        "id" : "60",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "15",
+        "description" : "maintain"
+      }, {
+        "id" : "62",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "19",
+        "description" : "maintain"
+      }, {
+        "id" : "59",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "12",
+        "description" : "maintain"
+      }, {
+        "id" : "61",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "18",
+        "description" : "maintain"
+      }, {
+        "id" : "54",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "25",
         "description" : "monitor"
       }, {
-        "id" : "38",
-        "tags" : "Relationship,Synchronous",
+        "id" : "53",
+        "tags" : "Relationship",
         "sourceId" : "2",
         "destinationId" : "3",
+        "description" : "maintain"
+      }, {
+        "id" : "63",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "20",
         "description" : "maintain"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "8",
-      "tags" : "Element,Software System",
-      "name" : "Logflare",
-      "description" : "Log aggregation",
-      "relationships" : [ {
-        "id" : "41",
-        "tags" : "Relationship,Synchronous",
-        "sourceId" : "8",
-        "destinationId" : "4",
-        "description" : "listens to",
-        "technology" : "HTTPS"
-      } ],
-      "location" : "External"
+      "id" : "38",
+      "tags" : "Element,Software System,External Container",
+      "name" : "TVT Split",
+      "description" : "Dataset splitter into train/validation/test sets",
+      "location" : "Unspecified"
     }, {
-      "id" : "12",
-      "tags" : "Element,Software System",
-      "name" : "Chalk",
-      "description" : "Terminal string styler",
-      "location" : "External"
-    }, {
-      "id" : "13",
-      "tags" : "Element,Software System",
-      "name" : "Yargs",
-      "description" : "CLI argument parser and help section generator",
-      "location" : "External"
-    }, {
-      "id" : "11",
-      "tags" : "Element,Software System",
-      "name" : "Compromise",
-      "description" : "NLP package",
-      "location" : "External"
-    }, {
-      "id" : "15",
-      "tags" : "Element,Software System",
-      "name" : "CLUI",
-      "description" : "CL UI toolkit for Node.js",
-      "location" : "External"
-    }, {
-      "id" : "5",
-      "tags" : "Element,Software System",
-      "name" : "Netlify",
-      "description" : "Cloud-based hosting platform for static sites, web apps and serverless functions",
-      "location" : "External"
-    }, {
-      "id" : "14",
-      "tags" : "Element,Software System",
+      "id" : "35",
+      "tags" : "Element,Software System,External Container",
       "name" : "Inquirer",
-      "description" : "Collection of common interactive CLIs",
-      "location" : "External"
+      "description" : "Collection of common interactive CLIs.",
+      "location" : "Unspecified"
     }, {
-      "id" : "16",
-      "tags" : "Element,Software System",
-      "name" : "Limdu.js",
-      "description" : "ML framework for Node.js",
-      "location" : "External"
+      "id" : "31",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Probot",
+      "description" : "GitHub App framework.",
+      "location" : "Unspecified"
     }, {
-      "id" : "6",
-      "tags" : "Element,Software System",
-      "name" : "GitHub",
-      "location" : "External"
+      "id" : "25",
+      "tags" : "Element,Software System,External System",
+      "name" : "Vercel",
+      "description" : "Cloud platform for static sites and serverless functions.",
+      "location" : "Unspecified"
     }, {
-      "id" : "4",
-      "tags" : "Element,Software System",
-      "name" : "Verser",
-      "description" : "Cloud platform for static sites and serverless functions",
-      "location" : "External"
-    }, {
-      "id" : "9",
-      "tags" : "Element,Software System",
-      "name" : "Crowdin",
-      "description" : "Cloud-based localization management solution",
-      "location" : "External"
-    }, {
-      "id" : "7",
-      "tags" : "Element,Software System",
+      "id" : "28",
+      "tags" : "Element,Software System,External System",
       "name" : "UptimeRobot",
-      "description" : "Monitoring",
+      "description" : "Monitoring.",
       "relationships" : [ {
-        "id" : "40",
-        "tags" : "Relationship,Synchronous",
-        "sourceId" : "7",
-        "destinationId" : "4",
+        "id" : "121",
+        "tags" : "Relationship",
+        "sourceId" : "28",
+        "destinationId" : "25",
         "description" : "monitors",
         "technology" : "HTTPS"
       } ],
-      "location" : "External"
+      "location" : "Unspecified"
     }, {
-      "id" : "10",
-      "tags" : "Element,Software System",
-      "name" : "Probot",
-      "description" : "GitHub App framework",
-      "location" : "External"
+      "id" : "36",
+      "tags" : "Element,Software System,External Container",
+      "name" : "CLUI",
+      "description" : "CL UI toolkit for Node.js.",
+      "location" : "Unspecified"
     }, {
-      "id" : "17",
-      "tags" : "Element,Software System",
-      "name" : "Name Your Contributors",
-      "description" : "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.",
-      "location" : "External"
+      "id" : "39",
+      "tags" : "Element,Software System,External Container",
+      "name" : "NClr",
+      "description" : "Coloured logs (with symbols)",
+      "location" : "Unspecified"
+    }, {
+      "id" : "26",
+      "tags" : "Element,Software System,External System",
+      "name" : "Netlify",
+      "description" : "Cloud-based hosting platform for static sites, web apps and serverless functions.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "37",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Limdu.js",
+      "description" : "ML framework for Node.js",
+      "location" : "Unspecified"
     }, {
       "id" : "3",
       "tags" : "Element,Software System",
       "name" : "All Contributors",
-      "description" : "System for recognizing contributors to an open source project in a way that rewards each and every contribution",
-      "location" : "Internal",
+      "description" : "System for recognizing contributors to an open source project in a way that rewards each and every contribution.",
+      "relationships" : [ {
+        "id" : "73",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "31",
+        "description" : "implements",
+        "technology" : "CJS import"
+      }, {
+        "id" : "81",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "26",
+        "description" : "hosted on",
+        "technology" : "??"
+      }, {
+        "id" : "84",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "30",
+        "description" : "gets translations from",
+        "technology" : "Java/Yarn"
+      }, {
+        "id" : "92",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "33",
+        "description" : "depends on",
+        "technology" : "CJS import"
+      }, {
+        "id" : "107",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "37",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "95",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "34",
+        "description" : "depends on",
+        "technology" : "CJS import"
+      }, {
+        "id" : "70",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "27",
+        "description" : "listens to",
+        "technology" : "webhooks"
+      }, {
+        "id" : "113",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "39",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "67",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "25",
+        "description" : "serviced by",
+        "technology" : "??"
+      }, {
+        "id" : "104",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "40",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "98",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "35",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "110",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "38",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "76",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "32",
+        "description" : "uses",
+        "technology" : "CJS import"
+      }, {
+        "id" : "102",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "36",
+        "description" : "uses",
+        "technology" : "CJS import"
+      } ],
+      "location" : "Unspecified",
       "containers" : [ {
-        "id" : "21",
+        "id" : "19",
         "tags" : "Element,Container",
-        "name" : "Core",
-        "description" : "Reads/writes configuration, updates markdown text and contains spec and DL model",
+        "name" : "Specification",
+        "description" : "Contains the emoji key, synonyms and aliases",
+        "technology" : "JSON"
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "CLI",
+        "description" : "all-contributors-cli",
         "relationships" : [ {
-          "id" : "36",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "21",
-          "destinationId" : "17",
+          "id" : "86",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "18",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
-          "id" : "35",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "21",
-          "destinationId" : "16",
+          "id" : "91",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "33",
+          "description" : "depends on",
+          "technology" : "CJS import"
+        }, {
+          "id" : "101",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "36",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "94",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "34",
+          "description" : "depends on",
+          "technology" : "CJS import"
+        }, {
+          "id" : "97",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "35",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "103",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "40",
           "description" : "uses",
           "technology" : "CJS import"
         } ],
-        "technology" : "Node.js"
+        "technology" : "Node.js",
+        "components" : [ {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "Discover",
+          "description" : "Contributor discovery",
+          "relationships" : [ {
+            "id" : "89",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "18",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "100",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "36",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Repo",
+          "description" : "GitHub/GitLab adapters",
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "Generator",
+          "description" : "Table generation",
+          "relationships" : [ {
+            "id" : "88",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "18",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "Contributors",
+          "description" : "Add/update contributors",
+          "relationships" : [ {
+            "id" : "99",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "35",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "Utils",
+          "description" : "Utilities",
+          "relationships" : [ {
+            "id" : "85",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "18",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "Init",
+          "description" : "Initialise the config",
+          "relationships" : [ {
+            "id" : "87",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "18",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "96",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "35",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "name" : "CL Interface",
+          "description" : "Command Line Interface executable",
+          "relationships" : [ {
+            "id" : "93",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "34",
+            "description" : "depends on",
+            "technology" : "CJS import"
+          }, {
+            "id" : "45",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "10",
+            "description" : "depends on",
+            "technology" : "CJS import"
+          }, {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "7",
+            "description" : "calls",
+            "technology" : "`add` command"
+          }, {
+            "id" : "43",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "8",
+            "description" : "calls",
+            "technology" : "`generate` command"
+          }, {
+            "id" : "90",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "33",
+            "description" : "depends on",
+            "technology" : "CJS import"
+          }, {
+            "id" : "46",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "11",
+            "description" : "depends on",
+            "technology" : "CJS import"
+          }, {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "9",
+            "description" : "calls",
+            "technology" : "`fetch` command"
+          }, {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "calls",
+            "technology" : "`init` command"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        } ]
       }, {
-        "id" : "19",
-        "tags" : "Element,Container",
+        "id" : "12",
+        "tags" : "Element,Container,Web Browser",
         "name" : "Website",
         "description" : "Documentation",
         "relationships" : [ {
-          "id" : "27",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "19",
-          "destinationId" : "21",
-          "description" : "gets specification from",
-          "technology" : "CJS import"
+          "id" : "78",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "19",
+          "description" : "reads",
+          "technology" : "??"
         }, {
-          "id" : "28",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "19",
-          "destinationId" : "5",
-          "description" : "hosted on"
+          "id" : "80",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "26",
+          "description" : "hosted on",
+          "technology" : "??"
         }, {
-          "id" : "29",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "19",
-          "destinationId" : "9",
+          "id" : "83",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "30",
           "description" : "gets translations from",
           "technology" : "Java/Yarn"
         } ],
-        "technology" : "Docusaurus"
+        "technology" : "Docusaurus",
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Website",
+          "description" : "Documentation",
+          "relationships" : [ {
+            "id" : "77",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "19",
+            "description" : "reads",
+            "technology" : "??"
+          }, {
+            "id" : "79",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "26",
+            "description" : "hosted on",
+            "technology" : "??"
+          }, {
+            "id" : "47",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "13",
+            "description" : "integrates"
+          }, {
+            "id" : "82",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "30",
+            "description" : "gets translations from",
+            "technology" : "Java/Yarn"
+          } ],
+          "technology" : "Docusaurus",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Docs",
+          "description" : "Specification/CLI/Bot documentation",
+          "technology" : "Markdown",
+          "size" : 0
+        } ]
       }, {
-        "id" : "20",
+        "id" : "15",
         "tags" : "Element,Container",
         "name" : "App",
         "description" : "GitHub app-driven bot",
         "relationships" : [ {
-          "id" : "25",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "20",
-          "destinationId" : "10",
-          "description" : "implements",
-          "technology" : "CJS import"
-        }, {
-          "id" : "24",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "20",
-          "destinationId" : "6",
+          "id" : "69",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "27",
           "description" : "listens to",
           "technology" : "webhooks"
         }, {
-          "id" : "26",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "20",
-          "destinationId" : "11",
+          "id" : "65",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "18",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
-          "id" : "22",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "20",
-          "destinationId" : "21",
-          "description" : "imports methods from",
+          "id" : "66",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "25",
+          "description" : "serviced by",
+          "technology" : "??"
+        }, {
+          "id" : "75",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "32",
+          "description" : "uses",
           "technology" : "CJS import"
         }, {
-          "id" : "23",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "20",
-          "destinationId" : "4",
-          "description" : "serviced by"
+          "id" : "72",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "31",
+          "description" : "implements",
+          "technology" : "CJS import"
         } ],
-        "technology" : "Node.js"
+        "technology" : "Node.js",
+        "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "API",
+          "description" : "Source code and GH Webhooks",
+          "relationships" : [ {
+            "id" : "48",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "17",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "68",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "27",
+            "description" : "listens to",
+            "technology" : "webhooks"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "Lib",
+          "description" : "Library code for the bot",
+          "relationships" : [ {
+            "id" : "71",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "31",
+            "description" : "implements",
+            "technology" : "CJS import"
+          }, {
+            "id" : "74",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "32",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "18",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container",
+        "name" : "AC-Learn",
+        "description" : "Multi-class label classifier",
+        "relationships" : [ {
+          "id" : "109",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "38",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "106",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "37",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "117",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "19",
+          "description" : "reads",
+          "technology" : "CJS import"
+        }, {
+          "id" : "115",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "36",
+          "description" : "uses",
+          "technology" : "CJS import"
+        }, {
+          "id" : "112",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "39",
+          "description" : "uses",
+          "technology" : "CJS import"
+        } ],
+        "technology" : "Node.js",
+        "components" : [ {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "Learner",
+          "description" : "DL model wrapper",
+          "relationships" : [ {
+            "id" : "108",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "38",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "50",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "23",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "51",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "24",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "105",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "37",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "111",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "39",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "114",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "36",
+            "description" : "uses",
+            "technology" : "CJS import"
+          }, {
+            "id" : "116",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "19",
+            "description" : "reads",
+            "technology" : "CJS import"
+          }, {
+            "id" : "49",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "21",
+            "description" : "uses",
+            "technology" : "CJS import"
+          } ],
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component",
+          "name" : "Labels",
+          "description" : "Label dataset aggregation",
+          "technology" : "Node.js/JSON",
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "Classifier",
+          "description" : "Classification builder",
+          "technology" : "Node.js",
+          "size" : 0
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component",
+          "name" : "Confusion Matrix",
+          "description" : "Multi-class focused confusion matrix builder",
+          "technology" : "Node.js",
+          "size" : 0
+        } ]
       }, {
         "id" : "18",
         "tags" : "Element,Container",
-        "name" : "CLI",
-        "description" : "`all-contributors`",
+        "name" : "Library",
+        "description" : "Reads/writes configuration and updates markdown text",
         "relationships" : [ {
-          "id" : "33",
-          "tags" : "Relationship,Synchronous",
+          "id" : "118",
+          "tags" : "Relationship",
           "sourceId" : "18",
-          "destinationId" : "14",
+          "destinationId" : "22",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
-          "id" : "30",
-          "tags" : "Relationship,Synchronous",
+          "id" : "119",
+          "tags" : "Relationship",
           "sourceId" : "18",
-          "destinationId" : "21",
-          "description" : "imports methods from",
-          "technology" : "CJS import"
-        }, {
-          "id" : "34",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "18",
-          "destinationId" : "15",
+          "destinationId" : "20",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
-          "id" : "31",
-          "tags" : "Relationship,Synchronous",
+          "id" : "120",
+          "tags" : "Relationship",
           "sourceId" : "18",
-          "destinationId" : "12",
-          "description" : "uses",
-          "technology" : "CJS import"
-        }, {
-          "id" : "32",
-          "tags" : "Relationship,Synchronous",
-          "sourceId" : "18",
-          "destinationId" : "13",
-          "description" : "uses",
+          "destinationId" : "19",
+          "description" : "reads",
           "technology" : "CJS import"
         } ],
         "technology" : "Node.js"
       } ]
+    }, {
+      "id" : "27",
+      "tags" : "Element,Software System,External System",
+      "name" : "GitHub",
+      "description" : "Code Hosting and VCS",
+      "location" : "Unspecified"
+    }, {
+      "id" : "30",
+      "tags" : "Element,Software System,External System",
+      "name" : "Crowdin",
+      "description" : "Cloud-based localization management solution.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "40",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Name Your Contributors",
+      "description" : "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "29",
+      "tags" : "Element,Software System,External System",
+      "name" : "Logflare",
+      "description" : "Log aggregation.",
+      "relationships" : [ {
+        "id" : "122",
+        "tags" : "Relationship",
+        "sourceId" : "29",
+        "destinationId" : "25",
+        "description" : "listens to",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "32",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Compromise",
+      "description" : "NLP package.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "34",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Yargs",
+      "description" : "CLI argument parser and help section generator",
+      "location" : "Unspecified"
+    }, {
+      "id" : "33",
+      "tags" : "Element,Software System,External Container",
+      "name" : "Chalk",
+      "description" : "Terminal string styler.",
+      "location" : "Unspecified"
     } ]
   },
-  "documentation" : { },
+  "documentation" : {
+    "sections" : [ {
+      "title" : "README.md",
+      "order" : 1,
+      "format" : "Markdown",
+      "content" : "# All Contributors Software Architecture\n\nThis is a place where architectural diagrams of all the AC projects can be found.\n\nIt's currently focused on the _new world_ (revamped) projects so it may not accurately illustrate the current systems.\n\n\n_**Notes**:_\n-  The diagrams use the [C4 model](https://c4model.com/#CoreDiagrams).\n-  Each containers (in the [C4 sense](https://c4model.com/#faq)) have their own repo (i.e. `1 container = 1 repo`).\n- You need to have [PlantUML](https://plantuml.com/starting) installed to be able to generate the images and preview the diagrams (this can be done via IDE/editor extension too) or Structurizr to be able to use the DSL file."
+    } ]
+  },
   "views" : {
-    "systemContextViews" : [ {
-      "softwareSystemId" : "3",
-      "description" : "The system context view for AC",
-      "key" : "ac-context",
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "38",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "28",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "29",
+        "x" : 0,
+        "y" : 0
+      }, {
         "id" : "1",
         "x" : 0,
         "y" : 0
@@ -297,24 +938,238 @@
         "id" : "3",
         "x" : 0,
         "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
       } ],
       "relationships" : [ {
-        "id" : "37"
+        "id" : "70"
       }, {
-        "id" : "38"
+        "id" : "81"
+      }, {
+        "id" : "92"
+      }, {
+        "id" : "73"
+      }, {
+        "id" : "98"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "84"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "95"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "107"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "122"
+      }, {
+        "id" : "121"
+      }, {
+        "id" : "110"
+      }, {
+        "id" : "102"
+      }, {
+        "id" : "113"
+      }, {
+        "id" : "104"
       } ]
     } ],
-    "containerViews" : [ {
+    "systemContextViews" : [ {
       "softwareSystemId" : "3",
-      "description" : "Container view for AC",
-      "key" : "ac-containers",
-      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "SystemContext",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
       "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "38",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
         "id" : "1",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "81"
+      }, {
+        "id" : "92"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "73"
+      }, {
+        "id" : "98"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "95"
+      }, {
+        "id" : "84"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "107"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "110"
+      }, {
+        "id" : "113"
+      }, {
+        "id" : "102"
+      }, {
+        "id" : "104"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "3",
+      "key" : "AC_Containers",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "38",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "39",
         "x" : 0,
         "y" : 0
       }, {
@@ -326,7 +1181,238 @@
         "x" : 0,
         "y" : 0
       }, {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      }, {
         "id" : "20",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "94"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "91"
+      }, {
+        "id" : "97"
+      }, {
+        "id" : "75"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "119"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "112"
+      }, {
+        "id" : "115"
+      }, {
+        "id" : "117"
+      }, {
+        "id" : "83"
+      }, {
+        "id" : "80"
+      }, {
+        "id" : "61"
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "86"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "120"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "109"
+      }, {
+        "id" : "78"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "101"
+      }, {
+        "id" : "59"
+      }, {
+        "id" : "103"
+      }, {
+        "id" : "106"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Website_components",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "12",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "82"
+      }, {
+        "id" : "77"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "79"
+      } ]
+    }, {
+      "key" : "App_components",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "16",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "71"
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "48"
+      } ]
+    }, {
+      "key" : "AC-Learn_components",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "20",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "23",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "38",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
         "x" : 0,
         "y" : 0
       }, {
@@ -335,18 +1421,172 @@
         "y" : 0
       } ],
       "relationships" : [ {
-        "id" : "27"
+        "id" : "108"
       }, {
-        "id" : "22"
+        "id" : "118"
       }, {
-        "id" : "30"
+        "id" : "50"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "120"
+      }, {
+        "id" : "111"
+      }, {
+        "id" : "49"
+      }, {
+        "id" : "114"
+      }, {
+        "id" : "116"
+      }, {
+        "id" : "105"
       } ]
+    }, {
+      "key" : "CLI_components",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "93"
+      }, {
+        "id" : "87"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "96"
+      }, {
+        "id" : "85"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "90"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "100"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "88"
+      }, {
+        "id" : "99"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "89"
+      } ]
+    }, {
+      "key" : "Lib_components",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "18",
+      "externalContainerBoundariesVisible" : true
     } ],
     "configuration" : {
-      "branding" : { },
-      "styles" : { },
-      "terminology" : { },
-      "viewSortOrder" : "Default"
+      "branding" : {
+        "logo" : "data:image/png;base64,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"
+      },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "External System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "External Container",
+          "background" : "#b3b3b3",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "External Component",
+          "background" : "#b3b3b3",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "terminology" : { }
     }
   }
 }
