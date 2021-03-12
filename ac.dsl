@@ -70,6 +70,16 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         user -> ac "interacts with"
         devs -> ac "maintain"
         devs -> vercel "monitor"
+        user -> cli "uses" "Any terminal"
+        user -> website "visits/reads" "Web"
+        user -> app "instructs" "GitHub comments via GitHub Events"
+        devs -> cli "maintains"
+        devs -> website "maintains"
+        devs -> app "maintains"
+        devs -> lib "maintains"
+        devs -> lib "maintains"
+
+
         bot -> lib "uses" "CJS import"
         app -> vercel "serviced by" "??"
         api -> gh "listens to" "webhooks"
@@ -166,6 +176,12 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         }
 
         styles {
+            element "Person" {
+                background #08427b
+                color #ffffff
+                fontSize 22
+                shape Person
+            }
             element "Software System" {
                 background #1168bd
                 color #ffffff
@@ -175,16 +191,28 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 color #ffffff
             }
             element "External Container" {
-                background #a6a6a6
+                background #b3b3b3
+                color #ffffff
+            }
+            element "External Component" {
+                background #b3b3b3
                 color #ffffff
             }
             element "Container" {
                 background #438dd5
                 color #ffffff
             }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
             element "Web Browser" {
                 shape WebBrowser
             }
+        }
+
+        branding {
+            logo logo-square-transparent.png
         }
     }
 }
