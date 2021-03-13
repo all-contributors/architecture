@@ -8,8 +8,9 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] AC-Learn container
 
-Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
-Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases")
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text") [[../lib/Lib_Component_Diagram.svg]]
+Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases") [[../spec/Spec_Component_Diagram.svg]]
+
 Container_Boundary(acl_boundary, "AC-Learn") {
   Component(classifier, "Classifier", "Node.js", "Classification builder")
   Component(cm, "Confusion Matrix", "Node.js", "Multi-class focused confusion matrix builder")

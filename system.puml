@@ -11,7 +11,7 @@ title [System Landscape Diagram] All Contributors
 Person(user, "User", "A user of our software system.")
 Boundary(internal, "Internal Context"){
   Person(devs, "All Contributors team", "A core member of All Contributors.")
-  System(ac, "All Contributors", "System for recognizing contributors to an open source project in a way that rewards each and every contribution.") [[../ac_container/AC_Container_Diagram.png]]
+  System(ac, "All Contributors", "System for recognizing contributors to an open source project in a way that rewards each and every contribution.") [[../ac_container/AC_Container_Diagram.svg]]
 }
 
 System_Ext(uptime, "UptimeRobot", "Monitoring.")

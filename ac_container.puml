@@ -30,12 +30,12 @@ Container_Ext(tvtsplit, "TVT Split", "Dataset splitter into train/validation/tes
 Container_Ext(yargs, "Yargs", "CLI argument parser and help section generator")
 
 System_Boundary(ac, "All Contributors") {
-  Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs")
-  Container(app, "App", "Node.js", "GitHub app-driven bot", "nodejs")
-  Container(cli, "CLI", "Node.js", "all-contributors-cli", "nodejs")
-  Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "javascript")
-  Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases", "json")
-  Container(website, "Website", "Docusaurus", "Documentation", "html5")
+  Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs")[[../acl/ACL_Component_Diagram.svg]]
+  Container(app, "App", "Node.js", "GitHub app-driven bot", "nodejs") [[../app/App_Component_Diagram.svg]]
+  Container(cli, "CLI", "Node.js", "all-contributors-cli", "nodejs") [[../cli/Cli_Component_Diagram.svg]]
+  Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "javascript") [[../lib/Lib_Component_Diagram.svg]]
+  Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases", "json") [[../spec/Spec_Component_Diagram.svg]]
+  Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../website/Website_Component_Diagram.svg]]
 }
 
 Rel(acl, clui, "uses", "CJS import")

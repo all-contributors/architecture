@@ -7,7 +7,7 @@
 
 LAYOUT_WITH_LEGEND()
 
-title [Component Diagram] CLI container (Idea 1)
+title [Component Diagram] CLI container
 
 ' TODO Rework this ball of mud
 
