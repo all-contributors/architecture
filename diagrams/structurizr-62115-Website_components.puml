@@ -7,15 +7,15 @@ LAYOUT_WITH_LEGEND()
 
 title All Contributors - Website - Components
 
-System(30, "Crowdin", "Cloud-based localization management solution.")
-System(26, "Netlify", "Cloud-based hosting platform for static sites, web apps and serverless functions.")
-Container(19, "Specification", "JSON", "Contains the emoji key, synonyms and aliases")
-Container_Boundary(12_boundary, Website) {
-  Component(13, "Docs", "Markdown", "Specification/CLI/Bot documentation")
-  Component(14, "Website", "Docusaurus", "Documentation")
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution.")
+System_Ext(netlify, "Netlify", "Cloud-based hosting platform for static sites, web apps and serverless functions.")
+Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases")
+Container_Boundary(website_boundary, Website) {
+  Component(docs, "Docs", "Markdown", "Specification/CLI/Bot documentation")
+  Component(site, "Website", "Docusaurus", "Documentation")
 }
-Rel_D(14, 30, "gets translations from", "Java/Yarn")
-Rel_D(14, 13, "integrates")
-Rel_D(14, 26, "hosted on", "??")
-Rel_D(14, 19, "reads", "??")
+Rel_D(site, crowdin, "gets translations from", "Java/Yarn")
+Rel_D(site, docs, "integrates")
+Rel_D(site, netlify, "hosted on", "??")
+Rel_D(site, spec, "reads", "??")
 @enduml

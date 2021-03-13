@@ -7,6 +7,6 @@ LAYOUT_WITH_LEGEND()
 
 title All Contributors - Library - Components
 
-Container_Boundary(18_boundary, Library) {
+Container_Boundary(lib_boundary, Library) {
 }
 @enduml

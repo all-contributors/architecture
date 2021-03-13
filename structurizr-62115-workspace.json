@@ -99,32 +99,32 @@
         "destinationId" : "acl",
         "description" : "maintain"
       } ],
-      "location" : "Unspecified"
+      "location" : "Internal"
     } ],
     "softwareSystems" : [ {
       "id" : "tvtsplit",
       "tags" : "Element,Software System,External Container",
       "name" : "TVT Split",
       "description" : "Dataset splitter into train/validation/test sets",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "inquirer",
       "tags" : "Element,Software System,External Container",
       "name" : "Inquirer",
       "description" : "Collection of common interactive CLIs.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "probot",
       "tags" : "Element,Software System,External Container",
       "name" : "Probot",
       "description" : "GitHub App framework.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "vercel",
       "tags" : "Element,Software System,External System",
       "name" : "Vercel",
       "description" : "Cloud platform for static sites and serverless functions.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "uptimer",
       "tags" : "Element,Software System,External System",
@@ -138,31 +138,31 @@
         "description" : "monitors",
         "technology" : "HTTPS"
       } ],
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "clui",
       "tags" : "Element,Software System,External Container",
       "name" : "CLUI",
       "description" : "CL UI toolkit for Node.js.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "nclr",
       "tags" : "Element,Software System,External Container",
       "name" : "NClr",
       "description" : "Coloured logs (with symbols)",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "netlify",
       "tags" : "Element,Software System,External System",
       "name" : "Netlify",
       "description" : "Cloud-based hosting platform for static sites, web apps and serverless functions.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "limdu",
       "tags" : "Element,Software System,External Container",
       "name" : "Limdu.js",
       "description" : "ML framework for Node.js",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "ac",
       "tags" : "Element,Software System",
@@ -267,7 +267,7 @@
         "description" : "uses",
         "technology" : "CJS import"
       } ],
-      "location" : "Unspecified",
+      "location" : "Internal",
       "containers" : [ {
         "id" : "spec",
         "tags" : "Element,Container",
@@ -811,19 +811,19 @@
       "tags" : "Element,Software System,External System",
       "name" : "GitHub",
       "description" : "Code Hosting and VCS",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "crowdin",
       "tags" : "Element,Software System,External System",
       "name" : "Crowdin",
       "description" : "Cloud-based localization management solution.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "nyc",
       "tags" : "Element,Software System,External Container",
       "name" : "Name Your Contributors",
       "description" : "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "logflare",
       "tags" : "Element,Software System,External System",
@@ -837,25 +837,25 @@
         "description" : "listens to",
         "technology" : "HTTPS"
       } ],
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "compromise",
       "tags" : "Element,Software System,External Container",
       "name" : "Compromise",
       "description" : "NLP package.",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "yargs",
       "tags" : "Element,Software System,External Container",
       "name" : "Yargs",
       "description" : "CLI argument parser and help section generator",
-      "location" : "Unspecified"
+      "location" : "External"
     }, {
       "id" : "chalk",
       "tags" : "Element,Software System,External Container",
       "name" : "Chalk",
       "description" : "Terminal string styler.",
-      "location" : "Unspecified"
+      "location" : "External"
     } ]
   },
   "documentation" : {
