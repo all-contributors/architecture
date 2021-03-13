@@ -148,31 +148,31 @@ workspace "All Contributors" "All Contributors Software Architecture." {
 
         component cli "CLI_components" {
           include *
-          
           autoLayout
         }
 
         component website "Website_components" {
           include *
-          
           autoLayout
         }
 
         component app "App_components" {
           include *
-          
           autoLayout
         }
 
         component lib "Lib_components" {
           include *
-          
           autoLayout
         }
 
         component acl "AC-Learn_components" {
           include *
-          
+          autoLayout
+        }
+
+        component spec "Spec_components" {
+          include *
           autoLayout
         }
 
