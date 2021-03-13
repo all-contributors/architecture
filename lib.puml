@@ -1,4 +1,4 @@
-@startuml App_Component_Diagram
+@startuml Lib_Component_Diagram
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 !define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
 !include DEV2/nodejs.puml
@@ -11,6 +11,5 @@ title [Component Diagram] Library container
 Container_Boundary(lib, "Library") {
   
 }
-
 
 @enduml
