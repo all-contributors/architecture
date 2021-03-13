@@ -12,472 +12,472 @@
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "1",
+      "id" : "user",
       "tags" : "Element,Person",
       "name" : "User",
       "description" : "A user of our software system.",
       "relationships" : [ {
         "id" : "52",
         "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "3",
+        "sourceId" : "user",
+        "destinationId" : "ac",
         "description" : "interacts with"
       }, {
         "id" : "56",
         "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "12",
+        "sourceId" : "user",
+        "destinationId" : "website",
         "description" : "visits/reads",
         "technology" : "Web"
       }, {
         "id" : "57",
         "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "15",
+        "sourceId" : "user",
+        "destinationId" : "app",
         "description" : "instructs",
         "technology" : "GitHub comments via GitHub Events"
       }, {
         "id" : "55",
         "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "4",
+        "sourceId" : "user",
+        "destinationId" : "cli",
         "description" : "uses",
         "technology" : "Any terminal"
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "2",
+      "id" : "devs",
       "tags" : "Element,Person",
       "name" : "All Contributors team",
       "description" : "A core member of All Contributors.",
       "relationships" : [ {
         "id" : "58",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "4",
+        "sourceId" : "devs",
+        "destinationId" : "cli",
         "description" : "maintain"
       }, {
         "id" : "60",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "15",
+        "sourceId" : "devs",
+        "destinationId" : "app",
         "description" : "maintain"
       }, {
         "id" : "62",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "19",
+        "sourceId" : "devs",
+        "destinationId" : "spec",
         "description" : "maintain"
       }, {
         "id" : "59",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "12",
+        "sourceId" : "devs",
+        "destinationId" : "website",
         "description" : "maintain"
       }, {
         "id" : "61",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "18",
+        "sourceId" : "devs",
+        "destinationId" : "lib",
         "description" : "maintain"
       }, {
         "id" : "54",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "25",
+        "sourceId" : "devs",
+        "destinationId" : "vercel",
         "description" : "monitor"
       }, {
         "id" : "53",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "3",
+        "sourceId" : "devs",
+        "destinationId" : "ac",
         "description" : "maintain"
       }, {
         "id" : "63",
         "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "20",
+        "sourceId" : "devs",
+        "destinationId" : "acl",
         "description" : "maintain"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "38",
+      "id" : "tvtsplit",
       "tags" : "Element,Software System,External Container",
       "name" : "TVT Split",
       "description" : "Dataset splitter into train/validation/test sets",
       "location" : "Unspecified"
     }, {
-      "id" : "35",
+      "id" : "inquirer",
       "tags" : "Element,Software System,External Container",
       "name" : "Inquirer",
       "description" : "Collection of common interactive CLIs.",
       "location" : "Unspecified"
     }, {
-      "id" : "31",
+      "id" : "probot",
       "tags" : "Element,Software System,External Container",
       "name" : "Probot",
       "description" : "GitHub App framework.",
       "location" : "Unspecified"
     }, {
-      "id" : "25",
+      "id" : "vercel",
       "tags" : "Element,Software System,External System",
       "name" : "Vercel",
       "description" : "Cloud platform for static sites and serverless functions.",
       "location" : "Unspecified"
     }, {
-      "id" : "28",
+      "id" : "uptimer",
       "tags" : "Element,Software System,External System",
       "name" : "UptimeRobot",
       "description" : "Monitoring.",
       "relationships" : [ {
         "id" : "121",
         "tags" : "Relationship",
-        "sourceId" : "28",
-        "destinationId" : "25",
+        "sourceId" : "uptimer",
+        "destinationId" : "vercel",
         "description" : "monitors",
         "technology" : "HTTPS"
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "36",
+      "id" : "clui",
       "tags" : "Element,Software System,External Container",
       "name" : "CLUI",
       "description" : "CL UI toolkit for Node.js.",
       "location" : "Unspecified"
     }, {
-      "id" : "39",
+      "id" : "nclr",
       "tags" : "Element,Software System,External Container",
       "name" : "NClr",
       "description" : "Coloured logs (with symbols)",
       "location" : "Unspecified"
     }, {
-      "id" : "26",
+      "id" : "netlify",
       "tags" : "Element,Software System,External System",
       "name" : "Netlify",
       "description" : "Cloud-based hosting platform for static sites, web apps and serverless functions.",
       "location" : "Unspecified"
     }, {
-      "id" : "37",
+      "id" : "limdu",
       "tags" : "Element,Software System,External Container",
       "name" : "Limdu.js",
       "description" : "ML framework for Node.js",
       "location" : "Unspecified"
     }, {
-      "id" : "3",
+      "id" : "ac",
       "tags" : "Element,Software System",
       "name" : "All Contributors",
       "description" : "System for recognizing contributors to an open source project in a way that rewards each and every contribution.",
       "relationships" : [ {
         "id" : "73",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "31",
+        "sourceId" : "ac",
+        "destinationId" : "probot",
         "description" : "implements",
         "technology" : "CJS import"
       }, {
         "id" : "81",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "26",
+        "sourceId" : "ac",
+        "destinationId" : "netlify",
         "description" : "hosted on",
         "technology" : "??"
       }, {
         "id" : "84",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "30",
+        "sourceId" : "ac",
+        "destinationId" : "crowdin",
         "description" : "gets translations from",
         "technology" : "Java/Yarn"
       }, {
         "id" : "92",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "33",
+        "sourceId" : "ac",
+        "destinationId" : "chalk",
         "description" : "depends on",
         "technology" : "CJS import"
       }, {
         "id" : "107",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "37",
+        "sourceId" : "ac",
+        "destinationId" : "limdu",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "95",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "34",
+        "sourceId" : "ac",
+        "destinationId" : "yargs",
         "description" : "depends on",
         "technology" : "CJS import"
       }, {
         "id" : "70",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "27",
+        "sourceId" : "ac",
+        "destinationId" : "gh",
         "description" : "listens to",
         "technology" : "webhooks"
       }, {
         "id" : "113",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "39",
+        "sourceId" : "ac",
+        "destinationId" : "nclr",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "67",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "25",
+        "sourceId" : "ac",
+        "destinationId" : "vercel",
         "description" : "serviced by",
         "technology" : "??"
       }, {
         "id" : "104",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "40",
+        "sourceId" : "ac",
+        "destinationId" : "nyc",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "98",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "35",
+        "sourceId" : "ac",
+        "destinationId" : "inquirer",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "110",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "38",
+        "sourceId" : "ac",
+        "destinationId" : "tvtsplit",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "76",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "32",
+        "sourceId" : "ac",
+        "destinationId" : "compromise",
         "description" : "uses",
         "technology" : "CJS import"
       }, {
         "id" : "102",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "36",
+        "sourceId" : "ac",
+        "destinationId" : "clui",
         "description" : "uses",
         "technology" : "CJS import"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "19",
+        "id" : "spec",
         "tags" : "Element,Container",
         "name" : "Specification",
         "description" : "Contains the emoji key, synonyms and aliases",
         "technology" : "JSON"
       }, {
-        "id" : "4",
+        "id" : "cli",
         "tags" : "Element,Container",
         "name" : "CLI",
         "description" : "all-contributors-cli",
         "relationships" : [ {
           "id" : "86",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "18",
+          "sourceId" : "cli",
+          "destinationId" : "lib",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "91",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "33",
+          "sourceId" : "cli",
+          "destinationId" : "chalk",
           "description" : "depends on",
           "technology" : "CJS import"
         }, {
           "id" : "101",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "36",
+          "sourceId" : "cli",
+          "destinationId" : "clui",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "94",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "34",
+          "sourceId" : "cli",
+          "destinationId" : "yargs",
           "description" : "depends on",
           "technology" : "CJS import"
         }, {
           "id" : "97",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "35",
+          "sourceId" : "cli",
+          "destinationId" : "inquirer",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "103",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "40",
+          "sourceId" : "cli",
+          "destinationId" : "nyc",
           "description" : "uses",
           "technology" : "CJS import"
         } ],
         "technology" : "Node.js",
         "components" : [ {
-          "id" : "9",
+          "id" : "discover",
           "tags" : "Element,Component",
           "name" : "Discover",
           "description" : "Contributor discovery",
           "relationships" : [ {
             "id" : "89",
             "tags" : "Relationship",
-            "sourceId" : "9",
-            "destinationId" : "18",
+            "sourceId" : "discover",
+            "destinationId" : "lib",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "100",
             "tags" : "Relationship",
-            "sourceId" : "9",
-            "destinationId" : "36",
+            "sourceId" : "discover",
+            "destinationId" : "clui",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "10",
+          "id" : "repo",
           "tags" : "Element,Component",
           "name" : "Repo",
           "description" : "GitHub/GitLab adapters",
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "8",
+          "id" : "generator",
           "tags" : "Element,Component",
           "name" : "Generator",
           "description" : "Table generation",
           "relationships" : [ {
             "id" : "88",
             "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "18",
+            "sourceId" : "generator",
+            "destinationId" : "lib",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "7",
+          "id" : "contributors",
           "tags" : "Element,Component",
           "name" : "Contributors",
           "description" : "Add/update contributors",
           "relationships" : [ {
             "id" : "99",
             "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "35",
+            "sourceId" : "contributors",
+            "destinationId" : "inquirer",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "11",
+          "id" : "utils",
           "tags" : "Element,Component",
           "name" : "Utils",
           "description" : "Utilities",
           "relationships" : [ {
             "id" : "85",
             "tags" : "Relationship",
-            "sourceId" : "11",
-            "destinationId" : "18",
+            "sourceId" : "utils",
+            "destinationId" : "lib",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "6",
+          "id" : "init",
           "tags" : "Element,Component",
           "name" : "Init",
           "description" : "Initialise the config",
           "relationships" : [ {
             "id" : "87",
             "tags" : "Relationship",
-            "sourceId" : "6",
-            "destinationId" : "18",
+            "sourceId" : "init",
+            "destinationId" : "lib",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "96",
             "tags" : "Relationship",
-            "sourceId" : "6",
-            "destinationId" : "35",
+            "sourceId" : "init",
+            "destinationId" : "inquirer",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "5",
+          "id" : "clinterface",
           "tags" : "Element,Component",
           "name" : "CL Interface",
           "description" : "Command Line Interface executable",
           "relationships" : [ {
             "id" : "93",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "34",
+            "sourceId" : "clinterface",
+            "destinationId" : "yargs",
             "description" : "depends on",
             "technology" : "CJS import"
           }, {
             "id" : "45",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "10",
+            "sourceId" : "clinterface",
+            "destinationId" : "repo",
             "description" : "depends on",
             "technology" : "CJS import"
           }, {
             "id" : "42",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "7",
+            "sourceId" : "clinterface",
+            "destinationId" : "contributors",
             "description" : "calls",
             "technology" : "`add` command"
           }, {
             "id" : "43",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "8",
+            "sourceId" : "clinterface",
+            "destinationId" : "generator",
             "description" : "calls",
             "technology" : "`generate` command"
           }, {
             "id" : "90",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "33",
+            "sourceId" : "clinterface",
+            "destinationId" : "chalk",
             "description" : "depends on",
             "technology" : "CJS import"
           }, {
             "id" : "46",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "11",
+            "sourceId" : "clinterface",
+            "destinationId" : "utils",
             "description" : "depends on",
             "technology" : "CJS import"
           }, {
             "id" : "44",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "9",
+            "sourceId" : "clinterface",
+            "destinationId" : "discover",
             "description" : "calls",
             "technology" : "`fetch` command"
           }, {
             "id" : "41",
             "tags" : "Relationship",
-            "sourceId" : "5",
-            "destinationId" : "6",
+            "sourceId" : "clinterface",
+            "destinationId" : "init",
             "description" : "calls",
             "technology" : "`init` command"
           } ],
@@ -485,70 +485,70 @@
           "size" : 0
         } ]
       }, {
-        "id" : "12",
+        "id" : "website",
         "tags" : "Element,Container,Web Browser",
         "name" : "Website",
         "description" : "Documentation",
         "relationships" : [ {
           "id" : "78",
           "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "19",
+          "sourceId" : "website",
+          "destinationId" : "spec",
           "description" : "reads",
           "technology" : "??"
         }, {
           "id" : "80",
           "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "26",
+          "sourceId" : "website",
+          "destinationId" : "netlify",
           "description" : "hosted on",
           "technology" : "??"
         }, {
           "id" : "83",
           "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "30",
+          "sourceId" : "website",
+          "destinationId" : "crowdin",
           "description" : "gets translations from",
           "technology" : "Java/Yarn"
         } ],
         "technology" : "Docusaurus",
         "components" : [ {
-          "id" : "14",
+          "id" : "site",
           "tags" : "Element,Component",
           "name" : "Website",
           "description" : "Documentation",
           "relationships" : [ {
             "id" : "77",
             "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "19",
+            "sourceId" : "site",
+            "destinationId" : "spec",
             "description" : "reads",
             "technology" : "??"
           }, {
             "id" : "79",
             "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "26",
+            "sourceId" : "site",
+            "destinationId" : "netlify",
             "description" : "hosted on",
             "technology" : "??"
           }, {
             "id" : "47",
             "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "13",
+            "sourceId" : "site",
+            "destinationId" : "docs",
             "description" : "integrates"
           }, {
             "id" : "82",
             "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "30",
+            "sourceId" : "site",
+            "destinationId" : "crowdin",
             "description" : "gets translations from",
             "technology" : "Java/Yarn"
           } ],
           "technology" : "Docusaurus",
           "size" : 0
         }, {
-          "id" : "13",
+          "id" : "docs",
           "tags" : "Element,Component",
           "name" : "Docs",
           "description" : "Specification/CLI/Bot documentation",
@@ -556,93 +556,93 @@
           "size" : 0
         } ]
       }, {
-        "id" : "15",
+        "id" : "app",
         "tags" : "Element,Container",
         "name" : "App",
         "description" : "GitHub app-driven bot",
         "relationships" : [ {
           "id" : "69",
           "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "27",
+          "sourceId" : "app",
+          "destinationId" : "gh",
           "description" : "listens to",
           "technology" : "webhooks"
         }, {
           "id" : "65",
           "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "18",
+          "sourceId" : "app",
+          "destinationId" : "lib",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "66",
           "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "25",
+          "sourceId" : "app",
+          "destinationId" : "vercel",
           "description" : "serviced by",
           "technology" : "??"
         }, {
           "id" : "75",
           "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "32",
+          "sourceId" : "app",
+          "destinationId" : "compromise",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "72",
           "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "31",
+          "sourceId" : "app",
+          "destinationId" : "probot",
           "description" : "implements",
           "technology" : "CJS import"
         } ],
         "technology" : "Node.js",
         "components" : [ {
-          "id" : "16",
+          "id" : "api",
           "tags" : "Element,Component",
           "name" : "API",
           "description" : "Source code and GH Webhooks",
           "relationships" : [ {
             "id" : "48",
             "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "17",
+            "sourceId" : "api",
+            "destinationId" : "applib",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "68",
             "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "27",
+            "sourceId" : "api",
+            "destinationId" : "gh",
             "description" : "listens to",
             "technology" : "webhooks"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "17",
+          "id" : "applib",
           "tags" : "Element,Component",
           "name" : "Lib",
           "description" : "Library code for the bot",
           "relationships" : [ {
             "id" : "71",
             "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "31",
+            "sourceId" : "applib",
+            "destinationId" : "probot",
             "description" : "implements",
             "technology" : "CJS import"
           }, {
             "id" : "74",
             "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "32",
+            "sourceId" : "applib",
+            "destinationId" : "compromise",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "64",
             "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "18",
+            "sourceId" : "applib",
+            "destinationId" : "lib",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
@@ -650,127 +650,127 @@
           "size" : 0
         } ]
       }, {
-        "id" : "20",
+        "id" : "acl",
         "tags" : "Element,Container",
         "name" : "AC-Learn",
         "description" : "Multi-class label classifier",
         "relationships" : [ {
           "id" : "109",
           "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "38",
+          "sourceId" : "acl",
+          "destinationId" : "tvtsplit",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "106",
           "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "37",
+          "sourceId" : "acl",
+          "destinationId" : "limdu",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "117",
           "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "19",
+          "sourceId" : "acl",
+          "destinationId" : "spec",
           "description" : "reads",
           "technology" : "CJS import"
         }, {
           "id" : "115",
           "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "36",
+          "sourceId" : "acl",
+          "destinationId" : "clui",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "112",
           "tags" : "Relationship",
-          "sourceId" : "20",
-          "destinationId" : "39",
+          "sourceId" : "acl",
+          "destinationId" : "nclr",
           "description" : "uses",
           "technology" : "CJS import"
         } ],
         "technology" : "Node.js",
         "components" : [ {
-          "id" : "22",
+          "id" : "learner",
           "tags" : "Element,Component",
           "name" : "Learner",
           "description" : "DL model wrapper",
           "relationships" : [ {
             "id" : "108",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "38",
+            "sourceId" : "learner",
+            "destinationId" : "tvtsplit",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "50",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "23",
+            "sourceId" : "learner",
+            "destinationId" : "labels",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "51",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "24",
+            "sourceId" : "learner",
+            "destinationId" : "cm",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "105",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "37",
+            "sourceId" : "learner",
+            "destinationId" : "limdu",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "111",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "39",
+            "sourceId" : "learner",
+            "destinationId" : "nclr",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "114",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "36",
+            "sourceId" : "learner",
+            "destinationId" : "clui",
             "description" : "uses",
             "technology" : "CJS import"
           }, {
             "id" : "116",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "19",
+            "sourceId" : "learner",
+            "destinationId" : "spec",
             "description" : "reads",
             "technology" : "CJS import"
           }, {
             "id" : "49",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "21",
+            "sourceId" : "learner",
+            "destinationId" : "classifier",
             "description" : "uses",
             "technology" : "CJS import"
           } ],
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "23",
+          "id" : "labels",
           "tags" : "Element,Component",
           "name" : "Labels",
           "description" : "Label dataset aggregation",
           "technology" : "Node.js/JSON",
           "size" : 0
         }, {
-          "id" : "21",
+          "id" : "classifier",
           "tags" : "Element,Component",
           "name" : "Classifier",
           "description" : "Classification builder",
           "technology" : "Node.js",
           "size" : 0
         }, {
-          "id" : "24",
+          "id" : "cm",
           "tags" : "Element,Component",
           "name" : "Confusion Matrix",
           "description" : "Multi-class focused confusion matrix builder",
@@ -778,80 +778,80 @@
           "size" : 0
         } ]
       }, {
-        "id" : "18",
+        "id" : "lib",
         "tags" : "Element,Container",
         "name" : "Library",
         "description" : "Reads/writes configuration and updates markdown text",
         "relationships" : [ {
           "id" : "118",
           "tags" : "Relationship",
-          "sourceId" : "18",
-          "destinationId" : "22",
+          "sourceId" : "lib",
+          "destinationId" : "learner",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "119",
           "tags" : "Relationship",
-          "sourceId" : "18",
-          "destinationId" : "20",
+          "sourceId" : "lib",
+          "destinationId" : "acl",
           "description" : "uses",
           "technology" : "CJS import"
         }, {
           "id" : "120",
           "tags" : "Relationship",
-          "sourceId" : "18",
-          "destinationId" : "19",
+          "sourceId" : "lib",
+          "destinationId" : "spec",
           "description" : "reads",
           "technology" : "CJS import"
         } ],
         "technology" : "Node.js"
       } ]
     }, {
-      "id" : "27",
+      "id" : "gh",
       "tags" : "Element,Software System,External System",
       "name" : "GitHub",
       "description" : "Code Hosting and VCS",
       "location" : "Unspecified"
     }, {
-      "id" : "30",
+      "id" : "crowdin",
       "tags" : "Element,Software System,External System",
       "name" : "Crowdin",
       "description" : "Cloud-based localization management solution.",
       "location" : "Unspecified"
     }, {
-      "id" : "40",
+      "id" : "nyc",
       "tags" : "Element,Software System,External Container",
       "name" : "Name Your Contributors",
       "description" : "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.",
       "location" : "Unspecified"
     }, {
-      "id" : "29",
+      "id" : "logflare",
       "tags" : "Element,Software System,External System",
       "name" : "Logflare",
       "description" : "Log aggregation.",
       "relationships" : [ {
         "id" : "122",
         "tags" : "Relationship",
-        "sourceId" : "29",
-        "destinationId" : "25",
+        "sourceId" : "logflare",
+        "destinationId" : "vercel",
         "description" : "listens to",
         "technology" : "HTTPS"
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "32",
+      "id" : "compromise",
       "tags" : "Element,Software System,External Container",
       "name" : "Compromise",
       "description" : "NLP package.",
       "location" : "Unspecified"
     }, {
-      "id" : "34",
+      "id" : "yargs",
       "tags" : "Element,Software System,External Container",
       "name" : "Yargs",
       "description" : "CLI argument parser and help section generator",
       "location" : "Unspecified"
     }, {
-      "id" : "33",
+      "id" : "chalk",
       "tags" : "Element,Software System,External Container",
       "name" : "Chalk",
       "description" : "Terminal string styler.",
@@ -879,79 +879,79 @@
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
-        "id" : "33",
+        "id" : "chalk",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
+        "id" : "yargs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "inquirer",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "25",
+        "id" : "vercel",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "36",
+        "id" : "clui",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "26",
+        "id" : "netlify",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "37",
+        "id" : "limdu",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "27",
+        "id" : "gh",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "38",
+        "id" : "tvtsplit",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "28",
+        "id" : "uptimer",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "39",
+        "id" : "nclr",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "29",
+        "id" : "logflare",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "1",
+        "id" : "user",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "2",
+        "id" : "devs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "3",
+        "id" : "ac",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "40",
+        "id" : "nyc",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "30",
+        "id" : "crowdin",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "31",
+        "id" : "probot",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "32",
+        "id" : "compromise",
         "x" : 0,
         "y" : 0
       } ],
@@ -996,7 +996,7 @@
       } ]
     } ],
     "systemContextViews" : [ {
-      "softwareSystemId" : "3",
+      "softwareSystemId" : "ac",
       "key" : "SystemContext",
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -1008,71 +1008,71 @@
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
-        "id" : "33",
+        "id" : "chalk",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
+        "id" : "yargs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "inquirer",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "25",
+        "id" : "vercel",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "36",
+        "id" : "clui",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "26",
+        "id" : "netlify",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "37",
+        "id" : "limdu",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "27",
+        "id" : "gh",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "38",
+        "id" : "tvtsplit",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "39",
+        "id" : "nclr",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "1",
+        "id" : "user",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "2",
+        "id" : "devs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "3",
+        "id" : "ac",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "40",
+        "id" : "nyc",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "30",
+        "id" : "crowdin",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "31",
+        "id" : "probot",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "32",
+        "id" : "compromise",
         "x" : 0,
         "y" : 0
       } ],
@@ -1113,7 +1113,7 @@
       } ]
     } ],
     "containerViews" : [ {
-      "softwareSystemId" : "3",
+      "softwareSystemId" : "ac",
       "key" : "AC_Containers",
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -1125,91 +1125,91 @@
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "33",
+        "id" : "chalk",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "12",
+        "id" : "website",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
+        "id" : "yargs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "inquirer",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "25",
+        "id" : "vercel",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "36",
+        "id" : "clui",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "15",
+        "id" : "app",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "26",
+        "id" : "netlify",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "37",
+        "id" : "limdu",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "27",
+        "id" : "gh",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "38",
+        "id" : "tvtsplit",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "39",
+        "id" : "nclr",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "18",
+        "id" : "lib",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "19",
+        "id" : "spec",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "1",
+        "id" : "user",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "2",
+        "id" : "devs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "4",
+        "id" : "cli",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "40",
+        "id" : "nyc",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "30",
+        "id" : "crowdin",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "31",
+        "id" : "probot",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "20",
+        "id" : "acl",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "32",
+        "id" : "compromise",
         "x" : 0,
         "y" : 0
       } ],
@@ -1287,26 +1287,26 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "containerId" : "12",
+      "containerId" : "website",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "13",
+        "id" : "docs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "14",
+        "id" : "site",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "26",
+        "id" : "netlify",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "19",
+        "id" : "spec",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "30",
+        "id" : "crowdin",
         "x" : 0,
         "y" : 0
       } ],
@@ -1329,30 +1329,30 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "containerId" : "15",
+      "containerId" : "app",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "16",
+        "id" : "api",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "27",
+        "id" : "gh",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "17",
+        "id" : "applib",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "18",
+        "id" : "lib",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "31",
+        "id" : "probot",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "32",
+        "id" : "compromise",
         "x" : 0,
         "y" : 0
       } ],
@@ -1377,46 +1377,46 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "containerId" : "20",
+      "containerId" : "acl",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "22",
+        "id" : "learner",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "23",
+        "id" : "labels",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "24",
+        "id" : "cm",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "36",
+        "id" : "clui",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "37",
+        "id" : "limdu",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "38",
+        "id" : "tvtsplit",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "39",
+        "id" : "nclr",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "18",
+        "id" : "lib",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "19",
+        "id" : "spec",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "21",
+        "id" : "classifier",
         "x" : 0,
         "y" : 0
       } ],
@@ -1451,54 +1451,54 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "containerId" : "4",
+      "containerId" : "cli",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "11",
+        "id" : "utils",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "33",
+        "id" : "chalk",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
+        "id" : "yargs",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "inquirer",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "36",
+        "id" : "clui",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "18",
+        "id" : "lib",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "5",
+        "id" : "clinterface",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "6",
+        "id" : "init",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "7",
+        "id" : "contributors",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "8",
+        "id" : "generator",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "9",
+        "id" : "discover",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "10",
+        "id" : "repo",
         "x" : 0,
         "y" : 0
       } ],
@@ -1543,7 +1543,7 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "containerId" : "18",
+      "containerId" : "lib",
       "externalContainerBoundariesVisible" : true
     } ],
     "configuration" : {
