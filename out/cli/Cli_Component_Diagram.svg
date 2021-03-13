@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="894px" preserveAspectRatio="none" style="width:1391px;height:894px;" version="1.1" viewBox="0 0 1391 894" width="1391px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="400" x="489.25" y="16.708">[Component Diagram] CLI container (Idea 1)</text><!--MD5=[e3a89b72019d8d69b73b0a9ebb84eda6]
+cluster cli--><rect fill="#FFFFFF" height="446" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1154" x="7" y="27.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="28" x="570" y="44.8047">CLI</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="79" x="544.5" y="59.7168">[Container]</text><!--MD5=[3bfb77482ea71c0a7c33c2d622d1ab8d]
+entity clinterface--><rect fill="#85BBF0" height="149.4844" style="stroke:#78A8D8;stroke-width:1.5;" width="204" x="634" y="78.9531"/><image height="48" width="48" x="712" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="88.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="110" x="681" y="151.8047">CL Interface</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="709" y="166.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="738" y="182.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="648" y="198.8389">Command Line Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="696.5" y="215.1357">executable</text><!--MD5=[f9852669ad780b59c32dc4d0b0d8cf7b]
+entity contributors--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="197" x="554.5" y="324.9531"/><image height="48" width="48" x="629" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="597.5" y="397.8047">Contributors</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="626" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="655" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="568.5" y="444.8389">Add/update contributors</text><!--MD5=[9d4bbc05876d853a1d8c41b91eb8c149]
+entity discover--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="177" x="968.5" y="324.9531"/><image height="48" width="48" x="1033" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1018.5" y="397.8047">Discover</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="1030" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1059" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="982.5" y="444.8389">Contributor discovery</text><!--MD5=[6175df549c38f077274cc22120bef61f]
+entity generator--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="146" x="787" y="324.9531"/><image height="48" width="48" x="836" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="91" x="814.5" y="397.8047">Generator</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="833" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="862" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="801" y="444.8389">Table generation</text><!--MD5=[51c034416ef3849be90743176de816fb]
+entity init--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="158" x="23" y="324.9531"/><image height="48" width="48" x="78" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="29" x="87.5" y="397.8047">Init</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="75" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="104" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="37" y="444.8389">Initialise the config</text><!--MD5=[ae38f3df50bbf8acf027574e6a8bac37]
+entity repo--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="191" x="216.5" y="324.9531"/><image height="48" width="48" x="288" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="45" x="289.5" y="397.8047">Repo</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="285" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="314" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="230.5" y="444.8389">GitHub/GitLab adapters</text><!--MD5=[815e17c207bbf712f7f26918c1feb6f8]
+entity utils--><rect fill="#85BBF0" height="133.1875" style="stroke:#78A8D8;stroke-width:1.5;" width="76" x="443" y="324.9531"/><image height="48" width="48" x="457" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACf0lEQVR42s2ZL05EMRDGaxEkBEcwCIIjIQjs4hCYleAIwWEgwW6CwaBQaBIOAB7DETgCR+AI/JImk8m0r+32tW+3qdm+dvp1+s2fzrqnr7+16m68iMvF28n5Ff36+XPFgG5fv3cPjpxq/GRwBYAWH7+Hs7kbaHxiwnSAZhd3BgEj4eDZzWN3QLBkY3NrSBmh2rZ39pYllmtOFwbBoWfuH58+vP80A8S5sSC9AUqa379kTc/oEiENALGxYUahXH8SQ6ySk7gEXcZoXjpLWFjuGlyJiApulhwv6hosoAq6lHccgSFAKNwl0MCAav9W7lGhfxwQU0fSpS7msFccEJOEdBNEdQ4sBI0DgndZQID2gT00Ex/zWQvtfGcnbgeWRO9dADGzHpCQTJMxdM1hC+NaL0AiN9swkSkAaY+FGthGx1qmaeVpQ+kFKOFRBJYENa2k7oASrlwimrbw7oBYNYTJ3x1d22YvQMa5e7+CtaMVHEEiiPYCxOlN4hY2Jkxn9pI2ZWGx8RRXZrjClnzivri1EKLeuwsghHq2JpICxOrwLsTvAkh+Gi8cSbsCd9UFkDgYE7ETgCT76QJIMpZ08q9TfbncXqQ26R++mDkgwM49tfVjSIPuaGXmRTDUTGbY1+xhRgIWn0ziXASoJIVN+yEvhIOxPRMKQ8dgCluS5GcBtUzyo88gI0ikhFfQ/hkUrf3ohyIrZbyuTBbWkDIPxaGntEcWDUnldchEYamy2JDNVpvUIV32ZFpbQCxnT11hyZU/NJd654d1hWwAri96Ag4GDNVoRhaW3MiSit6sSWGpRkPwwJgM1xFm+1OUhRP1w1UWzqvrhxP9+QJL1uXPlx79H9ggfi8YhBSsAAAAAElFTkSuQmCC" y="334.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="39" x="461.5" y="397.8047">Utils</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="454" y="412.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="483" y="428.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="457" y="444.8389">Utilities</text><!--MD5=[3422ac39ab4b1519bcf537fd476080e9]
+entity yargs--><rect fill="#CCCCCC" height="149.4844" style="stroke:#BFBFBF;stroke-width:1.5;" width="205" x="1180.5" y="316.9531"/><image height="48" width="48" x="1259" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACYUlEQVR42s2ZbbXCMAyGq2AKMDAFGEDBVTADKMAAClCAARRg4Iq6z6Hn5uSkXVu6pZB/bF3yNn3z0RB+v0zCdhXX6/XnJbfb7cOA7vf7PM9BCT95+AFAz+fzdDqFFeEVC8YBWpbFIFheYh6ez2d3QLBkmqY1Z6RuOxwO7xIr7E4XHoJDrzwej4/HYzdA7JsI0gZw0uVyqYae8SVKdgCEYcOMRr1xJ4ZYLTsJBbps8bwIn/Bhe2oILSo6uNmyvWxqsIA66NIuJAJDgFR5KKCBAd35rT2jQv88IJZupEtfzcFWHhCLhHQDqjobFoLmAcG7KiBAx8Kehkms+Xw7/QuWOB1Ykj13AcTKfkBCMk3GNDWnktY1L0CityqEyAhAOmPhBszoWssy7TwdKF6AChlFYElR005yB1RI5VLRdIS7A+KrNUzx7BAdm16ATHKPeYVoxyskgkIR9QLE7k3jlgoLxoW9tE1VWBgecWSGK5jkFefFqaUQtW0XQCiNbC00BajV5V2I7wJIfposnGm7knTlAkgSjKnYBUDS/bgAko6l3PzrVl8O14vUpv0jF7MGBMR5pLa+DGnQjlFmbgRrYjpD37CHGQVYvDKNcxOglha2nIeiEjaGeRY0lo7VFralya8C2rPJz16DjCLRkh7B/teg7OxHXxT5Up73jcnSGVLlorh2lY7IsiWpfQ5ZGCx1Dhuq3eouc8hQ3Zn2FhDb2dM3WGqdoOnrRN9coVqA+4eegIMBazOajYOltwGZrWtjuwyWejwED0zIcBxptz9iLFyYH35ycN49Pxz05wss+ZY/XzzkD4co1ucusdGwAAAAAElFTkSuQmCC" y="326.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1258" y="389.8047">Yargs</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="1256" y="404.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1285" y="420.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="1194.5" y="436.8389">CLI argument parser and</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="1202.5" y="453.1357">help section generator</text><!--MD5=[615ad5ae550da5648017cdb20aa0d703]
+entity chalk--><rect fill="#CCCCCC" height="133.1875" style="stroke:#BFBFBF;stroke-width:1.5;" width="175" x="1177.5" y="86.9531"/><image height="48" width="48" x="1241" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACYUlEQVR42s2ZbbXCMAyGq2AKMDAFGEDBVTADKMAAClCAARRg4Iq6z6Hn5uSkXVu6pZB/bF3yNn3z0RB+v0zCdhXX6/XnJbfb7cOA7vf7PM9BCT95+AFAz+fzdDqFFeEVC8YBWpbFIFheYh6ez2d3QLBkmqY1Z6RuOxwO7xIr7E4XHoJDrzwej4/HYzdA7JsI0gZw0uVyqYae8SVKdgCEYcOMRr1xJ4ZYLTsJBbps8bwIn/Bhe2oILSo6uNmyvWxqsIA66NIuJAJDgFR5KKCBAd35rT2jQv88IJZupEtfzcFWHhCLhHQDqjobFoLmAcG7KiBAx8Kehkms+Xw7/QuWOB1Ykj13AcTKfkBCMk3GNDWnktY1L0CityqEyAhAOmPhBszoWssy7TwdKF6AChlFYElR005yB1RI5VLRdIS7A+KrNUzx7BAdm16ATHKPeYVoxyskgkIR9QLE7k3jlgoLxoW9tE1VWBgecWSGK5jkFefFqaUQtW0XQCiNbC00BajV5V2I7wJIfposnGm7knTlAkgSjKnYBUDS/bgAko6l3PzrVl8O14vUpv0jF7MGBMR5pLa+DGnQjlFmbgRrYjpD37CHGQVYvDKNcxOglha2nIeiEjaGeRY0lo7VFralya8C2rPJz16DjCLRkh7B/teg7OxHXxT5Up73jcnSGVLlorh2lY7IsiWpfQ5ZGCx1Dhuq3eouc8hQ3Zn2FhDb2dM3WGqdoOnrRN9coVqA+4eegIMBazOajYOltwGZrWtjuwyWejwED0zIcBxptz9iLFyYH35ycN49Pxz05wss+ZY/XzzkD4co1ucusdGwAAAAAElFTkSuQmCC" y="96.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="49" x="1240.5" y="159.8047">Chalk</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="1238" y="174.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1267" y="190.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1191.5" y="206.8389">Terminal string styler</text><!--MD5=[5f583d77159ad5314e7da3e52cc205ef]
+entity inquirer--><rect fill="#CCCCCC" height="149.4844" style="stroke:#BFBFBF;stroke-width:1.5;" width="184" x="159" y="554.9531"/><image height="48" width="48" x="227" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACYUlEQVR42s2ZbbXCMAyGq2AKMDAFGEDBVTADKMAAClCAARRg4Iq6z6Hn5uSkXVu6pZB/bF3yNn3z0RB+v0zCdhXX6/XnJbfb7cOA7vf7PM9BCT95+AFAz+fzdDqFFeEVC8YBWpbFIFheYh6ez2d3QLBkmqY1Z6RuOxwO7xIr7E4XHoJDrzwej4/HYzdA7JsI0gZw0uVyqYae8SVKdgCEYcOMRr1xJ4ZYLTsJBbps8bwIn/Bhe2oILSo6uNmyvWxqsIA66NIuJAJDgFR5KKCBAd35rT2jQv88IJZupEtfzcFWHhCLhHQDqjobFoLmAcG7KiBAx8Kehkms+Xw7/QuWOB1Ykj13AcTKfkBCMk3GNDWnktY1L0CityqEyAhAOmPhBszoWssy7TwdKF6AChlFYElR005yB1RI5VLRdIS7A+KrNUzx7BAdm16ATHKPeYVoxyskgkIR9QLE7k3jlgoLxoW9tE1VWBgecWSGK5jkFefFqaUQtW0XQCiNbC00BajV5V2I7wJIfposnGm7knTlAkgSjKnYBUDS/bgAko6l3PzrVl8O14vUpv0jF7MGBMR5pLa+DGnQjlFmbgRrYjpD37CHGQVYvDKNcxOglha2nIeiEjaGeRY0lo7VFralya8C2rPJz16DjCLRkh7B/teg7OxHXxT5Up73jcnSGVLlorh2lY7IsiWpfQ5ZGCx1Dhuq3eouc8hQ3Zn2FhDb2dM3WGqdoOnrRN9coVqA+4eegIMBazOajYOltwGZrWtjuwyWejwED0zIcBxptz9iLFyYH35ycN49Pxz05wss+ZY/XzzkD4co1ucusdGwAAAAAElFTkSuQmCC" y="564.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="71" x="215.5" y="627.8047">Inquirer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="224" y="642.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="253" y="658.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="173" y="674.8389">Collection of common</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="200" y="691.1357">interactive CLI</text><!--MD5=[f113cc454351dabc7f6d2b50cbf6c9f0]
+entity clui--><rect fill="#CCCCCC" height="149.4844" style="stroke:#BFBFBF;stroke-width:1.5;" width="184" x="965" y="554.9531"/><image height="48" width="48" x="1033" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACYUlEQVR42s2ZbbXCMAyGq2AKMDAFGEDBVTADKMAAClCAARRg4Iq6z6Hn5uSkXVu6pZB/bF3yNn3z0RB+v0zCdhXX6/XnJbfb7cOA7vf7PM9BCT95+AFAz+fzdDqFFeEVC8YBWpbFIFheYh6ez2d3QLBkmqY1Z6RuOxwO7xIr7E4XHoJDrzwej4/HYzdA7JsI0gZw0uVyqYae8SVKdgCEYcOMRr1xJ4ZYLTsJBbps8bwIn/Bhe2oILSo6uNmyvWxqsIA66NIuJAJDgFR5KKCBAd35rT2jQv88IJZupEtfzcFWHhCLhHQDqjobFoLmAcG7KiBAx8Kehkms+Xw7/QuWOB1Ykj13AcTKfkBCMk3GNDWnktY1L0CityqEyAhAOmPhBszoWssy7TwdKF6AChlFYElR005yB1RI5VLRdIS7A+KrNUzx7BAdm16ATHKPeYVoxyskgkIR9QLE7k3jlgoLxoW9tE1VWBgecWSGK5jkFefFqaUQtW0XQCiNbC00BajV5V2I7wJIfposnGm7knTlAkgSjKnYBUDS/bgAko6l3PzrVl8O14vUpv0jF7MGBMR5pLa+DGnQjlFmbgRrYjpD37CHGQVYvDKNcxOglha2nIeiEjaGeRY0lo7VFralya8C2rPJz16DjCLRkh7B/teg7OxHXxT5Up73jcnSGVLlorh2lY7IsiWpfQ5ZGCx1Dhuq3eouc8hQ3Zn2FhDb2dM3WGqdoOnrRN9coVqA+4eegIMBazOajYOltwGZrWtjuwyWejwED0zIcBxptz9iLFyYH35ycN49Pxz05wss+ZY/XzzkD4co1ucusdGwAAAAAElFTkSuQmCC" y="564.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="41" x="1036.5" y="627.8047">CLUI</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="1030" y="642.7168">[Node.js]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1059" y="658.542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="979" y="674.8389">Collection of common</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1006" y="691.1357">interactive CLI</text><!--MD5=[6381cab0df0ee6548e755581de88eda0]
+entity lib--><a href="../lib/Lib_Component_Diagram.svg" target="_top" title="../lib/Lib_Component_Diagram.svg" xlink:actuate="onRequest" xlink:href="../lib/Lib_Component_Diagram.svg" xlink:show="new" xlink:title="../lib/Lib_Component_Diagram.svg" xlink:type="simple"><rect fill="#438DD5" height="149.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="601" y="554.9531"/><image height="48" width="48" x="686" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACfElEQVR42s2ZP0pEMRDGczcP4AU8gBfwAB5AKyuxs7Cw3M5K7AQbC5EVhAVZWBAUFRRBWH8QGIZJXpLNe3lvQ5rNSyZfJt/8yazbOXrYqu76izicvczu3+gHl4uJAe2fP89X32vV+MngBIB2Tx6v5x/rjsYnJowH6OL21SBgJBw8vVk1BwRLPn/+upQRqm35/rspsdzgdGEQHHrm3eJr7+xpMECcGwvSG6Ck46tl1vSMLhEyACA2NswolOtPYohVchKXoEsfzUtnCQvLXYMrEVHBzZLjRV2DBVRBl/KOIzAECIW7BBoYUO3fyj0q9I8DYmpPutTFHPaKA2KSkG6EqM6BhaBxQPAuCwjQPrCHZuJjPmuhne/sxO3Akui9CyBm1gMSkmkyhq45bGFcawVI5GYbJjIGIO2xUAPb6FjLNK08bSitACU8isCSoKaV1BxQwpVLRNMW3hwQq7ow+buja9tsBcg4d+9XsHa0giNIBNFWgDi9SdzCxoTxzF7SpiwsNh7jygxX2JJP3Be3FkLUezcBhFDP1kRSgFgd3oX4TQDJT+OFwx66qyaAxMGYiJ0AJNlPE0CSsaSTf53qy+W2IrVJ//DFzAEBdu6prR9DGnRDKzMvgq5mMsO2Zg8zErD4ZBLnIkAlKWzaD3khHIztmVAYOjpT2JIkPwtoyCQ/+gwygkRKeAXDP4OitR/9UGSljNeVycIaUuah2PWU9siiIam8DpkoLFUWG7LZ6iB1SJc9mdYWEMvZU1dYcuUPzY3e+WFdIRuA64uegIMBXTWanoUl17OkojcbpLBUoyF4YEyG6wiz/THKwon64ZSF8+r64Uh/vsCSbfnzpUX/B0GC/mXF2NGaAAAAAElFTkSuQmCC" y="564.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="63" x="678.5" y="627.8047">Library</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="683" y="642.7168">[Node.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="712" y="658.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="615" y="674.8389">Reads/writes configuration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="611" y="691.1357">and updates markdown text</text></a><!--MD5=[0b9e7ad191bae7418ea9413ac9f2812e]
+link clinterface to chalk--><path d="M838.31,153.4531 C934.03,153.4531 1075.92,153.4531 1169.41,153.4531 " fill="none" id="clinterface-to-chalk" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1177.46,153.4531,1169.46,150.4531,1169.46,156.4531,1177.46,153.4531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="967.25" y="133.5918">depends on</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="970.75" y="147.5605">[CJS import]</text><!--MD5=[cc60e97faecee146a4ff664a2c9e8528]
+link clinterface to contributors--><path d="M674.32,228.1431 C668.62,237.7331 663.64,247.7731 660,257.9531 C653.46,276.2731 650.47,296.9231 649.4,316.3731 " fill="none" id="clinterface-to-contributors" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="649.06,324.6231,652.3858,316.753,646.3908,316.5068,649.06,324.6231" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="700.5" y="270.0918">calls</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="110" x="661" y="284.0605">[`add` command]</text><!--MD5=[0f33f19adf8312997102b8831f797aa9]
+link clinterface to discover--><path d="M838.22,190.0531 C877.81,206.8531 921.95,229.5431 957,257.9531 C977.8,274.8131 996.67,296.8831 1012.27,318.1631 " fill="none" id="clinterface-to-discover" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1017.01,324.7331,1014.7687,316.4883,1009.9001,319.995,1017.01,324.7331" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="1030.5" y="270.0918">calls</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="987" y="284.0605">[`fetch` command]</text><!--MD5=[ff7a1240abd5f6f6fe2fe8fef5f9080d]
+link clinterface to generator--><path d="M774.72,228.1531 C789.73,256.7031 806.85,289.3031 821.81,317.7631 " fill="none" id="clinterface-to-generator" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="825.56,324.9031,824.4824,316.4273,819.175,319.2258,825.56,324.9031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="862" y="270.0918">calls</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="141" x="807" y="284.0605">[`generate` command]</text><!--MD5=[ddff969122e064673af2dff74f48fe6a]
+link clinterface to init--><path d="M633.92,168.6631 C542.41,183.6531 405.76,211.6331 294,257.9531 C256.63,273.4431 219.18,297.0231 187.42,320.0131 " fill="none" id="clinterface-to-init" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="180.73,324.9031,188.9569,322.597,185.412,317.7561,180.73,324.9031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="332.5" y="270.0918">calls</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="295" y="284.0605">[`init` command]</text><!--MD5=[cda3e84e563f81a1415377ea9bdad050]
+link clinterface to repo--><path d="M633.83,179.3231 C576.2,196.1431 504.46,221.9331 447,257.9531 C420.56,274.5231 395.16,297.0531 373.65,318.8231 " fill="none" id="clinterface-to-repo" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="367.98,324.6331,375.7174,321.0093,371.4268,316.8152,367.98,324.6331" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="448" y="270.0918">depends on</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="451.5" y="284.0605">[CJS import]</text><!--MD5=[a31531d6d8bfec26a30f7797f591d4fa]
+link clinterface to utils--><path d="M633.9,204.0031 C608.65,219.1431 582.88,237.3231 562,257.9531 C544.51,275.2331 529.2,297.0131 516.74,317.9031 " fill="none" id="clinterface-to-utils" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="512.63,324.9431,519.2544,319.5471,514.0729,316.5218,512.63,324.9431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="563" y="270.0918">depends on</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="566.5" y="284.0605">[CJS import]</text><!--MD5=[b2f491e7f319ca28c32fed9c03afa0da]
+link clinterface to yargs--><path d="M838.27,171.0231 C916.68,186.3931 1026.02,213.6931 1114,257.9531 C1142.55,272.3131 1170.94,291.9231 1196.06,311.6431 " fill="none" id="clinterface-to-yargs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1202.38,316.6631,1197.9826,309.3376,1194.2501,314.0354,1202.38,316.6631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1160" y="270.0918">depends on</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1163.5" y="284.0605">[CJS import]</text><!--MD5=[2f5d83243b7bef0393dbab3542922e4c]
+link contributors to inquirer--><path d="M632.15,458.1431 C621.67,482.0631 606.68,507.4931 586,524.9531 C519.83,580.8231 423.74,606.5531 351.43,618.4031 " fill="none" id="contributors-to-inquirer" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="343.18,619.7031,351.5521,621.4086,350.6091,615.4832,343.18,619.7031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="633.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="612" y="522.0605">[CJS import]</text><!--MD5=[a3c556704a1419aa21269bdfe4b1f6c0]
+link discover to clui--><path d="M1057,458.1931 C1057,485.6231 1057,517.7631 1057,546.6931 " fill="none" id="discover-to-clui" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1057,554.7631,1060,546.7631,1054,546.7631,1057,554.7631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="1079.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1058" y="522.0605">[CJS import]</text><!--MD5=[be9882c12885b0b66dfdf3f61c4f9a25]
+link discover to lib--><path d="M982.3,457.9731 C971.98,466.2931 961.36,474.4931 951,481.9531 C911.55,510.3331 866.46,538.7331 826.04,562.8731 " fill="none" id="discover-to-lib" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="819.07,567.0131,827.4786,565.4979,824.4089,560.3426,819.07,567.0131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="948.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="927" y="522.0605">[CJS import]</text><!--MD5=[85f6376c4e11e57aaffbd4b90a1d9491]
+link generator to lib--><path d="M818.22,458.1931 C800.56,485.9731 779.83,518.5931 761.26,547.8031 " fill="none" id="generator-to-lib" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="756.84,554.7631,763.6632,549.6207,758.5994,546.4022,756.84,554.7631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="816.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="795" y="522.0605">[CJS import]</text><!--MD5=[1da56434d7e78b8e480359e94d91f138]
+link init to inquirer--><path d="M143.5,458.1931 C161.04,485.9731 181.64,518.5931 200.08,547.8031 " fill="none" id="init-to-inquirer" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="204.47,554.7631,202.7312,546.3979,197.6595,549.6039,204.47,554.7631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="208.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="187" y="522.0605">[CJS import]</text><!--MD5=[45a6a8b11121e06aece53cf2be1f8a23]
+link init to lib--><path d="M163.41,458.1131 C174.51,467.2331 186.54,475.6231 199,481.9531 C227.68,496.5131 238.79,488.1931 270,495.9531 C380.78,523.4831 505.17,561.6331 593.36,589.9231 " fill="none" id="init-to-lib" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="600.97,592.3731,594.2689,587.0726,592.436,592.7858,600.97,592.3731" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="390.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="369" y="522.0605">[CJS import]</text><!--MD5=[2ba06fa6b6e50ac97baeb698c9b49b50]
+link utils to lib--><path d="M481.74,458.2231 C484.85,481.1831 491.74,505.9531 506,524.9531 C528,554.2631 560.64,575.8831 593.4,591.5631 " fill="none" id="utils-to-lib" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="600.83,595.0131,594.8387,588.9218,592.3107,594.3633,600.83,595.0131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="528.5" y="508.0918">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="507" y="522.0605">[CJS import]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="164" x="1205.5" y="717.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1211.5" y="737.4326">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1274.5" y="737.4326"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="740.7344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1215.5" y="753.7295">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="757.0313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1215.5" y="770.0264">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="773.3281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1215.5" y="786.3232">container</text><rect fill="#85BBF0" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="789.625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1215.5" y="802.6201">component</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="805.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1215.5" y="818.917">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="822.2188"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1215.5" y="835.2139">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="838.5156"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1215.5" y="851.5107">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke:none;stroke-width:1.0;" width="152" x="1211.5" y="854.8125"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1215.5" y="867.8076">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="724.4375" y2="724.4375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="740.7344" y2="740.7344"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="757.0313" y2="757.0313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="773.3281" y2="773.3281"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="789.625" y2="789.625"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="805.9219" y2="805.9219"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="822.2188" y2="822.2188"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="838.5156" y2="838.5156"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="854.8125" y2="854.8125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1363.5" y1="871.1094" y2="871.1094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1211.5" x2="1211.5" y1="724.4375" y2="871.1094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1363.5" x2="1363.5" y1="724.4375" y2="871.1094"/><!--MD5=[be0337edd69eab60b80e579d35952693]
+@startuml Cli_Component_Diagram
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/html5.puml
+!include DEV2/javascript.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] CLI container (Idea 1)
+
+' TODO Rework this ball of mud
+
+Component_Ext(yargs, "Yargs", "Node.js", "CLI argument parser and help section generator", "nodejs")
+Component_Ext(chalk, "Chalk", "Node.js", "Terminal string styler", "nodejs")
+Component_Ext(inquirer, "Inquirer", "Node.js", "Collection of common interactive CLI", "nodejs")
+Component_Ext(clui, "CLUI", "Node.js", "Collection of common interactive CLI", "nodejs")
+
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../lib/Lib_Component_Diagram.svg]]
+
+Container_Boundary(cli, "CLI") {
+  Component(clinterface, "CL Interface", "Node.js", "Command Line Interface executable", "nodejs")
+  Component(contributors, "Contributors", "Node.js", "Add/update contributors", "nodejs")
+  Component(discover, "Discover", "Node.js", "Contributor discovery", "nodejs")
+  Component(generator, "Generator", "Node.js", "Table generation", "nodejs")
+  Component(init, "Init", "Node.js", "Initialise the config", "nodejs")
+  Component(repo, "Repo", "Node.js", "GitHub/GitLab adapters", "nodejs")
+  Component(utils, "Utils", "Node.js", "Utilities", "nodejs")
+}
+
+Rel_R(clinterface, chalk, "depends on", "CJS import")
+Rel_D(clinterface, contributors, "calls", "`add` command")
+Rel_D(clinterface, discover, "calls", "`fetch` command")
+Rel_D(clinterface, generator, "calls", "`generate` command")
+Rel_D(clinterface, init, "calls", "`init` command")
+Rel_D(clinterface, repo, "depends on", "CJS import")
+Rel_D(clinterface, utils, "depends on", "CJS import")
+Rel_D(clinterface, yargs, "depends on", "CJS import")
+Rel_D(contributors, inquirer, "uses", "CJS import")
+Rel_D(discover, clui, "uses", "CJS import")
+Rel_D(discover, lib, "uses", "CJS import")
+Rel_D(generator, lib, "uses", "CJS import")
+Rel_D(init, inquirer, "uses", "CJS import")
+Rel_D(init, lib, "uses", "CJS import")
+Rel_D(utils, lib, "uses", "CJS import")
+
+
+@enduml
+
+@startuml Cli_Component_Diagram
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+sprite $nodejs [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000059940000000000000000000000
+000000000000000000003CFFFFC300000000000000000000
+0000000000000000001AFFFFFFFFA1000000000000000000
+000000000000000008FFFFF88FFFFF700000000000000000
+0000000000000004EFFFFA1001AFFFFD4000000000000000
+00000000000003CFFFFC30000003DFFFFB20000000000000
+0000000000019FFFFE600000000005EFFFF9000000000000
+00000000006FFFFF9000000000000018FFFFE60000000000
+000000004DFFFFB200000000000000002BFFFFC300000000
+0000002BFFFFD4000000000000000000004DFFFFB1000000
+000009FFFFE60000000000000000000000007FFFFF600000
+00009FFFF81000000000000000000000000001AFFFF50000
+0001FFFB20000000000000000000000000000003CFFB0000
+0003FFC0000000000000000000000000000000002FFD0000
+0004FFC0000000039930000059CEEEDA610000002FFE0000
+0004FFC000000009FF60003DFFFFFFFFFF7000002FFE0000
+0004FFC000000009FF6002FFFFFFFFFFFFF800002FFE0000
+0004FFC000000009FF600BFFF7210016DFFF20002FFE0000
+0004FFC000000009FF600FFF600000001EFF80002FFE0000
+0004FFC000000009FF600FFF4000000008FFB0002FFE0000
+0004FFC000000009FF600FFFC4000000016630002FFE0000
+0004FFC000000009FF6009FFFFFDA853000000002FFE0000
+0004FFC000000009FF6001CFFFFFFFFFFC7000002FFE0000
+0004FFC000000009FF600006CFFFFFFFFFFE30002FFE0000
+0004FFC000000009FF60000001368ACFFFFFE0002FFE0000
+0004FFC000000009FF602661000000004AFFF4002FFE0000
+0004FFC000000009FF609FF80000000000FFF6002FFE0000
+0004FFC000000009FF608FFD0000000000FFF5002FFE0000
+0004FFC000000009FF603FFF9000000008FFF1002FFE0000
+0004FFC000000009FF600AFFFFB9878AEFFF90002FFE0000
+0004FFC000000009FF6000BFFFFFFFFFFFFB00002FFE0000
+0004FFC000000009FF600005BFFFFFFFFB5000002FFE0000
+0003FFC000000009FF60000000345653000000002FFD0000
+0001FFFB20000009FF6000000000000000000003CFFB0000
+00009FFFF800000CFF50000000000000000001AFFFF50000
+000008FFFFE6005FFF3000000000000000008FFFFF600000
+0000002BFFFFFEFFFE00000000000000005EFFFFA1000000
+000000004DFFFFFFF6000000000000003CFFFFC300000000
+00000000005BFFFD5000000000000019FFFFE60000000000
+000000000000021000000000000007FFFFF8000000000000
+000000000000000002AD40000004DFFFFB20000000000000
+00000000000000007FFFFB2002BFFFFD4000000000000000
+000000000000000006EFFFF89FFFFF700000000000000000
+00000000000000000018FFFFFFFFA1000000000000000000
+000000000000000000002BFFFFC300000000000000000000
+000000000000000000000049940000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 NODEJS>> White
+sprite $html5 [48x48/16] {
+000244444444444444444444444444444444444444442000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000
+0005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000
+0004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+0001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0000
+0000DFFFFFF76666666666666666666666667FFFFFFD0000
+0000BFFFFFF20000000000000000000000002FFFFFFB0000
+0000AFFFFFF40000000000000000000000004FFFFFFA0000
+00009FFFFFF50000000000000000000000005FFFFFF80000
+00007FFFFFF70000000000000000000000006FFFFFF70000
+00006FFFFFF8000016666666666666666666BFFFFFF60000
+00004FFFFFF900003FFFFFFFFFFFFFFFFFFFFFFFFFF40000
+00003FFFFFFB00001FFFFFFFFFFFFFFFFFFFFFFFFFF30000
+00001FFFFFFC00000FFFFFFFFFFFFFFFFFFFFFFFFFF10000
+00000FFFFFFE00000EFFFFFFFFFFFFFFFFFFFFFFFFF00000
+00000FFFFFFF00000BDDDDDDDDDDDDDDDDDDFFFFFFF00000
+00000DFFFFFF000000000000000000000001FFFFFFD00000
+00000CFFFFFF200000000000000000000002FFFFFFC00000
+00000AFFFFFF300000000000000000000003FFFFFFA00000
+000009FFFFFF500000000000000000000005FFFFFF900000
+000007FFFFFF600000000000000000000006FFFFFF700000
+000006FFFFFFEDDDDDDDDDDDDDDDDD400008FFFFFF600000
+000005FFFFFFFFFFFFFFFFFFFFFFFF300009FFFFFF400000
+000003FFFFFFEBBBBCFFFFFFFFFFFF20000BFFFFFF300000
+000002FFFFFFC00000FFFFFFFFFFFF00000CFFFFFF200000
+000000FFFFFFD00000FFFFFFFFFFFF00000EFFFFFF000000
+000000FFFFFFF00000DFFFFFFFFFFD00000FFFFFFF000000
+000000DFFFFFF00000BFFFFFFFFFFA00000FFFFFFD000000
+000000CFFFFFF20000026AFFFC951000002FFFFFFC000000
+000000BFFFFFF3000000000300000000003FFFFFFB000000
+0000009FFFFFF5000000000000000000005FFFFFF9000000
+0000008FFFFFF8000000000000000000029FFFFFF8000000
+0000006FFFFFFFFC8400000000000048CFFFFFFFF6000000
+0000005FFFFFFFFFFFFB73000037BFFFFFFFFFFFF5000000
+0000003FFFFFFFFFFFFFFFEAAEFFFFFFFFFFFFFFF3000000
+0000002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000000
+0000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000000
+0000000026AFFFFFFFFFFFFFFFFFFFFFFFFFFB7300000000
+00000000000038CFFFFFFFFFFFFFFFFFFD94000000000000
+000000000000000159EFFFFFFFFFFEA61000000000000000
+000000000000000000027BFFFFC830000000000000000000
+000000000000000000000004400000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 HTML5>> White
+sprite $javascript [48x48/16] {
+299999999999999999999999999999999999999999999996
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFBBBBEFFFFFFFA767AEFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFF810000008FFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFF70000000005FFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFB000000000009FFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF400008B81004DFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF10007FFFD1AFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF00009FFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF20002EFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFF6000018FFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFD00000007EFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFF9000000007FFFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFB200000003EFFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFFF810000003FFFF9
+4FFFFFFFFFFFFFFFFFFFFE0000AFFFFFFFFFA2000008FFF9
+4FFFFFFFFFFFFFFFFFFFFE0000BFFFFFFFFFFF900003FFF9
+4FFFFFFFFFFFFFFFFFFFFE0000BFFFFFFFFFFFF70000FFF9
+4FFFFFFFFFFFFFFE6FFFFD0000BFFFC33FFFFFF90000FFF9
+4FFFFFFFFFFFFF8005FFF70000DFF60004EFFFE20001FFF9
+4FFFFFFFFFFFF6000026400002FFF200000565000006FFF9
+4FFFFFFFFFFFFD000000000009FFFD0000000000000EFFF9
+4FFFFFFFFFFFFFA0000000005FFFFFD20000000001CFFFF9
+4FFFFFFFFFFFFFFD50000019FFFFFFFF920000017EFFFFF9
+4FFFFFFFFFFFFFFFFFCABDFFFFFFFFFFFFECBBDFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9
+144444444444444444444444444444444444444444444442
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 JAVASCRIPT>> White
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+title [Component Diagram] CLI container (Idea 1)
+
+
+rectangle "<$nodejs>\n==Yargs\n//<size:12>[Node.js]</size>//\n\n CLI argument parser and help section generator" <<external_component>> as yargs
+rectangle "<$nodejs>\n==Chalk\n//<size:12>[Node.js]</size>//\n\n Terminal string styler" <<external_component>> as chalk
+rectangle "<$nodejs>\n==Inquirer\n//<size:12>[Node.js]</size>//\n\n Collection of common interactive CLI" <<external_component>> as inquirer
+rectangle "<$nodejs>\n==CLUI\n//<size:12>[Node.js]</size>//\n\n Collection of common interactive CLI" <<external_component>> as clui
+
+rectangle "<$nodejs>\n==Library\n//<size:12>[Node.js]</size>//\n\n Reads/writes configuration and updates markdown text" <<container>> as lib [[../lib/Lib_Component_Diagram.svg]]
+
+rectangle "==CLI\n<size:12>[Container]</size>" <<boundary>> as cli {
+  rectangle "<$nodejs>\n==CL Interface\n//<size:12>[Node.js]</size>//\n\n Command Line Interface executable" <<component>> as clinterface
+  rectangle "<$nodejs>\n==Contributors\n//<size:12>[Node.js]</size>//\n\n Add/update contributors" <<component>> as contributors
+  rectangle "<$nodejs>\n==Discover\n//<size:12>[Node.js]</size>//\n\n Contributor discovery" <<component>> as discover
+  rectangle "<$nodejs>\n==Generator\n//<size:12>[Node.js]</size>//\n\n Table generation" <<component>> as generator
+  rectangle "<$nodejs>\n==Init\n//<size:12>[Node.js]</size>//\n\n Initialise the config" <<component>> as init
+  rectangle "<$nodejs>\n==Repo\n//<size:12>[Node.js]</size>//\n\n GitHub/GitLab adapters" <<component>> as repo
+  rectangle "<$nodejs>\n==Utils\n//<size:12>[Node.js]</size>//\n\n Utilities" <<component>> as utils
+}
+
+clinterface -RIGHT->> chalk : **depends on**\n//<size:12>[CJS import]</size>//
+clinterface -DOWN->> contributors : **calls**\n//<size:12>[`add` command]</size>//
+clinterface -DOWN->> discover : **calls**\n//<size:12>[`fetch` command]</size>//
+clinterface -DOWN->> generator : **calls**\n//<size:12>[`generate` command]</size>//
+clinterface -DOWN->> init : **calls**\n//<size:12>[`init` command]</size>//
+clinterface -DOWN->> repo : **depends on**\n//<size:12>[CJS import]</size>//
+clinterface -DOWN->> utils : **depends on**\n//<size:12>[CJS import]</size>//
+clinterface -DOWN->> yargs : **depends on**\n//<size:12>[CJS import]</size>//
+contributors -DOWN->> inquirer : **uses**\n//<size:12>[CJS import]</size>//
+discover -DOWN->> clui : **uses**\n//<size:12>[CJS import]</size>//
+discover -DOWN->> lib : **uses**\n//<size:12>[CJS import]</size>//
+generator -DOWN->> lib : **uses**\n//<size:12>[CJS import]</size>//
+init -DOWN->> inquirer : **uses**\n//<size:12>[CJS import]</size>//
+init -DOWN->> lib : **uses**\n//<size:12>[CJS import]</size>//
+utils -DOWN->> lib : **uses**\n//<size:12>[CJS import]</size>//
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

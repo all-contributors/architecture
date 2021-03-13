@@ -1,0 +1,48 @@
+@startuml Cli_Component_Diagram
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/html5.puml
+!include DEV2/javascript.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] CLI container (Idea 1)
+
+' TODO Rework this ball of mud
+
+Component_Ext(yargs, "Yargs", "Node.js", "CLI argument parser and help section generator", "nodejs")
+Component_Ext(chalk, "Chalk", "Node.js", "Terminal string styler", "nodejs")
+Component_Ext(inquirer, "Inquirer", "Node.js", "Collection of common interactive CLI", "nodejs")
+Component_Ext(clui, "CLUI", "Node.js", "Collection of common interactive CLI", "nodejs")
+
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../lib/Lib_Component_Diagram.svg]]
+
+Container_Boundary(cli, "CLI") {
+  Component(clinterface, "CL Interface", "Node.js", "Command Line Interface executable", "nodejs")
+  Component(contributors, "Contributors", "Node.js", "Add/update contributors", "nodejs")
+  Component(discover, "Discover", "Node.js", "Contributor discovery", "nodejs")
+  Component(generator, "Generator", "Node.js", "Table generation", "nodejs")
+  Component(init, "Init", "Node.js", "Initialise the config", "nodejs")
+  Component(repo, "Repo", "Node.js", "GitHub/GitLab adapters", "nodejs")
+  Component(utils, "Utils", "Node.js", "Utilities", "nodejs")
+}
+
+Rel_R(clinterface, chalk, "depends on", "CJS import")
+Rel_D(clinterface, contributors, "calls", "`add` command")
+Rel_D(clinterface, discover, "calls", "`fetch` command")
+Rel_D(clinterface, generator, "calls", "`generate` command")
+Rel_D(clinterface, init, "calls", "`init` command")
+Rel_D(clinterface, repo, "depends on", "CJS import")
+Rel_D(clinterface, utils, "depends on", "CJS import")
+Rel_D(clinterface, yargs, "depends on", "CJS import")
+Rel_D(contributors, inquirer, "uses", "CJS import")
+Rel_D(discover, clui, "uses", "CJS import")
+Rel_D(discover, lib, "uses", "CJS import")
+Rel_D(generator, lib, "uses", "CJS import")
+Rel_D(init, inquirer, "uses", "CJS import")
+Rel_D(init, lib, "uses", "CJS import")
+Rel_D(utils, lib, "uses", "CJS import")
+
+
+@enduml
