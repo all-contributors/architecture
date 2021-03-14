@@ -11,7 +11,7 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] App container
 
-Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs")  [[../Lib/container.svg]]
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../Lib/container.svg]]
 
 System_Ext(gh, "GitHub", "Code Hosting and VCS", "github")
 Container_Ext(probot, "Probot", "Node.js", "GitHub Apps to automate and improve your workflow", "nodejs")
