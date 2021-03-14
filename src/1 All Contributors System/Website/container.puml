@@ -9,7 +9,7 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] Website container
 
-Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases")
+Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases") [[../Spec/container.svg]]
 
 Container_Boundary(website, "Website") {
   Component(docs, "Docs", "Markdown", "Specification/CLI/Bot documentation", "")

@@ -16,7 +16,7 @@ Component_Ext(chalk, "Chalk", "Node.js", "Terminal string styler", "nodejs")
 Component_Ext(inquirer, "Inquirer", "Node.js", "Collection of common interactive CLI", "nodejs")
 Component_Ext(clui, "CLUI", "Node.js", "Collection of common interactive CLI", "nodejs")
 
-Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs")
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../Lib/container.svg]]
 
 Container_Boundary(cli, "CLI") {
   Component(clinterface, "CL Interface", "Node.js", "Command Line Interface executable", "nodejs")
