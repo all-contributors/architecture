@@ -9,7 +9,10 @@ LAYOUT_WITH_LEGEND()
 title [Component Diagram] Specification container
 
 Container_Boundary(spec, "Specification") {
-  
+  Component(ct, "Contribution Types", "JSON", "Types and emojis with descriptions")
+  Component(map, "Type Mappings", "Node.js", "Plurals, aliases, multi-words mapped to types", "nodejs")
+
+  Rel_Neighbor(map, ct, "uses")
 }
 
 @enduml

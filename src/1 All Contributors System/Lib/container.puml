@@ -9,7 +9,10 @@ LAYOUT_WITH_LEGEND()
 title [Component Diagram] Library container
 
 Container_Boundary(lib, "Library") {
-  
+  Component(cfg, "Configuration Manager", "Node.js", "Read/writes the configuration", "nodejs")
+  Component(md, "Markdown Manager", "Node.js", "Read/writes Markdown files with the resulting table", "nodejs")
+
+  Rel_Back_Neighbor(cfg, md, "uses")
 }
 
 @enduml
