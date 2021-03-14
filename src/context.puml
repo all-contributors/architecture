@@ -1,0 +1,34 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+' !include DEV2/amazonwebservices.puml
+!include DEV2/github.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [System Landscape Diagram] All Contributors
+
+Person(user, "User", "A user of our software system.")
+Boundary(internal, "Internal Context") {
+  Person(devs, "All Contributors team", "A core member of All Contributors.")
+  System(ac, "All Contributors", "System for recognizing contributors to an open source project in a way that rewards each and every contribution.")
+}
+
+System_Ext(uptime, "UptimeRobot", "Monitoring.")
+System_Ext(logflare, "Logflare", "Log aggregation.", "logflare")
+System_Ext(netlify, "Netlify", "loud-based hosting platform for static sites, web apps and serverless functions.", "netlify")
+System_Ext(vercel, "Vercel", "Cloud platform for static sites and serverless functions.")
+System_Ext(gh, "GitHub", "Code hosting and VCS", "github")
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution.")
+
+Rel(user, ac, "interacts with")
+Rel(devs, ac, "maintain")
+Rel(devs, vercel, "monitor")
+Rel(ac, netlify, "hosted on")
+Rel(ac, vercel, "serviced by")
+Rel(logflare, vercel, "listening to", "HTTPS")
+Rel(uptime, vercel, "monitors", "HTTPS")
+Rel(ac, gh, "listens to", "webhooks")
+Rel(ac, crowdin, "gets translations from", "Java/Yarn")
+
+@enduml
