@@ -1,6 +1,6 @@
 # Spec
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/ZKzBImCn4BxdLyIUMd0Rg9uyLNSN5Ue3R2iYien9jfsIJK8oMH7nlvkLglJcRPZlFOy4WL9ds15QQPBIV4lauvaG0Twc6wHjUarH1-aiQKjJwJe1AY3OtYIVH7bQt1kmjBfP20Ea8-LNKxhEEplm_RUtqYrQpQjwFVk7FoMV8qw47uopli2C5crc5D47p26YWqWw2ANxsL_pmLvOf_GkxdCFa1tq46L0ls_55kTFTwjbytYzl6eMzMLzMuqdZ16IqVpvTmAl43O1kXV-uBN45YKGEik7nf1N1SRAdxEvSCag2E_ZcBd7V7GW6Ktu1-ESVJ8srrRb3by0)
+![diagram](container.svg)
 
 **Level 3: Component diagram**
 

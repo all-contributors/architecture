@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="756px" preserveAspectRatio="none" style="width:1199px;height:756px;" version="1.1" viewBox="0 0 1199 756" width="1199px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="402" x="389.5" y="16.708">[System Landscape Diagram] All Contributors</text><!--MD5=[c27d767109b3913d4718b358a17ad24a]
+cluster internal--><rect fill="#FFFFFF" height="400" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="244" x="393" y="27.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="442" y="44.8047">Internal Context</text><!--MD5=[3889e8d16790c509935d5ae98ce2df79]
+entity devs--><rect fill="#08427B" height="135.5156" style="stroke: #073B6F; stroke-width: 1.5;" width="210" x="411" y="64.9531"/><image height="48" width="48" x="492" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="74.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="190" x="421" y="137.8047">All Contributors team</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="518" y="154.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="443" y="170.8701">A core member of All</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="471" y="187.167">Contributors.</text><!--MD5=[1c5ba14a582780a0070707c3598231a5]
+entity ac--><rect fill="#1168BD" height="136.4063" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="408.5" y="275.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="445.5" y="300.8047">All Contributors</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="517" y="317.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="434" y="333.8701">System for recognizing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="431.5" y="350.167">contributors to an open</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="418.5" y="366.4639">source project in a way that</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="431" y="382.7607">rewards each and every</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="471.5" y="399.0576">contribution.</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="135.5156" style="stroke: #073B6F; stroke-width: 1.5;" width="175" x="200.5" y="64.9531"/><image height="48" width="48" x="264" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="74.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="267.5" y="137.8047">User</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="290" y="154.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="210.5" y="170.8701">A user of our software</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="261" y="187.167">system.</text><!--MD5=[8cfdc5432ea5c2cf1b137956ccf4cfc3]
+entity uptime--><rect fill="#999999" height="71.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="135" x="881.5" y="308.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="891.5" y="333.3047">UptimeRobot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="951" y="350.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="910.5" y="366.3701">Monitoring.</text><!--MD5=[cead7c385d33d20483723e17ad24832a]
+entity logflare--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="136" x="1052" y="299.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1122" y="322.9482"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="1084" y="341.1016">Logflare</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1122" y="357.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="1062" y="374.167">Log aggregation.</text><!--MD5=[aed8a9f2b95b03078f2575fc7a63b3f2]
+entity netlify--><rect fill="#999999" height="120.1094" style="stroke: #8A8A8A; stroke-width: 1.5;" width="218" x="7" y="516.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="118" y="539.9482"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="87.5" y="558.1016">Netlify</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="118" y="574.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="17" y="591.167">loud-based hosting platform</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="28.5" y="607.4639">for static sites, web apps</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="29.5" y="623.7607">and serverless functions.</text><!--MD5=[53fe0d083c3522096fc44bc57055a5ec]
+entity vercel--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="220" x="769" y="532.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56" x="851" y="557.8047">Vercel</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="881" y="574.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="779" y="590.8701">Cloud platform for static sites</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="792.5" y="607.167">and serverless functions.</text><!--MD5=[b9eb45c6ffc44c4438afcca8037a1008]
+entity gh--><rect fill="#999999" height="119.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="175" x="260.5" y="517.4531"/><image height="48" width="48" x="324" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACZklEQVR42s1ZLbPCMBC8//8PnnoOh8OhcHU4HAqHw9X17XAzbSa520tD2scpps3HNtm9L+Tny0y6rPL7tn8DdDgcLpfL/X5/Pp9TYXiIVxiAYZsDwjYmCM8wGFM2AXS9XsdxnJoME4dh6AbofD43Q8lgnU6nTwHdbrepq4FejYCgmlV0WUUsIknx0Lxer2kzw+IeJhvQRmdTg8kA9Hg8pl0MG8WAoM9yJtShnrCZyJiORcpXpTuQzAWbHEy5ZepufFv5HN4rvReTCZlDl5A6WLQMHXjoBQcNLBhQvsXD8OIWQOaRmqfabCYflBIGIE9ZOwBKD0kIeyp9a70RWcz3K+R29wQ0M1X4fUE7vTIvFakXp2cti47zgK/NZmoyKm8v/XIh+oJtkTV7e6nWhKBOXWJH8+ihtyGE0R3pXENt5bWQLAzPtwDEtxMCeecT0u3YCZnpwefmpTfLCXkeHTnUFoC8XHThUOgbOhqJUYvKiB/a0zEufog4q+63RmqHqli2T/qRxzIe7WEoXj9Hg0XIFnm0J1zr4iT5Bxv5UOYe8LssM7RnsEp32AZTwtaAkTFmR6rV7vF4NM8ZxARWco/6MfW1r51TZ9TGZ+H7PExl+VLpbMKcgtVlqnl8bhlbwqhSX/6yuqxknzrG4W3p4YW6IwrnRZ/wBAp7z+mwlsNaVofUJh6ZJ4AS9mLS26nvtnKvs677oWRKtYrJaeGMHyEsDkgV07ODFnKIACLdqrjH6IklBORxKJRnYxc2TEtKQFikJpmp6lOXbaG1gDC9Ug0rOvlYcQ5M8OB8MAa0hb8+f7583b9BHe0PyCY/syQ86PoAAAAASUVORK5CYII=" y="527.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="318.5" y="590.3047">GitHub</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="350" y="607.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="270.5" y="623.3701">Code hosting and VCS</text><!--MD5=[7c44d20b3ca68c8f73b56bec32571880]
+entity crowdin--><rect fill="#999999" height="87.5156" style="stroke: #8A8A8A; stroke-width: 1.5;" width="192" x="471" y="532.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="531" y="557.8047">Crowdin</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="569" y="574.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="481" y="590.8701">Cloud-based localization</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="489.5" y="607.167">management solution.</text><!--MD5=[d167ef4ac8e91900b1f67c1260a8aa27]
+link user to ac--><path d="M358.16,201.2531 C373.82,216.0731 390.4,231.6231 406,245.9531 C414.72,253.9731 423.89,262.2931 433.06,270.5431 " fill="none" id="user-to-ac" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="439.08,275.9531,435.1466,268.3684,431.1292,272.825,439.08,275.9531" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="407" y="243.0918">interacts with</text><!--MD5=[fcb6260496db581d01e4b47f63d1d5d2]
+link devs to ac--><path d="M515.68,201.2331 C515.58,222.3931 515.46,245.9031 515.36,267.5831 " fill="none" id="devs-to-ac" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="515.32,275.8031,518.3628,267.8193,512.3629,267.7872,515.32,275.8031" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="516" y="243.0918">maintain</text><!--MD5=[e0770fbdfab5627fe51fabe97af74ab8]
+link devs to vercel--><path d="M575.04,201.0231 C595.5,224.5531 618.44,251.2631 639,275.9531 C711.47,362.9931 793.4,466.5631 840.35,526.4331 " fill="none" id="devs-to-vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="845.34,532.8031,842.7735,524.6537,838.0478,528.3507,845.34,532.8031" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="768" y="348.5918">monitor</text><!--MD5=[f280796331f6c6ac9aa75803d19659c1]
+link ac to netlify--><path d="M408.45,393.4831 C376.92,408.7531 342.65,426.2731 312,443.9531 C276.17,464.6231 238.16,489.4831 205.24,512.0331 " fill="none" id="ac-to-netlify" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="198.3,516.8131,206.5917,514.7523,203.1921,509.8083,198.3,516.8131" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="313" y="470.0918">hosted on</text><!--MD5=[abc1dde62f8771963878fa7e5d0200c2]
+link ac to vercel--><path d="M608.36,412.0031 C621.05,422.2731 633.61,433.0831 645,443.9531 C663.03,461.1631 661.13,471.9031 681,486.9531 C705.13,505.2231 733.62,520.7931 761.34,533.5531 " fill="none" id="ac-to-vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="768.75,536.9131,762.7004,530.8796,760.2249,536.3451,768.75,536.9131" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="682" y="470.0918">serviced by</text><!--MD5=[c363a3f339c5899fcc3e989b01db47a0]
+link logflare to vercel--><path d="M1083.89,388.2631 C1058.91,417.2931 1024.31,455.7731 991,486.9531 C976.11,500.8831 959.26,515.0431 943.22,527.8331 " fill="none" id="logflare-to-vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="936.89,532.8531,945.0228,530.2344,941.2956,525.5325,936.89,532.8531" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="1032" y="463.0918">listening to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="1048.5" y="477.0605">[HTTPS]</text><!--MD5=[4fad267bf4d9bcf61b599e003f8738bb]
+link uptime to vercel--><path d="M938.52,379.5331 C926.83,418.1231 907.8,480.9331 894.41,525.1131 " fill="none" id="uptime-to-vercel" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="892.06,532.8631,897.2462,526.0732,891.5028,524.3373,892.06,532.8631" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="919" y="463.0918">monitors</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="926.5" y="477.0605">[HTTPS]</text><!--MD5=[cb78488a20fab72cc5bc4a6bfacc3ef5]
+link ac to gh--><path d="M447.94,412.0331 C438.81,422.3831 429.88,433.2031 422,443.9531 C407,464.4131 392.78,488.2331 380.9,509.9531 " fill="none" id="ac-to-gh" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="376.96,517.2231,383.399,511.6071,378.1185,508.758,376.96,517.2231" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="426" y="463.0918">listens to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="423" y="477.0605">[webhooks]</text><!--MD5=[30682226de875749b333834b6ee7745e]
+link ac to crowdin--><path d="M505.53,412.0931 C504.24,436.1131 505.23,463.1131 512,486.9531 C515.78,500.2431 522.16,513.4931 529.28,525.5531 " fill="none" id="ac-to-crowdin" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="533.54,532.5131,531.9169,524.1247,526.8014,527.2603,533.54,532.5131" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="513" y="456.0918">gets translations</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="560.5" y="470.0605">from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="542.5" y="484.0293">[Java/Yarn]</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="129" x="1043" y="650.0625"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1049" y="670.0576">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1112" y="670.0576"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="1049" y="673.3594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="1053" y="686.3545">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="1049" y="689.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="1053" y="702.6514">system</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="1049" y="705.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="1053" y="718.9482">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="1049" y="722.25"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="1053" y="735.2451">external system</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="657.0625" y2="657.0625"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="673.3594" y2="673.3594"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="689.6563" y2="689.6563"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="705.9531" y2="705.9531"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="722.25" y2="722.25"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1166" y1="738.5469" y2="738.5469"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1049" x2="1049" y1="657.0625" y2="738.5469"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="1166" x2="1166" y1="657.0625" y2="738.5469"/><!--MD5=[1f3f44292d45b400195e9ba995b42204]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+' !include DEV2/amazonwebservices.puml
+!include DEV2/github.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [System Landscape Diagram] All Contributors
+
+Person(user, "User", "A user of our software system.")
+Boundary(internal, "Internal Context") {
+  Person(devs, "All Contributors team", "A core member of All Contributors.")
+  System(ac, "All Contributors", "System for recognizing contributors to an open source project in a way that rewards each and every contribution.")
+}
+
+System_Ext(uptime, "UptimeRobot", "Monitoring.")
+System_Ext(logflare, "Logflare", "Log aggregation.", "logflare")
+System_Ext(netlify, "Netlify", "loud-based hosting platform for static sites, web apps and serverless functions.", "netlify")
+System_Ext(vercel, "Vercel", "Cloud platform for static sites and serverless functions.")
+System_Ext(gh, "GitHub", "Code hosting and VCS", "github")
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution.")
+
+Rel(user, ac, "interacts with")
+Rel(devs, ac, "maintain")
+Rel(devs, vercel, "monitor")
+Rel(ac, netlify, "hosted on")
+Rel(ac, vercel, "serviced by")
+Rel(logflare, vercel, "listening to", "HTTPS")
+Rel(uptime, vercel, "monitors", "HTTPS")
+Rel(ac, gh, "listens to", "webhooks")
+Rel(ac, crowdin, "gets translations from", "Java/Yarn")
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+sprite $github [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000001100000000000000000000000
+0000000000000000026ACFFFFFFCA6200000000000000000
+0000000000000006CFFFFFFFFFFFFFFC6000000000000000
+00000000000008EFFFFFFFFFFFFFFFFFFE70000000000000
+000000000005EFFFFFFFFFFFFFFFFFFFFFFE400000000000
+00000000009FFFFFFFFFFFFFFFFFFFFFFFFFFA0000000000
+000000001CFFFFFFFFFFFFFFFFFFFFFFFFFFFFC100000000
+00000001DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD10000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD1000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000000
+000007FFFFFF46AFFFFFFFFFFFFFFFFFFA64FFFFFF700000
+00002FFFFFFC00019FFFFFFEEFFFFFF81000CFFFFFF20000
+0000CFFFFFF80000028620000002682000008FFFFFFB0000
+0004FFFFFFF70000000000000000000000007FFFFFFF4000
+000CFFFFFFF70000000000000000000000007FFFFFFFB000
+002FFFFFFFFA000000000000000000000000AFFFFFFFF200
+008FFFFFFFFA000000000000000000000000AFFFFFFFF800
+00CFFFFFFFE10000000000000000000000001EFFFFFFFC00
+01FFFFFFFF6000000000000000000000000006FFFFFFFF10
+04FFFFFFFF0000000000000000000000000000FFFFFFFF40
+06FFFFFFFC0000000000000000000000000000CFFFFFFF60
+08FFFFFFFA0000000000000000000000000000AFFFFFFF80
+09FFFFFFF900000000000000000000000000009FFFFFFF90
+0AFFFFFFFA0000000000000000000000000000AFFFFFFFA0
+09FFFFFFFB0000000000000000000000000000BFFFFFFF90
+07FFFFFFFD0000000000000000000000000000DFFFFFFF80
+06FFFFFFFF1000000000000000000000000002FFFFFFFF60
+04FFFFFFFF6000000000000000000000000006FFFFFFFF40
+00FFFFFFFFD00000000000000000000000000DFFFFFFFF00
+00CFFFFFFFF70000000000000000000000007FFFFFFFFC00
+008FFFFFFFFF500000000000000000000005FFFFFFFFF800
+002FFFFFFFFFF9000000000000000000008FFFFFFFFFF200
+000BFFFB6AFFFFE710000000000000027EFFFFFFFFFFB000
+0005FFFC135FFFFFFDA5000000006ADFFFFFFFFFFFFF4000
+0000CFFFE235FFFFFFF2000000002FFFFFFFFFFFFFFC0000
+00002FFFFD069FFFFFB0000000000BFFFFFFFFFFFFF20000
+000008FFFF6077FFFE500000000007FFFFFFFFFFFF800000
+000000CFFFE0016446100000000006FFFFFFFFFFFC000000
+0000001DFFFB000110000000000005FFFFFFFFFFD1000000
+00000002EFFFD62002100000000005FFFFFFFFFE20000000
+000000001CFFFFFFFF500000000005FFFFFFFFD100000000
+0000000000BFFFFFFF500000000006FFFFFFFB0000000000
+000000000005EFFFFF600000000006FFFFFE600000000000
+00000000000019FFFF600000000006FFFF91000000000000
+0000000000000017EF300000000003FE7100000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2 GITHUB>> White
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+
+title [System Landscape Diagram] All Contributors
+
+rectangle "<$person>\n==User\n\n A user of our software system." <<person>> as user
+rectangle "==Internal Context" <<boundary>> as internal {
+  rectangle "<$person>\n==All Contributors team\n\n A core member of All Contributors." <<person>> as devs
+  rectangle "==All Contributors\n\n System for recognizing contributors to an open source project in a way that rewards each and every contribution." <<system>> as ac
+}
+
+rectangle "==UptimeRobot\n\n Monitoring." <<external_system>> as uptime
+rectangle "<$logflare>\n==Logflare\n\n Log aggregation." <<external_system>> as logflare
+rectangle "<$netlify>\n==Netlify\n\n loud-based hosting platform for static sites, web apps and serverless functions." <<external_system>> as netlify
+rectangle "==Vercel\n\n Cloud platform for static sites and serverless functions." <<external_system>> as vercel
+rectangle "<$github>\n==GitHub\n\n Code hosting and VCS" <<external_system>> as gh
+rectangle "==Crowdin\n\n Cloud-based localization management solution." <<external_system>> as crowdin
+
+user - ->> ac : **interacts with**
+devs - ->> ac : **maintain**
+devs - ->> vercel : **monitor**
+ac - ->> netlify : **hosted on**
+ac - ->> vercel : **serviced by**
+logflare - ->> vercel : **listening to**\n//<size:12>[HTTPS]</size>//
+uptime - ->> vercel : **monitors**\n//<size:12>[HTTPS]</size>//
+ac - ->> gh : **listens to**\n//<size:12>[webhooks]</size>//
+ac - ->> crowdin : **gets translations from**\n//<size:12>[Java/Yarn]</size>//
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 13:30:11 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
