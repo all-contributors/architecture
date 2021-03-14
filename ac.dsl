@@ -22,8 +22,14 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 api = component "API" "Source code and GH Webhooks" "Node.js"
                 bot = component "Lib" "Library code for the bot" "Node.js"
             }
-            lib = container "Library" "Reads/writes configuration and updates markdown text" "Node.js"
-            spec = container "Specification" "Contains the emoji key, synonyms and aliases" "JSON"
+            lib = container "Library" "Reads/writes configuration and updates markdown text" "Node.js" {
+                cfg = component "Configuration Manager" "Read/writes the configuration" "Node.js"
+                md = component "Markdown Manager" "Read/writes Markdown files with the resulting table" "Node.js"
+            }
+            spec = container "Specification" "Contains the emoji key, synonyms and aliases" "JSON/Node.js" {
+                ct = component "Contribution Types" "Types and emojis with descriptions" "JSON"
+                map = component "Type Mappings" "Plurals, aliases, multi-words mapped to types" "Node.js"
+            }
             acl = container "AC-Learn" "Multi-class label classifier" "Node.js" {
                 classifier = component "Classifier" "Classification builder" "Node.js"
                 learner = component "Learner" "DL model wrapper" "Node.js"
@@ -81,18 +87,18 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         devs -> acl "maintain"
 
 
-        bot -> lib "uses" "CJS import"
+        bot -> md "uses" "CJS import"
         app -> vercel "serviced by" "??"
         api -> gh "listens to" "webhooks"
         bot -> probot "implements" "CJS import"
         bot -> compromise "uses" "CJS import"
-        ws -> spec "reads" "??"
+        ws -> ct "reads" "??"
         ws -> netlify "hosted on" "??"
         ws -> crowdin "gets translations from" "Java/Yarn"
-        util -> lib "uses" "CJS import"
-        init -> lib "uses" "CJS import"
-        generator -> lib "uses" "CJS import"
-        discover -> lib "uses" "CJS import"
+        util -> md "uses" "CJS import"
+        init -> md "uses" "CJS import"
+        generator -> md "uses" "CJS import"
+        discover -> cfg "uses" "CJS import"
         clinterface -> chalk "depends on" "CJS import"
         clinterface -> yargs "depends on" "CJS import"
         init -> inquirer "uses" "CJS import"
@@ -103,9 +109,12 @@ workspace "All Contributors" "All Contributors Software Architecture." {
         learner -> tvtsplit "uses" "CJS import"
         learner -> nclr "uses" "CJS import"
         learner -> clui "uses" "CJS import"
-        learner -> spec "reads" "CJS import"
-        lib -> learner "uses" "CJS import"
-        lib -> spec "reads" "CJS import"
+        learner -> map "uses" "CJS import"
+        cfg -> learner "uses" "CJS import"
+        cfg -> map "uses" "CJS import"
+        md -> cfg "uses" "CJS import"
+        map -> ct "uses" "CJS import"
+    
         uptimer -> vercel "monitors" "HTTPS"
         logflare -> vercel "listens to" "HTTPS"
     }
