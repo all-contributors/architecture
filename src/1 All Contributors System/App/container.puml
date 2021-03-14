@@ -11,8 +11,6 @@ LAYOUT_WITH_LEGEND()
 
 title [Component Diagram] App container
 
-Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../Website/container.svg]]
-Container(cli, "CLI", "Node.js", "`all-contributors-cli`", "nodejs")  [[../CLI/container.svg]]
 Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs")  [[../Lib/container.svg]]
 
 System_Ext(gh, "GitHub", "Code Hosting and VCS", "github")
@@ -27,9 +25,7 @@ Container_Boundary(app, "App") {
 }
 
 Rel_D(api, gh, "listens to", "webhooks")
-Rel(cli, lib, "uses", "CJS import")
-Rel(applib, lib, "uses", "CJS import")
-Rel(website, lib, "uses", "??")
+Rel_R(applib, lib, "uses", "CJS import")
 Rel(applib, probot, "uses", "CJS import")
 Rel(applib, compromise, "uses", "CJS import")
 

@@ -16,6 +16,10 @@ Container_Boundary(acl_boundary, "AC-Learn") {
   Component(cm, "Confusion Matrix", "Node.js", "Multi-class focused confusion matrix builder")
   Component(labels, "Labels", "Node.js/JSON", "Label dataset aggregation")
   Component(learner, "Learner", "Node.js", "DL model wrapper")
+
+  Rel_Neighbor(learner, classifier, "uses", "CJS import")
+  Rel_D(learner, cm, "uses", "CJS import")
+  Rel_D(learner, labels, "uses", "CJS import")
 }
 
 Container_Ext(clui, "CLUI", "CL UI toolkit for Node.js.")
@@ -24,9 +28,6 @@ Container_Ext(nclr, "NClr", "Coloured logs (with symbols)")
 Container_Ext(tvtsplit, "TVT Split", "Dataset splitter into train/validation/test sets")
 
 Rel_L(learner, clui, "uses", "CJS import")
-Rel_Neighbor(learner, classifier, "uses", "CJS import")
-Rel_D(learner, cm, "uses", "CJS import")
-Rel_D(learner, labels, "uses", "CJS import")
 Rel_L(learner, limdu, "uses", "CJS import")
 Rel_L(learner, nclr, "uses", "CJS import")
 Rel_D(learner, spec, "reads", "CJS import")
