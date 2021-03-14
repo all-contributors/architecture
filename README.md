@@ -13,42 +13,24 @@ _**Notes**:_
 -  Each containers (in the [C4 sense](https://c4model.com/#faq)) have their own repo (i.e. `1 container = 1 repo`).
 
 ## Contributing
-If you want to contribute, you'll need at the very least:
-- `c4builder` to build the documentation website (run `npm i -g c4builder` to install it),
-- an elementary understanding of the [C4 model] (which is briefly explained in [the Abstractions section below](#abstractions)),
-- an elementary knowledge of [C4-PlantUML] (being familiar with [PlantUML] helps) and [Markdown],
-- and preferably (although optional) having [PlantUML] installed or the relevant extension for your favourite editor).
+Cf. [CONTRIBUTING](./CONTRIBUTING.md).
 
-### Usage
-- Generating the documentation website:
-```bash
-c4builder
-```
-- Locally serving the website:
-```bash
-c4builder site
-```
-
-**Notes on using local images inside markdown files**
-- They should be placed next to the markdown file using them.
-- All of them will be copied over to the `docs` folder either in `/` (in the case of a single MD/PDF file) or following the same folder structure as in `src`, so make sure they have unique names.
-
-## <a name="abstractions"></a>Abstractions used
+## Abstractions used
 C.f. [C4 model] for more information.
 
 ![C4 Model](https://c4model.com/img/abstractions.png)
 
 ### Person
 
-However you think about your users (as actors, roles, personas, etc), people are the various human users of your software system. 
+However you think about your users (as actors, roles, personas, etc), people are the various human users of your software system.
 
 ### Software System
 
-A software system is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa). 
+A software system is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa).
 
 ### Container
 
-A container represents something that hosts code or data. A container is something that needs to be running in order for the overall software system to work. In real terms, a container is something like: 
+A container represents something that hosts code or data. A container is something that needs to be running in order for the overall software system to work. In real terms, a container is something like:
 
 - Server-side web application: A Java EE web application running on Apache Tomcat, an ASP.NET MVC application running on Microsoft IIS, a Ruby on Rails application running on WEBrick, a Node.js application, etc.
 
@@ -57,16 +39,16 @@ A container represents something that hosts code or data. A container is somethi
 - Client-side desktop application: A Windows desktop application written using WPF, an OS X desktop application written using Objective-C, a cross-platform desktop application written using JavaFX, etc.
 - Mobile app: An Apple iOS app, an Android app, a Microsoft Windows Phone app, etc.
 
-- Server-side console application: A standalone (e.g. "public static void main") 
+- Server-side console application: A standalone (e.g. "public static void main")
 
 - etc
 
 ### Component
 
 Component
-The word "component" is a hugely overloaded term in the software development industry, but in this context a component is simply a grouping of related functionality encapsulated behind a well-defined interface. If you're using a language like Java or C#, the simplest way to think of a component is that it's a collection of implementation classes behind an interface. Aspects such as how those components are packaged (e.g. one component vs many components per JAR file, DLL, shared library, etc) is a separate and orthogonal concern. 
+The word "component" is a hugely overloaded term in the software development industry, but in this context a component is simply a grouping of related functionality encapsulated behind a well-defined interface. If you're using a language like Java or C#, the simplest way to think of a component is that it's a collection of implementation classes behind an interface. Aspects such as how those components are packaged (e.g. one component vs many components per JAR file, DLL, shared library, etc) is a separate and orthogonal concern.
 
-An important point to note here is that all components inside a container typically execute in the same process space. 
+An important point to note here is that all components inside a container typically execute in the same process space.
 
 [C4 model]: https://c4model.com
 [c4builder]: https://adrianvlupu.github.io/C4-Builder/
