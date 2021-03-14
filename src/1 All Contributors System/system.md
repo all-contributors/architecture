@@ -4,7 +4,7 @@ Once you understand how your system fits in to the overall IT environment, a rea
 
 The Container diagram shows the high-level shape of the software architecture and how responsibilities are distributed across it. It also shows the major technology choices and how the containers communicate with one another. It's a simple, high-level technology focussed diagram that is useful for software developers and support/operations staff alike.
 
-**Scope**: A single software system.
+**Scope**: The All Contributors software system.
 
 **Primary elements**: Containers within the software system in scope.
 Supporting elements: People and software systems directly connected to the containers.
