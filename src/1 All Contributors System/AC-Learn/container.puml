@@ -1,0 +1,38 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/javascript.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] AC-Learn container
+
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text") [[../Lib/container.svg]]
+Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases") [[../Spec/container.svg]]
+
+Container_Boundary(acl_boundary, "AC-Learn") {
+  Component(classifier, "Classifier", "Node.js", "Classification builder")
+  Component(cm, "Confusion Matrix", "Node.js", "Multi-class focused confusion matrix builder")
+  Component(labels, "Labels", "Node.js/JSON", "Label dataset aggregation")
+  Component(learner, "Learner", "Node.js", "DL model wrapper")
+
+  Rel_Neighbor(learner, classifier, "uses", "CJS import")
+  Rel_D(learner, cm, "uses", "CJS import")
+  Rel_D(learner, labels, "uses", "CJS import")
+}
+
+Container_Ext(clui, "CLUI", "CL UI toolkit for Node.js.")
+Container_Ext(limdu, "Limdu.js", "ML framework for Node.js")
+Container_Ext(nclr, "NClr", "Coloured logs (with symbols)")
+Container_Ext(tvtsplit, "TVT Split", "Dataset splitter into train/validation/test sets")
+
+Rel_L(learner, clui, "uses", "CJS import")
+Rel_L(learner, limdu, "uses", "CJS import")
+Rel_L(learner, nclr, "uses", "CJS import")
+Rel_D(learner, spec, "reads", "CJS import")
+Rel_L(learner, tvtsplit, "uses", "CJS import")
+Rel_U(lib, learner, "uses", "CJS import")
+Rel_Neighbor(lib, spec, "reads", "CJS import")
+
+@enduml

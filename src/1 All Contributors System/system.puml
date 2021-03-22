@@ -1,0 +1,69 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!define MAT https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+!include DEV2/nodejs.puml
+!include DEV2/html5.puml
+!include DEV2/javascript.puml
+!include DEV2/github.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Container Diagram] All Contributors
+
+Person(devs, "All Contributors team", "A core member of All Contributors.")
+Person(user, "User", "A user of our software system.")
+
+System_Ext(crowdin, "Crowdin", "Cloud-based localization management solution.")
+System_Ext(gh, "GitHub", "Code Hosting and VCS", "github")
+System_Ext(netlify, "Netlify", "Cloud-based hosting platform for static sites, web apps and serverless functions.")
+System_Ext(vercel, "Vercel", "Cloud platform for static sites and serverless functions.")
+Container_Ext(clui, "CLUI", "CL UI toolkit for Node.js.")
+Container_Ext(chalk, "Chalk", "Terminal string styler.")
+Container_Ext(compromise, "Compromise", "NLP package.")
+Container_Ext(inquirer, "Inquirer", "Collection of common interactive CLIs.")
+Container_Ext(limdu, "Limdu.js", "ML framework for Node.js")
+Container_Ext(nclr, "NClr", "Coloured logs (with symbols)")
+Container_Ext(nyc, "Name Your Contributors", "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.")
+Container_Ext(probot, "Probot", "GitHub App framework.")
+Container_Ext(tvtsplit, "TVT Split", "Dataset splitter into train/validation/test sets")
+Container_Ext(yargs, "Yargs", "CLI argument parser and help section generator")
+
+System_Boundary(ac, "All Contributors") {
+  Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs") [[./AC-Learn/container.svg]]
+  Container(app, "App", "Node.js", "GitHub app-driven bot", "nodejs") [[./App/container.svg]]
+  Container(cli, "CLI", "Node.js", "all-contributors-cli", "nodejs") [[./CLI/container.svg]]
+  Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "javascript") [[./Lib/container.svg]]
+  Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases", "json") [[./Spec/container.svg]]
+  Container(website, "Website", "Docusaurus", "Documentation", "html5") [[./Website/container.svg]]
+
+  Rel(app, lib, "uses", "CJS import")
+  Rel(cli, lib, "uses", "CJS import")
+  Rel(lib, acl, "uses", "CJS import")
+  Rel(website, spec, "reads", "??")
+}
+
+Rel(acl, clui, "uses", "CJS import")
+Rel_R(acl, limdu, "uses", "CJS import")
+Rel(acl, nclr, "uses", "CJS import")
+Rel(acl, spec, "reads", "CJS import")
+Rel(acl, tvtsplit, "uses", "CJS import")
+Rel(devs, ac, "maintain everything inside")
+Rel(devs, vercel, "monitor")
+Rel(app, compromise, "uses", "CJS import")
+Rel_L(app, gh, "listens to", "webhooks")
+Rel(app, probot, "implements", "CJS import")
+Rel(app, vercel, "serviced by", "??")
+Rel(cli, clui, "uses", "CJS import")
+Rel_R(cli, chalk, "depends on", "CJS import")
+Rel_R(cli, inquirer, "uses", "CJS import")
+Rel_Neighbor(cli, nyc, "uses", "CJS import")
+Rel_R(cli, yargs, "depends on", "CJS import")
+Rel(lib, spec, "reads", "CJS import")
+Rel(user, app, "instructs", "GitHub comments via GitHub Events")
+Rel(user, cli, "uses", "Any terminal")
+Rel(user, website, "visits/reads", "Web")
+Rel_L(website, crowdin, "gets translations from", "Java/Yarn")
+Rel_D(website, netlify, "hosted on", "??")
+
+@enduml

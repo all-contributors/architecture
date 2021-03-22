@@ -1,0 +1,30 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/javascript.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] Library container
+
+Container(app, "App", "Node.js", "GitHub app-driven bot", "nodejs") [[../App/container.svg]]
+Container(cli, "CLI", "Node.js", "all-contributors-cli", "nodejs") [[../CLI/container.svg]]
+Container(spec, "Specification", "JSON/Node.js", "Contains the emoji key, synonyms and aliases", "json") [[../Spec/container.svg]]
+Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs") [[../AC-Learn/container.svg]]
+
+Container_Boundary(lib, "Library") {
+  Component(cfg, "Configuration Manager", "Node.js", "Read/writes the configuration", "nodejs")
+  Component(md, "Markdown Manager", "Node.js", "Read/writes Markdown files with the resulting table", "nodejs")
+
+  Rel_Back(cfg, md, "uses", "CJS import")
+}
+
+Rel(cli, cfg, "uses", "CJS Import")
+Rel_Neighbor(app, md, "uses", "CJS Import")
+Rel(cli, md, "uses", "CJS Import")
+Rel(cfg, spec, "uses", "CJS Import")
+Rel_L(cfg, acl, "uses", "CJS Import")
+Rel_D(acl, spec, "uses", "CJS Import")
+
+@enduml

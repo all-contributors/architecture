@@ -1,0 +1,55 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/html5.puml
+!include DEV2/javascript.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] CLI container
+
+Component_Ext(yargs, "Yargs", "Node.js", "CLI argument parser and help section generator", "nodejs")
+Component_Ext(chalk, "Chalk", "Node.js", "Terminal string styler", "nodejs")
+Component_Ext(inquirer, "Inquirer", "Node.js", "Collection of common interactive CLI", "nodejs")
+Component_Ext(clui, "CLUI", "Node.js", "Collection of common interactive CLI", "nodejs")
+Component_Ext(nyc, "Name Your Contributors", "Node.js", "Package that gets all of the code reviewers, commenters, issue and PR creators from your organization or repo.", "nodejs")
+
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../Lib/container.svg]]
+
+Container_Boundary(cli, "CLI") {
+  Component(clinterface, "CL Interface", "Node.js", "Command Line Interface executable", "nodejs")
+  Component(contributors, "Contributors", "Node.js", "Add/update contributors", "nodejs")
+  Component(discover, "Discover", "Node.js", "Contributor discovery", "nodejs")
+  Component(generator, "Generator", "Node.js", "Table generation", "nodejs")
+  Component(init, "Init", "Node.js", "Initialise the config", "nodejs")
+  Component(repo, "Repo", "Node.js", "GitHub/GitLab adapters", "nodejs")
+  Component(utils, "Utils", "Node.js", "Utilities", "nodejs")
+
+  Rel(clinterface, contributors, "calls", "`add` command")
+  Rel(clinterface, discover, "calls", "`fetch` command")
+  Rel(clinterface, generator, "calls", "`generate` command")
+  Rel(clinterface, init, "calls", "`init` command")
+  Rel(clinterface, repo, "depends on", "CJS import")
+  Rel(clinterface, utils, "depends on", "CJS import")
+
+  Rel(contributors, utils, "depends on", "CJS import")
+  Rel(contributors, repo, "depends on", "CJS import")
+  Rel(generator, utils, "depends on", "CJS import")
+  Rel(init, utils, "depends on", "CJS import")
+  Rel(repo, utils, "depends on", "CJS import")
+}
+
+Rel(clinterface, chalk, "depends on", "CJS import")
+Rel(clinterface, yargs, "depends on", "CJS import")
+Rel(contributors, inquirer, "uses", "CJS import")
+Rel(discover, clui, "uses", "CJS import")
+Rel(discover, lib, "uses", "CJS import")
+Rel(discover, nyc, "uses", "CJS import")
+Rel(generator, lib, "uses", "CJS import")
+Rel(init, inquirer, "uses", "CJS import")
+Rel(init, lib, "uses", "CJS import")
+Rel(utils, lib, "uses", "CJS import")
+
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!include DEV2/nodejs.puml
+!include DEV2/javascript.puml
+!include DEV2/html5.puml
+
+LAYOUT_WITH_LEGEND()
+
+title [Component Diagram] Specification container
+
+Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "nodejs") [[../Lib/container.svg]]
+Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs") [[../AC-Learn/container.svg]]
+Container(website, "Website", "Docusaurus", "Documentation", "html5") [[../Website/container.svg]]
+
+Container_Boundary(spec, "Specification") {
+  Component(ct, "Contribution Types", "JSON", "Types and emojis with descriptions")
+  Component(map, "Type Mappings", "Node.js", "Plurals, aliases, multi-words mapped to types", "nodejs")
+
+  Rel_Neighbor(map, ct, "uses", "CJS import")
+}
+
+Rel(lib, map, "uses", "CJS import")
+Rel_R(lib, acl, "uses", "CJS import")
+Rel(acl, map, "uses", "CJS import")
+Rel(website, ct, "reads", "??")
+
+@enduml
