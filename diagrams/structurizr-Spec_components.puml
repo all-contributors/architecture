@@ -1,0 +1,22 @@
+@startuml(id=Spec_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - Specification - Components
+
+Container(24, "AC-Learn", "Node.js", "Multi-class label classifier")
+Container(18, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
+Container(12, "Website", "Docusaurus", "Documentation")
+Container_Boundary(21_boundary, Specification) {
+  Component(22, "Contribution Types", "JSON", "Types and emojis with descriptions")
+  Component(23, "Type Mappings", "Node.js", "Plurals, aliases, multi-words mapped to types")
+}
+Rel_D(24, 23, "uses", "CJS import")
+Rel_D(18, 24, "uses", "CJS import")
+Rel_D(18, 23, "uses", "CJS import")
+Rel_D(23, 22, "uses", "CJS import")
+Rel_D(12, 22, "reads", "??")
+@enduml

@@ -1,0 +1,21 @@
+@startuml(id=Website_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - Website - Components
+
+System(34, "Crowdin", "Cloud-based localization management solution.")
+System(30, "Netlify", "Cloud-based hosting platform for static sites, web apps and serverless functions.")
+Container(21, "Specification", "JSON/Node.js", "Contains the emoji key, synonyms and aliases")
+Container_Boundary(12_boundary, Website) {
+  Component(13, "Docs", "Markdown", "Specification/CLI/Bot documentation")
+  Component(14, "Website", "Docusaurus", "Documentation")
+}
+Rel_D(14, 34, "gets translations from", "Java/Yarn")
+Rel_D(14, 13, "integrates", "")
+Rel_D(14, 30, "hosted on", "??")
+Rel_D(14, 21, "reads", "??")
+@enduml

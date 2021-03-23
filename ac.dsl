@@ -18,7 +18,7 @@ workspace "All Contributors" "All Contributors Software Architecture." {
                 docs = component "Docs" "Specification/CLI/Bot documentation" "Markdown"
                 ws = component "Website" "Documentation" "Docusaurus"
             }
-            app = container "App" "GitHub app-driven bot" "Node.js" {
+            app = container "App" "GitHub app-driven bot" "Node.js" "Bot" {
                 api = component "API" "Source code and GH Webhooks" "Node.js"
                 bot = component "Lib" "Library code for the bot" "Node.js"
             }
@@ -117,6 +117,28 @@ workspace "All Contributors" "All Contributors Software Architecture." {
     
         uptimer -> vercel "monitors" "HTTPS"
         logflare -> vercel "listens to" "HTTPS"
+
+        deploymentEnvironment "Production" {
+            deploymentNode "User's computer" "WhatGoesHere" "GNU/Linux | Windows | MacOS | *nix" {
+                deploymentNode "Web Browser" "User's favourite browser" "Chrome/Firefox/Vivaldi/Opera/Brave/Edge/Safari/..." {
+                    prodWebsite = containerInstance website
+                }
+
+                deploymentNode "Terminal" "User's favourite terminal" "Any Terminal" {
+                    prodCli = containerInstance cli
+                }
+            }
+
+            deploymentNode "Node Modules" {
+                prodLib = containerInstance lib
+                prodACL = containerInstance acl
+                prodSpec = containerInstance spec
+            }
+
+            deploymentNode "Vercel" "" "" {
+                prodApp = containerInstance app
+            }
+        }
     }
 
     views {
@@ -185,6 +207,12 @@ workspace "All Contributors" "All Contributors Software Architecture." {
           autoLayout
         }
 
+        deployment ac "Production" "ProductionDeployment" {
+            include *
+            autoLayout
+        }
+
+
         styles {
             element "Person" {
                 background #08427b
@@ -218,6 +246,9 @@ workspace "All Contributors" "All Contributors Software Architecture." {
             }
             element "Web Browser" {
                 shape WebBrowser
+            }
+            element "Bot" {
+                shape Robot
             }
         }
 

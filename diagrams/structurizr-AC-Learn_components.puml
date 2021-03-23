@@ -1,0 +1,32 @@
+@startuml(id=AC-Learn_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - AC-Learn - Components
+
+System(40, "CLUI", "CL UI toolkit for Node.js.")
+Container(18, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
+System(41, "Limdu.js", "ML framework for Node.js")
+System(43, "NClr", "Coloured logs (with symbols)")
+Container(21, "Specification", "JSON/Node.js", "Contains the emoji key, synonyms and aliases")
+System(42, "TVT Split", "Dataset splitter into train/validation/test sets")
+Container_Boundary(24_boundary, AC-Learn) {
+  Component(25, "Classifier", "Node.js", "Classification builder")
+  Component(28, "Confusion Matrix", "Node.js", "Multi-class focused confusion matrix builder")
+  Component(27, "Labels", "Node.js/JSON", "Label dataset aggregation")
+  Component(26, "Learner", "Node.js", "DL model wrapper")
+}
+Rel_D(26, 40, "uses", "CJS import")
+Rel_D(26, 25, "uses", "CJS import")
+Rel_D(26, 28, "uses", "CJS import")
+Rel_D(26, 27, "uses", "CJS import")
+Rel_D(26, 41, "uses", "CJS import")
+Rel_D(26, 43, "uses", "CJS import")
+Rel_D(26, 21, "uses", "CJS import")
+Rel_D(26, 42, "uses", "CJS import")
+Rel_D(18, 26, "uses", "CJS import")
+Rel_D(18, 21, "uses", "CJS import")
+@enduml

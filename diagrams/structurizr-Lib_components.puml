@@ -1,0 +1,25 @@
+@startuml(id=Lib_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - Library - Components
+
+Container(24, "AC-Learn", "Node.js", "Multi-class label classifier")
+Container(15, "App", "Node.js", "GitHub app-driven bot")
+Container(4, "CLI", "Node.js", "all-contributors-cli")
+Container(21, "Specification", "JSON/Node.js", "Contains the emoji key, synonyms and aliases")
+Container_Boundary(18_boundary, Library) {
+  Component(19, "Configuration Manager", "Node.js", "Read/writes the configuration")
+  Component(20, "Markdown Manager", "Node.js", "Read/writes Markdown files with the resulting table")
+}
+Rel_D(24, 21, "uses", "CJS import")
+Rel_D(15, 20, "uses", "CJS import")
+Rel_D(4, 19, "uses", "CJS import")
+Rel_D(4, 20, "uses", "CJS import")
+Rel_D(19, 24, "uses", "CJS import")
+Rel_D(19, 21, "uses", "CJS import")
+Rel_D(20, 19, "uses", "CJS import")
+@enduml

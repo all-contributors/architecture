@@ -1,0 +1,23 @@
+@startuml(id=App_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - App - Components
+
+System(36, "Compromise", "NLP package.")
+System(31, "GitHub", "Code Hosting and VCS")
+Container(18, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
+System(35, "Probot", "GitHub App framework.")
+Container_Boundary(15_boundary, App) {
+  Component(16, "API", "Node.js", "Source code and GH Webhooks")
+  Component(17, "Lib", "Node.js", "Library code for the bot")
+}
+Rel_D(16, 31, "listens to", "webhooks")
+Rel_D(16, 17, "uses", "CJS import")
+Rel_D(17, 36, "uses", "CJS import")
+Rel_D(17, 18, "uses", "CJS import")
+Rel_D(17, 35, "implements", "CJS import")
+@enduml

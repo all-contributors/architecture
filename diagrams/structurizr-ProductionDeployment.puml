@@ -1,0 +1,32 @@
+@startuml(id=ProductionDeployment)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - Deployment - Production
+
+node "Node Modules" <<Deployment Node>> as 151 {
+  Container(154, "AC-Learn", "Node.js", "Multi-class label classifier")
+  Container(152, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
+  Container(156, "Specification", "JSON/Node.js", "Contains the emoji key, synonyms and aliases")
+}
+node "User's computer" <<Deployment Node: GNU/Linux | Windows | MacOS | *nix>> as 146 {
+  node "Terminal" <<Deployment Node: Any Terminal>> as 149 {
+    Container(150, "CLI", "Node.js", "all-contributors-cli")
+  }
+  node "Web Browser" <<Deployment Node: Chrome/Firefox/Vivaldi/Opera/Brave/Edge/Safari/...>> as 147 {
+    Container(148, "Website", "Docusaurus", "Documentation")
+  }
+}
+node "Vercel" <<Deployment Node>> as 160 {
+  Container(161, "App", "Node.js", "GitHub app-driven bot")
+}
+Rel_D(154, 156, "uses", "CJS import")
+Rel_D(161, 152, "uses", "CJS import")
+Rel_D(150, 152, "uses", "CJS import")
+Rel_D(152, 154, "uses", "CJS import")
+Rel_D(152, 156, "uses", "CJS import")
+Rel_D(148, 156, "reads", "??")
+@enduml

@@ -1,0 +1,39 @@
+@startuml(id=CLI_components)
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title All Contributors - CLI - Components
+
+System(40, "CLUI", "CL UI toolkit for Node.js.")
+System(37, "Chalk", "Terminal string styler.")
+System(39, "Inquirer", "Collection of common interactive CLIs.")
+Container(18, "Library", "Node.js", "Reads/writes configuration and updates markdown text")
+System(38, "Yargs", "CLI argument parser and help section generator")
+Container_Boundary(4_boundary, CLI) {
+  Component(5, "CL Interface", "Node.js", "Command Line Interface executable")
+  Component(7, "Contributors", "Node.js", "Add/update contributors")
+  Component(9, "Discover", "Node.js", "Contributor discovery")
+  Component(8, "Generator", "Node.js", "Table generation")
+  Component(6, "Init", "Node.js", "Initialise the config")
+  Component(10, "Repo", "Node.js", "GitHub/GitLab adapters")
+  Component(11, "Utils", "Node.js", "Utilities")
+}
+Rel_D(5, 37, "depends on", "CJS import")
+Rel_D(5, 7, "calls", "`add` command")
+Rel_D(5, 9, "calls", "`fetch` command")
+Rel_D(5, 8, "calls", "`generate` command")
+Rel_D(5, 6, "calls", "`init` command")
+Rel_D(5, 10, "depends on", "CJS import")
+Rel_D(5, 11, "depends on", "CJS import")
+Rel_D(5, 38, "depends on", "CJS import")
+Rel_D(7, 39, "uses", "CJS import")
+Rel_D(9, 40, "uses", "CJS import")
+Rel_D(9, 18, "uses", "CJS import")
+Rel_D(8, 18, "uses", "CJS import")
+Rel_D(6, 39, "uses", "CJS import")
+Rel_D(6, 18, "uses", "CJS import")
+Rel_D(11, 18, "uses", "CJS import")
+@enduml
