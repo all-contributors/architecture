@@ -5,6 +5,32 @@ LAYOUT_WITH_LEGEND()
 
 title [Deployment Diagram] All Contributors
 
-' TODO
+Deployment_Node(user, "User's computer", "GNU/Linux | Windows | MacOS | *nix") {
+  Deployment_Node(term, "Terminal", "Any Terminal") {
+    Container(cli, "CLI", "Node.js", "all-contributors-cli", "nodejs") [[./CLI/container.svg]]
+  }
+  Deployment_Node(web, "Web Browser", "Chrome/Firefox/Vivaldi/Opera/Brave/Edge/Safari/...") {
+    'WebBrowser shape?
+    Container(website, "Website", "Docusaurus", "Documentation", "html5") [[./Website/container.svg]]
+  }
+}
+
+Deployment_Node(vercel, "Vercel") {
+  'Robot shape?
+  Container(app, "App", "Node.js", "GitHub app-driven bot", "nodejs") [[./App/container.svg]]
+}
+
+Deployment_Node(npm, "Node Modules") {
+  Container(acl, "AC-Learn", "Node.js", "Multi-class label classifier", "nodejs") [[./AC-Learn/container.svg]]
+  Container(lib, "Library", "Node.js", "Reads/writes configuration and updates markdown text", "javascript") [[./Lib/container.svg]]
+  Container(spec, "Specification", "JSON", "Contains the emoji key, synonyms and aliases", "json") [[./Spec/container.svg]]
+}
+
+Rel(acl, spec, "uses", "CJS import")
+Rel(app, lib, "uses", "CJS import")
+Rel_R(cli, lib, "uses", "CJS import")
+Rel(lib, acl, "uses", "CJS import")
+Rel(lib, spec, "uses", "CJS import")
+Rel(website, spec, "reads", "??")
 
 @enduml
