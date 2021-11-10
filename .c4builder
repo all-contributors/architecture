@@ -1,5 +1,5 @@
 {
-	"plantumlVersion": "latest",
+	"plantumlVersion": "1.2021.12",
 	"projectName": "All Contributors",
 	"homepageName": "Overview",
 	"rootFolder": "src",
@@ -20,5 +20,6 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true
+	"hasRun": true,
+	"embedDiagram": false
 }
