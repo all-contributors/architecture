@@ -31,7 +31,17 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "adrianvlupu",
+      "name": "Victor Lupu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4486850?v=4",
+      "profile": "https://github.com/adrianvlupu",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
