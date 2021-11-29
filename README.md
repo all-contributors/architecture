@@ -40,6 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Berkmann18"><img src="https://avatars.githubusercontent.com/u/8260834?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maximilian Berkmann</b></sub></a><br /><a href="https://github.com/all-contributors/architecture/commits?author=Berkmann18" title="Code">💻</a> <a href="https://github.com/all-contributors/architecture/commits?author=Berkmann18" title="Documentation">📖</a> <a href="#ideas-Berkmann18" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Berkmann18" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Berkmann18" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://dev.to/gr2m"><img src="https://avatars.githubusercontent.com/u/39992?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gregor Martynus</b></sub></a><br /><a href="#ideas-gr2m" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/adrianvlupu"><img src="https://avatars.githubusercontent.com/u/4486850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Lupu</b></sub></a><br /><a href="https://github.com/all-contributors/architecture/issues?q=author%3Aadrianvlupu" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
