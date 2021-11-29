@@ -1,6 +1,6 @@
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
-!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/dev2
+!define DEV2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons2
 !include DEV2/nodejs.puml
 !include DEV2/javascript.puml
 !include DEV2/html5.puml
